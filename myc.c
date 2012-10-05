@@ -3,112 +3,100 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-void *Sort(int[], int);
-void *Sort2(int[], int);
-FILE *file;
+void *Sort();
+void *Sort2();
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 int count = 0;
-int Arr[];
-char *fname = "/home/mike/github/os2012/array";
+//int Arr[10];
+struct 
+{
+	int Arr[10];
+	int size;
+} MyStruct, MyStruct1;
+
 
 void main()
 {
 int j;
-int size = -1;
-file = fopen(fname, "r");
-if(file == 0)
-        {
-                printf("не могу открыть файл '%s'",fname);
-                return 0;
-        }
-for (j = 0; j<=10; j++)
+int size = 10;
+for (j = 0; j<=9; j++)
 {
-	size++;
-	Arr[size] = 0 +  rand() %50;
+//	size++;
+	MyStruct.Arr[j] = 0 +  rand() %50;
 }
+int p;
+MyStruct.size = size;
+for (p = 0; p<=size-1; p++)
+{
+	printf("%d   ",MyStruct.Arr[p]);
+}
+printf("\n");
 int i;
 int iret1, iret2;
 pthread_t thread1;
 pthread_t thread2;
-iret1 = pthread_create( &thread1, NULL, Sort2(Arr, size), NULL);
-iret2 = pthread_create( &thread2, NULL, Sort(Arr, size), NULL); 
-/*pthread_t thread1;
-pthread_t thread2;
-iret1 = pthread_create( &thread1, NULL, Sort, NULL);
+
+
+iret1 = pthread_create( &thread1, NULL, Sort2, NULL);
 iret2 = pthread_create( &thread2, NULL, Sort, NULL); 
 
-for (i = 0; i < 100; i++)
+pthread_join( thread1, NULL);
+pthread_join( thread2, NULL);
+
+for (p = 0; p<=size-1; p++)
 {
-     iret1 = pthread_create( &thread1, NULL, Sort, NULL);
-     iret2 = pthread_create( &thread2, NULL, Sort, NULL); 
-     pthread_join( thread1, NULL);
-     pthread_join( thread2, NULL);
-     printf("%d \n", count);
-}*/
-int p;
-for (p = 0; p<=size; p++)
-{
-	printf("%d   ", Arr[p], size);
+	printf("%d   ", MyStruct.Arr[p], size);
 }
 	
 
 }
 
-void *Sort(int Arr[],int size)
+//void *Sort(void *arg)
+void *Sort()
+{
+
+//MyStruct1 = (MyStruct) arg;
+
+int l;
+int k;
+int tmp;
+
+for (k= 0; k<MyStruct.size; k++)
+{
+for (l = 0; l < MyStruct.size - k - 1; l++  )
+{
+pthread_mutex_lock(&mutex);
+	if (MyStruct.Arr[l] < MyStruct.Arr[l+1])
+	{
+		tmp = MyStruct.Arr[l];
+		MyStruct.Arr[l]= MyStruct.Arr[l+1];
+		MyStruct.Arr[l+1] = tmp;
+	}
+pthread_mutex_unlock(&mutex);
+}
+}
+
+
+}
+
+void *Sort2()
 {
 int l;
 int k;
 int p;
 int tmp;
-for (p = 0; p<=size; p++)
+for (k= MyStruct.size-1; k>=1; k--)
 {
-	printf("%d   ", Arr[p]);
-}
-printf("\n");
-for (k= 0; k<=size; k++)
-{
-for (l = 0; l <= size - k; l++  )
+for (l = MyStruct.size-1; l >= MyStruct.size - k; l--  )
 {
 pthread_mutex_lock(&mutex);
-	if (Arr[l] < Arr[l+1])
+	if (MyStruct.Arr[l] > MyStruct.Arr[l-1])
 	{
-		tmp = Arr[l];
-		Arr[l]= Arr[l+1];
-		Arr[l+1] = tmp;
+		tmp = MyStruct.Arr[l];
+		MyStruct.Arr[l]= MyStruct.Arr[l-1];
+		MyStruct.Arr[l-1] = tmp;
 	}
 pthread_mutex_unlock(&mutex);
 }
 }
-//pthread_mutex_lock(&mutex);
-//pthread_mutex_unlock(&mutex);
-
-}
-
-void *Sort2(int Arr[],int size)
-{
-int l;
-int k;
-int p;
-int tmp;
-for (p = 0; p<=size; p++)
-{
-	printf("%d   ", Arr[p]);
-}
-printf("\n");
-for (k= size; k>=1; k--)
-{
-for (l = size; l >= k; l--  )
-{
-pthread_mutex_lock(&mutex);
-	if (Arr[l] > Arr[l-1])
-	{
-		tmp = Arr[l];
-		Arr[l]= Arr[l-1];
-		Arr[l-1] = tmp;
-	}
-pthread_mutex_unlock(&mutex);
-}
-}
-//pthread_mutex_lock(&mutex);
-//pthread_mutex_unlock(&mutex);
 }

@@ -46,36 +46,34 @@ int main(void)
 	return 0;
 }
 
-void *qs(void *ptr) 
+void *qs(void *ptr) //сортировка массива
 {
 	struct Params *p;
 	p = (struct Params *) ptr;//читаем переданные параметры
+
     int i = p->first, j = p->last, x = p->s_arr[(p->first + p->last) / 2];
-      
-    do {
-        while (p->s_arr[i] < x) i++;
+    do 
+    {
+		while (p->s_arr[i] < x) i++;
         while (p->s_arr[j] > x) j--;
- 
-        if(i <= j) {
-            if (i < j) 
-            {
-				pthread_mutex_lock(&mutex);
-				swap(&p->s_arr[i], &p->s_arr[j]);//раскидываем в разные стороны от осевого элемента
-				pthread_mutex_unlock(&mutex);
-            }
-            i++;
-            j--;
+        if(i <= j) 
+        {
+			if (i < j) swap(&p->s_arr[i], &p->s_arr[j]);//раскидываем в разные стороны от осевого элемента
+			i++;
+			j--;
         }
-    } while (i <= j);
+    } 
+    while (i <= j);
+	
 	//повторяем рекурсивно
     if (i < p->last)
     {
-		struct Params p1 = { p->s_arr, i, p->last,p->n };
+		struct Params p1 = { p->s_arr, i, p->last };
         qs(&p1);
     }
     if (p->first < j)
     {
-		struct Params p1 = { p->s_arr, p->first,j,p->n };
+		struct Params p1 = { p->s_arr, p->first,j };
         qs(&p1);
 	}
 }

@@ -3,30 +3,45 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-void *Sort();
+void *Sort(void *arg);
 void *Sort2();
 void *Sort3();
 pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
 int count = 0;
 //int Arr[10];
-struct 
+struct mystruct
 {
 	int Arr[10];
 	int size;
-} MyStruct, MyStruct1;
+	int low;
+	int high;
+};
 
 
 void main()
 {
 int j;
 int size = 10;
+
+struct mystruct MyStruct, MyStruct1;
+
 for (j = 0; j<=9; j++)
 {
 //	size++;
 	MyStruct.Arr[j] = 0 +  rand() %50;
 }
+
+
+
 int p;
 MyStruct.size = size;
+MyStruct.low = 0; 
+MyStruct.high = 5;
+
+MyStruct1 = MyStruct;
+MyStruct1.low = 5;
+MyStruct1.high = MyStruct.size;
+
 for (p = 0; p<=size-1; p++)
 {
 	printf("%d   ",MyStruct.Arr[p]);
@@ -38,13 +53,20 @@ pthread_t thread1;
 pthread_t thread2;
 pthread_t thread3;
 
-iret1 = pthread_create( &thread1, NULL, Sort2, NULL);
-iret2 = pthread_create( &thread2, NULL, Sort, NULL); 
+
+iret1 = pthread_create( &thread1, NULL, Sort, &MyStruct);
+
+iret2 = pthread_create( &thread2, NULL, Sort, &MyStruct1); 
 
 
 
 pthread_join( thread1, NULL);
 pthread_join( thread2, NULL);
+
+for (p=4; p<=9; p++)
+{
+	MyStruct.Arr[p]=MyStruct1.Arr[p];
+}
 
 for (p = 0; p<=size-1; p++)
 {
@@ -52,7 +74,10 @@ for (p = 0; p<=size-1; p++)
 }
 printf("\n");
 
-iret3 = pthread_create( &thread3, NULL, Sort3, NULL); 
+MyStruct.low = 0;
+MyStruct.high = MyStruct.size;
+
+iret3 = pthread_create( &thread3, NULL, Sort, &MyStruct); 
 pthread_join( thread3, NULL);
 for (p = 0; p<=size-1; p++)
 {
@@ -61,31 +86,29 @@ for (p = 0; p<=size-1; p++)
 
 }
 
-//void *Sort(void *arg)
-void *Sort()
+void *Sort(void *arg)
 {
-
-//MyStruct1 = (MyStruct) arg;
-
+struct mystruct *MyStruct1 = (struct mystruct *) arg;
 int l;
 int k;
 int key;
 
-for (k= 0; k<5; k++)
+for (k= MyStruct1->low; k<MyStruct1->high ; k++)
 {
-key = MyStruct.Arr[k];
+key = MyStruct1->Arr[k];
 l = k - 1;
-while (l>=0 && MyStruct.Arr[l] > key )
+while (l>=MyStruct1->low && MyStruct1->Arr[l] > key )
 {
-	MyStruct.Arr[l+1] = MyStruct.Arr[l];
+	MyStruct1->Arr[l+1] = MyStruct1->Arr[l];
 	l--;
 }
-MyStruct.Arr[l+1]= key;
+MyStruct1->Arr[l+1]= key;
 }
 
 
 }
 
+/*
 void *Sort2()
 {
 

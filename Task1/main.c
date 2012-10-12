@@ -6,43 +6,53 @@
 #include <semaphore.h>
 #include <assert.h>
 
-#define MAX 16 // Колличество элементов
-#define THC 4  // Колличество потоков
+#define MAX 160000 // Колличество элементов
+//#define THC 2  // Колличество потоков
+
 sem_t sp1;
 sem_t sp2;
 
-pthread_t thread[THC];
 struct Params {
 	int size;
 	int *first;
 	int number;
 	int pr;
 };
-struct Params p[THC];
+
+
 
 void *Sort(void *ptr);
 
-int main(void) {
-
+int main(int argc, char **argv) {
+	
+	if (argc != 2)
+	{
+		printf("use arg\n");
+		return 0;
+	}
+	int THC = atoi(argv[1]);
+	
+	pthread_t thread[THC];
+	struct Params p[THC];
+	
 	int a[MAX];
 	int size;
 
-	srand(time(NULL ));
+	srand(1);
 
 	int i = 0;
 	for (i = 0; i < MAX; i++) {
-		//a[i] = MAX - i;
-		a[i] = rand() % (10);
+		a[i] = rand() % 10;
 	}
 
 	sem_init(&sp1, 0, 0);
 	sem_init(&sp2, 0, 0);
-
-	for (i = 0; i < MAX; i++) {
+/*
+	for (i = 0; i < 0; i++) {
 		printf("%d ", a[i]);
 	}
 	printf("\n");
-
+*/
 	size = (MAX / THC);
 
 	for (i = 0; i < THC; i++) {
@@ -57,7 +67,6 @@ int main(void) {
 		pthread_create(&thread[i], NULL, Sort, (void*) &p[i]);
 	}
 	pthread_join(thread[0], NULL );
-
 	for (i = 0; i < MAX; i++) {
 		printf("%d ", a[i]);
 	}
@@ -126,11 +135,20 @@ void *Sort(void *ptr) {
 				*(a + i) = *(b + i);
 			}
 		}
-
+		/*
+		int i;
+		printf("thread %d Pr %d  :", number, pr);
+		for (i = 0; i < size; i++) {
+			printf("%d ", a[i]);
+		}
+		printf("\n");
+*/
 
 		if (size == MAX) {
 			return 0;
 		}
+		
+		
 
 		if (pr == 1) {
 			if (number == 1) {

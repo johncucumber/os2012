@@ -6,11 +6,9 @@
 #include <semaphore.h>
 #include <assert.h>
 
-#define MAX 160000 // Колличество элементов
-//#define THC 2  // Колличество потоков
-
-sem_t sp1;
-sem_t sp2;
+#define MAX 16 // Колличество элементов
+sem_t *sp;
+int th_count;
 
 struct Params {
 	int size;
@@ -19,40 +17,39 @@ struct Params {
 	int pr;
 };
 
-
-
 void *Sort(void *ptr);
 
 int main(int argc, char **argv) {
-	
-	if (argc != 2)
-	{
+
+	if (argc != 2) {
 		printf("use arg\n");
 		return 0;
 	}
-	int THC = atoi(argv[1]);
-	
+	int THC = th_count = atoi(argv[1]);
+	sem_t s[THC / 2];
+	sp = s;
+	int i;
+	for (i = 0; i < THC / 2; i++) {
+		sem_init(sp + i, 0, 0);
+	}
+
 	pthread_t thread[THC];
 	struct Params p[THC];
-	
+
 	int a[MAX];
 	int size;
 
 	srand(1);
 
-	int i = 0;
 	for (i = 0; i < MAX; i++) {
 		a[i] = rand() % 10;
 	}
 
-	sem_init(&sp1, 0, 0);
-	sem_init(&sp2, 0, 0);
-/*
-	for (i = 0; i < 0; i++) {
+	for (i = 0; i < MAX; i++) {
 		printf("%d ", a[i]);
 	}
 	printf("\n");
-*/
+
 	size = (MAX / THC);
 
 	for (i = 0; i < THC; i++) {
@@ -83,9 +80,9 @@ void *Sort(void *ptr) {
 	int size = p->size;
 	int number = p->number;
 	int pr = p->pr;
-	int exit = 1;
+	int semnum = 0;
 
-	while (exit) {
+	while (1) {
 
 		if (pr == 1) {
 			int i, j;
@@ -135,53 +132,44 @@ void *Sort(void *ptr) {
 				*(a + i) = *(b + i);
 			}
 		}
-		/*
+
 		int i;
 		printf("thread %d Pr %d  :", number, pr);
 		for (i = 0; i < size; i++) {
 			printf("%d ", a[i]);
 		}
 		printf("\n");
-*/
 
 		if (size == MAX) {
 			return 0;
 		}
-		
-		
 
-		if (pr == 1) {
-			if (number == 1) {
-				sem_wait(&sp1);
-				size *= 2;
-			}
-			if (number == 3) {
-				sem_wait(&sp2);
-				size *= 2;
-			}
-			if (number == 2) {
-				sem_post(&sp1);
-				return 0;
-			}
-			if (number == 4) {
-				sem_post(&sp2);
-				return 0;
-			}
+		if (number % 2) {
+			semnum = number / 2 ;
+			sem_wait(sp + semnum);
+			size *= 2;
+			
+			if (number != 1)
+			sem_post(sp + semnum);
+			
+			for (i = semnum; i < th_count/2-semnum; i++) {
+			sem_wait(sp + i);
+			sem_post(sp + i);
+		    }
+			
+			
+		} else {
+			semnum = (number / 2) - 1;
+			sem_post(sp + semnum);
+			return 0;
 		}
-
-		if (pr == 2) {
-			if (number == 1) {
-				sem_wait(&sp1);
-				size *= 2;
-			} else {
-				sem_post(&sp1);
-				return 0;
-			}
-		}
+		
+		number = number == 1 ? 1 : (number+1) / 2;
 
 		pr++;
+		th_count/=2;
 
 	}
 
-	return NULL ;
+	return 0;
 }

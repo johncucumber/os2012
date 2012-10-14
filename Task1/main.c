@@ -5,22 +5,23 @@
 #include <signal.h>
 #include <semaphore.h>
 #include <assert.h>
+#include <math.h>
 #include "queue.h"
 
-#define MAX 16 // Колличество элементов
+#define MAX 16// Колличество элементов
 #define THC 4
 sem_t sem;
+sem_t endsem;
 
 void *Sort();
 
 int main(int argc, char **argv) {
 
-	pthread_t thread[THC];
-
 	int a[MAX];
 	int i;
 
 	sem_init(&sem, 0, 0);
+	sem_init(&endsem, 0, 0);
 
 	srand(1);
 
@@ -34,42 +35,30 @@ int main(int argc, char **argv) {
 	printf("\n");
 
 	for (i = 0; i < THC; i++) {
-		pthread_create(&thread[i], NULL, Sort, NULL );
+		pthread_t thread;
+		pthread_create(&thread, NULL, Sort, NULL );
 	}
 
-	for (i = 0; i < THC; i++) {
-		struct Node param;
-		param.size = 4;
-		param.first = a + 4 * i;
-		push(&param);
-		sem_post(&sem);
-
-	}
-	for (i = 0; i < MAX; i++) {
-		printf("%d ", a[i]);
-	}
-	printf("\n");
-	
-	for (i = 0; i < 2; i++) {
-		struct Node param;
-		param.size = 8;
-		param.first = a + 8 * i;
-		push(&param);
-		sem_post(&sem);
-
-	}
-	for (i = 0; i < MAX; i++) {
-		printf("%d ", a[i]);
-	}
-	printf("\n");
-	for (i = 0; i < 1; i++) {
-		struct Node param;
-		param.size = 16;
-		param.first = a;
-		push(&param);
-		sem_post(&sem);
+	int j, size;
+	int level = log(2 * THC) / log(2);
+	size = MAX / THC;
+	int t_c = THC;
+	for (j = 0; j < level; j++) {
+		for (i = 0; i < t_c; i++) {
+			struct Node param;
+			param.size = size;
+			param.first = a + size * i;
+			push(&param);
+		}
+		for (i = 0; i < t_c; i++) {
+			sem_post(&sem);
+			sleep(1);
+		}
+		t_c /= 2;
+		size *= 2;
 	}
 
+	sem_wait(&endsem);
 	for (i = 0; i < MAX; i++) {
 		printf("%d ", a[i]);
 	}
@@ -79,24 +68,68 @@ int main(int argc, char **argv) {
 
 void *Sort() {
 	while (1) {
-		sem_wait(&sem);
 		struct Node *param;
-		param = pop(); 
+		sem_wait(&sem);
+		param = pop();
 		int *a = param->first;
 		int size = param->size;
-		int i, j;
-		int tmp;
-		for (i = 0; i < size; i++) {
-			for (j = size - 1; j > i; j--) {
-				if (*(a + j - 1) > *(a + j)) {
-					tmp = *(a + j - 1);
-					*(a + j - 1) = *(a + j);
-					*(a + j) = tmp;
+		printf("size %d :  ", size);
+		if (size == MAX / THC) {
+			int i, j;
+			int tmp;
+			for (i = 0; i < size; i++) {
+				for (j = size - 1; j > i; j--) {
+					if (*(a + j - 1) > *(a + j)) {
+						tmp = *(a + j - 1);
+						*(a + j - 1) = *(a + j);
+						*(a + j) = tmp;
+					}
 				}
 			}
+
+		}
+
+		else {
+			int i = 0;
+			int j = size / 2;
+			int k = 0;
+
+			int b[size];
+
+			while (i < size / 2 && j < size) {
+				if (*(a + i) < *(a + j)) {
+					b[k] = *(a + i);
+					i++;
+				} else {
+					b[k] = *(a + j);
+					j++;
+				}
+				k++;
+			}
+
+			while (i < size / 2) {
+				b[k] = a[i];
+				k++;
+				i++;
+			}
+
+			while (j < size) {
+				b[k] = a[j];
+				k++;
+				j++;
+			}
+			for (i = 0; i < size; i++) {
+				*(a + i) = *(b + i);
+			}
+		}
+		int i;
+		for (i = 0; i < size; i++) 
+		printf("%d ", a[i]);
+	    printf("\n");
+		if (size == MAX) {
+			sem_post(&endsem);
+			return NULL ;
 		}
 	}
 	return 0;
 }
-
-

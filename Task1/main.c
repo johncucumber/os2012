@@ -1,5 +1,4 @@
 ﻿#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 #include <pthread.h> 
 #include <signal.h>
@@ -8,37 +7,47 @@
 #include <math.h>
 #include "queue.h"
 
-#define MAX 16// Колличество элементов
-#define THC 4
 sem_t sem;
 sem_t endsem;
+int THC = 4;
+int MAX = 32;
 
 void *Sort();
 
 int main(int argc, char **argv) {
-
-	int a[MAX];
-	int i;
-
+	
+	/* Задаем кооличество потоков и элементов*/
+	if (argc == 3) {
+		THC = atoi(argv[1]);
+	    MAX = atoi(argv[2]);
+	} else
+	printf("use args THREAD_COUNT  ELEMENTS_COUNT (default thc=4 max=32)\n");
+	
 	sem_init(&sem, 0, 0);
 	sem_init(&endsem, 0, 0);
-
 	srand(1);
-
+	
+	int a[MAX];
+	
+	int i;
+	
 	for (i = 0; i < MAX; i++) {
-
+		a[i] = rand() % MAX;
 	}
-
+	/*
 	for (i = 0; i < MAX; i++) {
 		printf("%d ", a[i] = rand() % 10);
 	}
 	printf("\n");
-
+	*/
+	
+	/* Создаем потоки */
 	for (i = 0; i < THC; i++) {
 		pthread_t thread;
 		pthread_create(&thread, NULL, Sort, NULL );
 	}
-
+	
+	/* Создаем очередь заданий и выполняем*/
 	int j, size;
 	int level = log(2 * THC) / log(2);
 	size = MAX / THC;
@@ -52,17 +61,19 @@ int main(int argc, char **argv) {
 		}
 		for (i = 0; i < t_c; i++) {
 			sem_post(&sem);
-			sleep(1);
+		}
+		for (i = 0; i < t_c; i++) {
+			sem_wait(&endsem);
 		}
 		t_c /= 2;
 		size *= 2;
 	}
-
-	sem_wait(&endsem);
+		/*
 	for (i = 0; i < MAX; i++) {
 		printf("%d ", a[i]);
 	}
 	printf("\n");
+	*/
 	return 0;
 }
 
@@ -73,7 +84,7 @@ void *Sort() {
 		param = pop();
 		int *a = param->first;
 		int size = param->size;
-		printf("size %d :  ", size);
+		//printf("size %d :  ", size);
 		if (size == MAX / THC) {
 			int i, j;
 			int tmp;
@@ -87,9 +98,7 @@ void *Sort() {
 				}
 			}
 
-		}
-
-		else {
+		} else {
 			int i = 0;
 			int j = size / 2;
 			int k = 0;
@@ -122,14 +131,11 @@ void *Sort() {
 				*(a + i) = *(b + i);
 			}
 		}
-		int i;
-		for (i = 0; i < size; i++) 
-		printf("%d ", a[i]);
-	    printf("\n");
-		if (size == MAX) {
-			sem_post(&endsem);
-			return NULL ;
-		}
+		/*int i;
+		for (i = 0; i < size; i++)
+			printf("%d ", a[i]);
+		printf("\n");*/
+		sem_post(&endsem);
 	}
 	return 0;
 }

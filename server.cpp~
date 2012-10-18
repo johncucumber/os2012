@@ -11,14 +11,13 @@
 #include <errno.h>
 #include <pthread.h>
 
+#include "taskmanager.h"
 #include "listner.h"
-
-
-int pipes[2];
-
 
 void* ClientServ(void *arg)
 {
+	int **tmp = (int **)arg;
+	int *pipes = *tmp;
 	message msg;
 	while (1)
 	{
@@ -44,17 +43,10 @@ int main (int argc, char *argv[])
 	}
 	
 	int num_of_threads = atoi(argv[2]);
+	int pipes[2];
 	pipe(pipes);
-	pthread_t *thread = new pthread_t[num_of_threads];
-	
-	printf("before thread create\n");
-	for (int i = 0; i < num_of_threads; i++)
-	{
-		pthread_create(&thread[i], NULL, ClientServ, NULL);
-	}
-	printf("after thread create\n");
-
-	startlistning(pipes, argv[1]);
+	createThreads(num_of_threads, pipes, ClientServ);
+	startlistning(argv[1], pipes);
 
 	return EXIT_SUCCESS;
 }

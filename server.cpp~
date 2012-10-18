@@ -12,7 +12,6 @@
 #include <pthread.h>
 
 #include "taskmanager.h"
-#include "listner.h"
 
 void* ClientServ(void *arg)
 {
@@ -43,10 +42,9 @@ int main (int argc, char *argv[])
 	}
 	
 	int num_of_threads = atoi(argv[2]);
-	int pipes[2];
-	pipe(pipes);
-	createThreads(num_of_threads, pipes, ClientServ);
-	startlistning(argv[1], pipes);
+	taskmanager manager;
+	manager.createThreads(num_of_threads, ClientServ);
+	startlistning(argv[1], manager.pipes);
 
 	return EXIT_SUCCESS;
 }

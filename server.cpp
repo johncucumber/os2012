@@ -12,15 +12,46 @@
 #include <pthread.h>
 
 #include "taskmanager.h"
+#include "stringwork.h"
+
+char *login = "admin";
+char *pass = "123";
+
+
 
 void SSHWork(int pipes[2], int fd)
 {
-	char buf;
-	read (fd, &buf, sizeof buf);
-	printf("cl = %c\n", buf);
-	buf++;
-	sleep(1);
-	write (fd, &buf, sizeof buf);
+	//char buf;
+	//read (fd, &buf, sizeof buf);
+	//printf("cl = %c\n", buf);
+	//buf++;
+	char* buf = readstring(fd);
+	printf("login = %s\n", buf);
+	if (!strcmp(buf, login))
+	{
+		printf("login was rec\n");
+	}
+	buf = readstring(fd);
+	printf("pass = %s\n", buf);	
+	if (!strcmp(buf, pass))
+	{
+		printf("pass was rec\n");
+		writestring(fd, "ok");
+	}	
+	else
+	{
+			writestring(fd, "no");
+			return ;
+	}
+	while (strcmp(buf, "exit"))
+	{
+		buf = readstring(fd);
+		printf("command = %s\n", buf);			
+		//writestring(fd, "Hi!");
+	}
+	printf("rec exit\n");
+	//sleep(1);
+	//write (fd, &buf, sizeof buf);
 }
 
 void* ClientServ(void *arg)

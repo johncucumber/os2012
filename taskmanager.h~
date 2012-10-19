@@ -1,5 +1,5 @@
-#ifndef taskmanager
-#define taskmanager
+#ifndef taskmanagerH
+#define taskmanagerH
 
 #include <stdio.h>
 #include <stdlib.h>

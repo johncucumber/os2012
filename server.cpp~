@@ -13,6 +13,16 @@
 
 #include "taskmanager.h"
 
+void SSHWork(int pipes[2], int fd)
+{
+	char buf;
+	read (fd, &buf, sizeof buf);
+	printf("cl = %c\n", buf);
+	buf++;
+	sleep(1);
+	write (fd, &buf, sizeof buf);
+}
+
 void* ClientServ(void *arg)
 {
 	int **tmp = (int **)arg;
@@ -22,11 +32,7 @@ void* ClientServ(void *arg)
 	{
 		read(pipes[0], &msg, sizeof(msg));
 		//read(pipes[0], &fd, sizeof(int));
-		char buf;
-		read (msg.fd, &buf, sizeof buf);
-		printf("cl = %c\n", buf);
-		buf++;
-		write (msg.fd, &buf, sizeof buf);
+		SSHWork(pipes);
 		printf ("Closed connection on descriptor %d\n", msg.fd);
 		close (msg.fd);
 	}

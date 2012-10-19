@@ -39,8 +39,8 @@ int main(int argc, char** argv)
 	char *buf = readstring(sockfd);
 	if (strcmp(buf, "ok"))
 	{
-		writestring(sockfd, "cd ~");
-		writestring(sockfd, "exit");
+		writestring(sockfd, "cd ~\0");
+		writestring(sockfd, "exit\0");
 	}	
 	//write(sockfd, &ch, 1);
 	//read(sockfd, &ch, 1);

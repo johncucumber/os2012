@@ -25,14 +25,15 @@ void SSHWork(int pipes[2], int fd)
 	//read (fd, &buf, sizeof buf);
 	//printf("cl = %c\n", buf);
 	//buf++;
+	int pid = pthread_self();
 	char* buf = readstring(fd);
-	printf("login = %s\n", buf);
+	printf("login = %s %d\n", buf, pid);
 	if (!strcmp(buf, login))
 	{
 		printf("login was rec\n");
 	}
 	buf = readstring(fd);
-	printf("pass = %s\n", buf);	
+	printf("pass = %s %d\n", buf, pid);	
 	if (!strcmp(buf, pass))
 	{
 		printf("pass was rec\n");
@@ -46,7 +47,8 @@ void SSHWork(int pipes[2], int fd)
 	while (strcmp(buf, "exit"))
 	{
 		buf = readstring(fd);
-		printf("command = %s\n", buf);			
+		
+		printf("command = %d %d\n", strlen(buf), pid);			
 		//writestring(fd, "Hi!");
 	}
 	printf("rec exit\n");

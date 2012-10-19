@@ -68,9 +68,8 @@ static int create_and_bind (char *port)
 		{
 			/* We managed to bind successfully! */
 			break;
-		}
-		if (ENOBUFS == s)
-			printf("<<<<<<<<<<<<<<,,error=%d\n", s);
+		}		
+		printf("<<<<<<<<<<<<<<,,error=%d\n", s);
 		close (sfd);
 	}
 	printf("num_of_addrinfo %d\n", counter);

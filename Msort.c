@@ -3,13 +3,13 @@
 #include <pthread.h>
 #include <math.h>
 
-const ArrLong=256;
-const ThrCount=16;
+const ArrLong=1024;
+const ThrCount=256;
+int Control=0;
 
 struct Params {
 	int size;
-	int *array;
-	int first;
+	int *first;
 	int number;
 	int retry;	
 	int musthave;
@@ -74,8 +74,7 @@ void * thread_func(void *arg)
 	p = (struct Params *) arg;
 
 	int size = p->size;
-	int *array = p->array;
-	int first = p->first;
+	int *first = p->first;
 	int number = p->number;	
 	int retry = p->retry;	
 	int musthave = p->musthave;
@@ -83,30 +82,36 @@ void * thread_func(void *arg)
 	pthread_t *thread = p->thread;
 
 	if (retry==1){
-		MergeSort(array,first,first+size-1);
+		if (fmod(number,2)){
+			Control++;
+		}
+		MergeSort(first,0,size-1);
 		retry++;
 	} 
-	for (i=2;i<=nya;i++){
-		int tmp;
-		if (retry==i){
-			musthave=0;
-			tmp = 0;
-			while (tmp<ThrCount)
-			{
-				if (number==tmp){
-					int temp = (int)(pow(2,retry-2));
-					pthread_join(thread[number+temp],NULL);
-					Merge(array, first, first+(pow(2,retry-1))*size-1, first+(pow(2,(retry-2))*size)-1);
-					musthave=1;
+	while (1){
+		if (Control==(ceil(ThrCount/2))){
+			for (i=2;i<=nya;i++){
+				int tmp;
+				if (retry==i){
+					musthave=0;
+					tmp = 0;
+					while (tmp<ThrCount)					{
+						if (number==tmp){
+							int temp = (int)(pow(2,retry-2));
+							pthread_join(thread[number+temp],NULL);
+							Merge(first, 0, (pow(2,retry-1))*size-1, (pow(2,(retry-2))*size)-1);
+							musthave=1;
+						}
+						tmp+=pow(2,retry-1);
+					}
+					if (musthave==0){
+						return;
+					}
 				}
-				tmp+=pow(2,retry-1);
+				retry++;
 			}
-			if (musthave==0)
-			{
-				return;
-			}
+			return;
 		}
-		retry++;
 	}
 }
 
@@ -134,8 +139,7 @@ int main(int argc, char * argv[])
 
 	for (i = 0; i < ThrCount; i++) {
 		p[i].size = size;
-		p[i].array = arr;
-		p[i].first = size * i;
+		p[i].first = arr+size * i;
 		p[i].number = i;
 		p[i].retry = 1;
 		p[i].musthave = 0;

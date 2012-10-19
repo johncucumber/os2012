@@ -55,9 +55,10 @@ static int create_and_bind (char *port)
 		fprintf (stderr, "getaddrinfo: %s\n", gai_strerror (s));
 		return -1;
 	}
-
+	int counter = 0;
 	for (rp = result; rp != NULL; rp = rp->ai_next)
 	{
+		counter++;
 		sfd = socket (rp->ai_family, rp->ai_socktype, rp->ai_protocol);
 		if (sfd == -1)
 			continue;
@@ -67,11 +68,11 @@ static int create_and_bind (char *port)
 		{
 			/* We managed to bind successfully! */
 			break;
-		}
-
+		}		
+		printf("<<<<<<<<<<<<<<,,error=%d\n", s);
 		close (sfd);
 	}
-
+	printf("num_of_addrinfo %d\n", counter);
 	if (rp == NULL)
 	{
 		fprintf (stderr, "Could not bind\n");

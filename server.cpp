@@ -26,6 +26,7 @@ void* ClientServ(void *arg)
 		read (msg.fd, &buf, sizeof buf);
 		printf("cl = %c\n", buf);
 		buf++;
+		sleep(1);
 		write (msg.fd, &buf, sizeof buf);
 		printf ("Closed connection on descriptor %d\n", msg.fd);
 		close (msg.fd);

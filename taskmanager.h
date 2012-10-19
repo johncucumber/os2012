@@ -1,5 +1,6 @@
+#ifndef taskmanagerH
+#define taskmanagerH
 
-	
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,6 +14,7 @@
 #include <pthread.h>
 
 #include "listner.h"
+#include "message.h"
 
 typedef void* (*clientserv_f)(void *data);
 
@@ -27,3 +29,5 @@ void createThreads(int num_of_threads, int pipes[2], clientserv_f func)
 	printf("after thread create\n");
 
 }
+
+#endif

@@ -1,6 +1,5 @@
-#define MYDEFINE 1
-
-#ifdef MYDEFINE	
+#ifndef messageH
+#define messageH
 
 struct message
 {
@@ -14,8 +13,6 @@ struct message
 		this->finish = finish;
 	}
 };
-
-#else
 
 #endif
 

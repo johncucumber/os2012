@@ -3,16 +3,15 @@
 #include <pthread.h>
 #include <math.h>
 
-const ArrLong=1024;
-const ThrCount=256;
+const ArrLong=777;
+const ThrCount=18;
 int Control=0;
 
 struct Params {
 	int size;
+	int cutsize;
 	int *first;
 	int number;
-	int retry;	
-	int musthave;
 	int nya;
 	pthread_t *thread;
 };
@@ -74,41 +73,43 @@ void * thread_func(void *arg)
 	p = (struct Params *) arg;
 
 	int size = p->size;
+	int cutsize = p->cutsize;
 	int *first = p->first;
 	int number = p->number;	
-	int retry = p->retry;	
-	int musthave = p->musthave;
 	int nya = p->nya;
 	pthread_t *thread = p->thread;
 
-	if (retry==1){
-		if (fmod(number,2)){
-			Control++;
-		}
-		MergeSort(first,0,size-1);
-		retry++;
-	} 
+	Control++;
+	MergeSort(first,0,size-1);
+	int retry=2;
+	int musthave;
+
 	while (1){
-		if (Control==(ceil(ThrCount/2))){
-			for (i=2;i<=nya;i++){
+		if (Control==ThrCount){
+			for (retry=2;retry<=nya;retry++){
 				int tmp;
-				if (retry==i){
-					musthave=0;
-					tmp = 0;
-					while (tmp<ThrCount)					{
-						if (number==tmp){
+				musthave=0;
+				tmp = 0;
+				while (tmp<ThrCount){
+					if (number==tmp){
+						int fu = (int)pow(2,retry-2);
+						if (number+fu<ThrCount){
 							int temp = (int)(pow(2,retry-2));
 							pthread_join(thread[number+temp],NULL);
-							Merge(first, 0, (pow(2,retry-1))*size-1, (pow(2,(retry-2))*size)-1);
-							musthave=1;
+							int nyanya = (int)(ThrCount-pow(2,(retry-1)));
+							if (number==nyanya){
+								Merge(first, 0, (pow(2,retry-1))*size-1-size+cutsize, (pow(2,retry-2)*size)-1);
+							} else{
+								Merge(first, 0, (pow(2,retry-1))*size-1, (pow(2,retry-2)*size)-1);
+							}
 						}
-						tmp+=pow(2,retry-1);
+						musthave=1;
 					}
-					if (musthave==0){
-						return;
-					}
+					tmp+=pow(2,retry-1);
 				}
-				retry++;
+				if (musthave==0){
+					return;
+				}
 			}
 			return;
 		}
@@ -126,7 +127,7 @@ int main(int argc, char * argv[])
 
 	srand(1);
 
-	size = (ArrLong / ThrCount);
+	size = ArrLong / ThrCount;
 
 	for (i = 0; i < ArrLong; i++) {
 		arr[i] = rand() % 100;
@@ -137,12 +138,13 @@ int main(int argc, char * argv[])
 	}
 	printf("\n");	
 
+	int cutsize = ArrLong-size*(ThrCount-1);
+
 	for (i = 0; i < ThrCount; i++) {
 		p[i].size = size;
+		p[i].cutsize = cutsize;
 		p[i].first = arr+size * i;
 		p[i].number = i;
-		p[i].retry = 1;
-		p[i].musthave = 0;
 		p[i].nya = nya;
 		p[i].thread = thread;
 		result=pthread_create(&thread[i], NULL, thread_func, (void*) &p[i]);

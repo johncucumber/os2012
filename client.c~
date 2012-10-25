@@ -25,26 +25,19 @@ int main(int argc, char** argv)
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	address.sin_family = AF_INET;
 	address.sin_addr.s_addr = inet_addr("127.0.0.1");
-	address.sin_port = htons(9734);
+	address.sin_port = htons(10001);
 
-	//address.sin_port = 9734; /* любой порт >1024 согласованный с сервером */
 	len = sizeof(address);
 	result = connect(sockfd, (struct sockaddr *)&address, len);
 	if(result == -1) {
 		perror("oops: client1");
 		exit(1);
 	}
-	writestring(sockfd, login);
-	writestring(sockfd, pass);
-	char *buf = readstring(sockfd);
-	if (strcmp(buf, "ok"))
-	{
-		writestring(sockfd, "cd ~\0");
-		writestring(sockfd, "exit\0");
-	}	
-	//write(sockfd, &ch, 1);
-	//read(sockfd, &ch, 1);
-	//printf("char from server = %c\n", ch);
+	char buf[512] = "Hi!";
+	write(sockfd, buf, sizeof buf);
+	read(sockfd, buf, sizeof buf);
+	printf("reciv = %s\n", buf);
+	write(sockfd, buf, sizeof buf);
 	close(sockfd);
 	exit(0);
 }

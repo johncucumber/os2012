@@ -1,4 +1,3 @@
-	
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -21,39 +20,15 @@ char *pass = "123";
 
 void SSHWork(int pipes[2], int fd)
 {
-	//char buf;
-	//read (fd, &buf, sizeof buf);
-	//printf("cl = %c\n", buf);
-	//buf++;
 	int pid = pthread_self();
-	char* buf = readstring(fd);
-	printf("login = %s %d\n", buf, pid);
-	if (!strcmp(buf, login))
-	{
-		printf("login was rec\n");
-	}
-	buf = readstring(fd);
-	printf("pass = %s\n %d", buf, pid);	
-	if (!strcmp(buf, pass))
-	{
-		printf("pass was rec\n");
-		writestring(fd, "ok");
-	}	
-	else
-	{
-			writestring(fd, "no");
-			return ;
-	}
-	while (strcmp(buf, "exit"))
-	{
-		buf = readstring(fd);
-		
-		printf("command = %d %d\n", strlen(buf), pid);			
-		//writestring(fd, "Hi!");
-	}
-	printf("rec exit\n");
-	//sleep(1);
-	//write (fd, &buf, sizeof buf);
+	char buf[512];
+	read(fd, buf, sizeof buf);
+	printf("reciv = %s\n", buf);
+	//buf = "good boy\n";
+	write(fd, "good", 5);
+	read(fd, buf, sizeof buf);
+	printf("reciv2 = %s\n", buf);
+	write(fd, "good", 5);
 }
 
 void* ClientServ(void *arg)
@@ -64,9 +39,11 @@ void* ClientServ(void *arg)
 	while (1)
 	{
 		read(pipes[0], &msg, sizeof(msg));
+		int pid = pthread_self();
+		printf("read task in %d fd = %d\n", pid, msg.fd);
 		//read(pipes[0], &fd, sizeof(int));
 		SSHWork(pipes, msg.fd);
-		printf ("Closed connection on descriptor %d\n", msg.fd);
+		printf ("%d:Closed connection on descriptor %d\n", pid, msg.fd);
 		close (msg.fd);
 	}
 }
@@ -88,3 +65,43 @@ int main (int argc, char *argv[])
 
 	return EXIT_SUCCESS;
 }
+
+
+/*
+	char* buf = readstring(fd);
+	printf("login = %s %d\n", buf, pid);
+	if (!strcmp(buf, login))
+	{
+		printf("login was rec\n");
+	}
+
+	read(fd, buf2, sizeof buf);
+	printf("buf2 = %s\n", buf2);
+	//buf = readstring(fd);
+	printf("pass = %s %d\n", buf, pid);	
+	if (!strcmp(buf, pass))
+	{
+		printf("pass was rec\n");
+		//writestring(fd, "ok");
+	}	
+	else
+	{
+			//writestring(fd, "no");
+			return ;
+	}
+	
+	buf = readstring(fd);	
+	printf("command = %s %d\n", buf, pid);
+	buf = readstring(fd);	
+	printf("command = %s %d\n", buf, pid);				
+	/*
+	while (strcmp(buf, "exit"))
+	{
+		
+		//writestring(fd, "Hi!");
+	}*/
+//	printf("rec exit\n");
+	//sleep(1);
+	//write (fd, &buf, sizeof buf);
+
+

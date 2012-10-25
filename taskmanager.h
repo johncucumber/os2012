@@ -26,7 +26,7 @@ void createThreads(int num_of_threads, int pipes[2], clientserv_f func)
 	{
 		pthread_create(&thread[i], NULL, func, (void*)&pipes);
 	}
-	printf("after thread create\n");
+	printf("created %d threads\n", num_of_threads);
 
 }
 

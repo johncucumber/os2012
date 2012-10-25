@@ -25,7 +25,7 @@ int main(int argc, char** argv)
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	address.sin_family = AF_INET;
 	address.sin_addr.s_addr = inet_addr("127.0.0.1");
-	address.sin_port = htons(10003);
+	address.sin_port = htons(10006);
 
 	len = sizeof(address);
 	result = connect(sockfd, (struct sockaddr *)&address, len);
@@ -33,13 +33,12 @@ int main(int argc, char** argv)
 		perror("oops: client1");
 		exit(1);
 	}
-	char buf[512] = "Hi!";
-	write(sockfd, "Hi!!", 5);
+	char buf[512] = "Hi!!!";
+	write(sockfd, "Hi!!!", 6);
 	read(sockfd, buf, sizeof buf);
 	printf("reciv = %s\n", buf);
-	write(sockfd, buf, sizeof buf);
-	read(sockfd, buf, sizeof buf);
-	printf("reciv2 = %s\n", buf);
+	sleep(5)
+	write(sockfd, "0", 2);	
 	close(sockfd);
 	exit(0);
 }

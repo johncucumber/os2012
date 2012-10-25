@@ -204,7 +204,7 @@ void startlistning(char *port, int pipes[2])
 			{
 				//working here
 				message msg(events[i].data.fd, false);
-				printf("Add task into queue\n");
+				printf("Add task into queue: %d\n", events[i].data.fd);
 				write(pipes[1], &msg, sizeof msg);
 			}
 		}

@@ -115,7 +115,7 @@ void startlistning(char *port, int pipes[2])
 	}
 
 	event.data.fd = sfd;
-	event.events = EPOLLIN | EPOLLET;
+	event.events = EPOLLIN | EPOLLPRI | EPOLLERR | EPOLLHUP;//.events = EPOLLIN | EPOLLET;
 	s = epoll_ctl (efd, EPOLL_CTL_ADD, sfd, &event);
 	if (s == -1)
 	{

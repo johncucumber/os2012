@@ -16,7 +16,7 @@
 char *login = "admin";
 char *pass = "123";
 
-
+int fdtable[sizeof (int)];
 
 void SSHWork(int pipes[2], int fd)
 {
@@ -26,9 +26,10 @@ void SSHWork(int pipes[2], int fd)
 	printf("%d:reciv = %s\n", pid, buf);
 	//buf = "good boy\n";
 	write(fd, "good", 5);
+	sleep(1);
 	read(fd, buf, sizeof buf);
 	printf("%d:reciv2 = %s\n", pid, buf);
-	write(fd, "good", 5);
+	write(fd, "good2", 6);
 }
 
 void* ClientServ(void *arg)
@@ -41,10 +42,18 @@ void* ClientServ(void *arg)
 		read(pipes[0], &msg, sizeof(msg));
 		int pid = pthread_self();
 		printf("read task in %d fd = %d\n", pid, msg.fd);
-		//read(pipes[0], &fd, sizeof(int));
-		SSHWork(pipes, msg.fd);
-		printf ("%d:Closed connection on descriptor %d\n", pid, msg.fd);
-		close (msg.fd);
+		if (fdtable[msg.fd] != 0)
+		{
+			printf("reject fd %d\n", msg.fd);
+		}
+		else
+		{
+			fdtable[msg.fd] = 1;
+			SSHWork(pipes, msg.fd);
+			fdtable[msg.fd] = 0;			
+			printf ("%d:Closed connection on descriptor %d\n", pid, msg.fd);
+			close (msg.fd);
+		}		
 	}
 }
 
@@ -56,7 +65,10 @@ int main (int argc, char *argv[])
 		printf("\nUSAGE: server <port> <num_of_threads>\n");
 		return 0;
 	}
-	
+	for (int i = 0; i < sizeof(int); i++)
+	{
+		fdtable[i] = 0;
+	}
 	int num_of_threads = atoi(argv[2]);
 	int pipes[2];
 	pipe(pipes);

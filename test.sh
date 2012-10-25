@@ -1,5 +1,5 @@
 #!/bin/bash
-for i in `seq 1 5`;
+for i in `seq 1 1000`;
 do
 	./client $i &
 done

@@ -138,8 +138,8 @@ void startlistning(char *port, int pipes[2])
 			(events[i].events & EPOLLHUP) ||
 			(!(events[i].events & EPOLLIN)))
 			{
-				//fprintf (stderr, "epoll error\n");
-				//close (events[i].data.fd);
+				fprintf (stderr, "epoll error\n");
+				close (events[i].data.fd);
 				continue;
 			}
 

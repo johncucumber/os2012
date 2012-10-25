@@ -14,6 +14,13 @@
 #include "stringwork.h"
 #include "ComandExcuter.h"
 
+struct User
+{
+	int fd;
+	bool auth;	
+	bool willexit;
+};
+
 char *login = "admin";
 char *pass = "123";
 
@@ -27,9 +34,21 @@ void SSHWork(int pipes[2], int fd)
 	read(fd, buf, sizeof buf);
 	printf("%d:reciv = %s\n", pid, buf);
 	FILE* ptr = Execute(buf);
-	PrintComResult(ptr);
+	//PrintComResult(ptr);
+	int i = 0;	
+	char buf2[512];	
+	while (fgets(buf2, 512, ptr) != NULL)
+	{
+		int j = 0;
+		while (buf2[j] != 0)
+		{
+			buf[i++] = buf2[j++];
+			printf("~>%s", buf);
+		}
+	}
+	pclose(ptr);
 	//buf = "good boy\n";
-	write(fd, "good", 5);	
+	write(fd, buf, 512);	
 }
 
 void* ClientServ(void *arg)

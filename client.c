@@ -19,11 +19,13 @@ int main(int argc, char** argv)
 	int len;
 	struct sockaddr_in address;
 	int result;
-
+	char* command = "ls";
+	if (argc> 1)
+		command = argv[1];
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	address.sin_family = AF_INET;
 	address.sin_addr.s_addr = inet_addr("127.0.0.1");
-	address.sin_port = htons(10006);
+	address.sin_port = htons(10010);
 
 	len = sizeof(address);
 	result = connect(sockfd, (struct sockaddr *)&address, len);
@@ -32,7 +34,7 @@ int main(int argc, char** argv)
 		exit(1);
 	}
 	char buf[512] = "Hi!!!";
-	write(sockfd, "ls", 3);
+	write(sockfd, command, strlen(command));
 	read(sockfd, buf, sizeof buf);
 	printf("reciv = %s\n", buf);
 	

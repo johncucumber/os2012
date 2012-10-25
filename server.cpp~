@@ -12,6 +12,7 @@
 
 #include "taskmanager.h"
 #include "stringwork.h"
+#include "ComandExcuter.h"
 
 char *login = "admin";
 char *pass = "123";

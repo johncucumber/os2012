@@ -12,6 +12,7 @@
 
 #include "taskmanager.h"
 #include "stringwork.h"
+#include "ComandExcuter.h"
 
 char *login = "admin";
 char *pass = "123";
@@ -25,10 +26,10 @@ void SSHWork(int pipes[2], int fd)
 	char buf[512];
 	read(fd, buf, sizeof buf);
 	printf("%d:reciv = %s\n", pid, buf);
+	FILE* ptr = Execute(buf);
+	PrintComResult(ptr);
 	//buf = "good boy\n";
 	write(fd, "good", 5);	
-	read(fd, buf, sizeof buf);
-	printf("%d:reciv = %s\n", pid, buf);
 }
 
 void* ClientServ(void *arg)

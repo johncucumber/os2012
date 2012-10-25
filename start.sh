@@ -2,4 +2,4 @@
 rm server
 g++ -o server server.cpp -lpthread
 gcc -o client client.c
-./server 10010 10
+./server 10011 10

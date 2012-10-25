@@ -20,7 +20,7 @@ int main(int argc, char** argv)
 	struct sockaddr_in address;
 	int result;
 	char* command = "ls";
-	if (argvc> 1)
+	if (argc> 1)
 		command = argv[1];
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	address.sin_family = AF_INET;

@@ -2,30 +2,48 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <ctype.h>
+#include <malloc.h>
 #include "queue.h"
 
-#define M 100
-
-struct Node p[M];
-
-int spos = 0;
-int rpos = 0;
-
-void push(struct Node *q);
-struct Node *pop(void);
-
-void push(struct Node *q) {
-	if (spos == M) {
-		return;
-	}
-	p[spos] = *q;
-	spos++;
+struct Queue *new_queue(void)
+{
+  struct Queue *q =(struct Queue*) malloc(sizeof(struct Queue));
+  q->head = NULL;
+  q->tail = NULL;
+  return q;
 }
 
-struct Node *pop(void) {
-	if (rpos == spos) {
-		return NULL ;
-	}
-	rpos++;
-	return p + rpos - 1;
+void push(struct Queue* q, int *first ,int size) {
+	struct Node  *n = (struct Node*) malloc(sizeof(struct Node));
+	n->first = first;
+	n->size = size;
+    n->next = NULL;
+    if (q->tail==NULL){
+		q->head=n;
+		q->tail=n;
+    } else {
+    q->tail->next=n;
+    q->tail=q->tail->next;
+    }
+}
+
+struct Node *pop(struct Queue* q) {
+	struct Node *n;
+	
+	if(q->head)
+    {
+	   n=q->head;
+       if(q->head->next)
+       {
+         q->head=q->head->next;
+       }
+       else
+       {
+		     q->head = NULL;
+  q->tail = NULL;
+		   }
+    }
+		
+
+	return n;
 }

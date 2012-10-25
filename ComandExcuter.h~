@@ -1,0 +1,8 @@
+#include <stdio.h>
+#include <stdlib.h>
+#ifndef CE_H
+#define CE_H
+
+FILE *Execute(char *cmd);
+void PrintComResult(FILE *ptr);
+#endif

@@ -11,7 +11,6 @@ sem_t sem;
 sem_t endsem;
 int THC = 4;
 int MAX = 32;
-int S = 0;
 struct Queue *q;
 
 void swap(int *a,int *b);
@@ -22,10 +21,9 @@ void qs(int* s_arr, int first, int last);
 int main(int argc, char **argv) {
 	
 	/* Задаем кооличество потоков и элементов*/
-	if (argc == 4) {
+	if (argc == 3) {
 		THC = atoi(argv[1]);
 	    MAX = atoi(argv[2]);
-	    S = atoi(argv[3]);
 	} else
 	printf("use args THREAD_COUNT  ELEMENTS_COUNT SORT(default thc=4 max=32 sort=0 (Quick))\n");
 	
@@ -68,9 +66,6 @@ int main(int argc, char **argv) {
 		}
 		for (i = 0; i < t_c; i++) {
 			sem_post(&sem);
-			
-		}
-		for (i = 0; i < t_c; i++) {
 			sem_wait(&endsem);
 		}
 		t_c /= 2;

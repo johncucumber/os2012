@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
         return 0;
     }
     ThreadPool tp(atoi(argv[2]), f);
-    EpollReceiver er();
+    EpollReceiver er;
     er.Start(argv[1], tp);
 
     return 0;

@@ -6,6 +6,12 @@
 #include <unistd.h>
 #include <stdlib.h>
 
+//const int tableSize = 301; 
+#define tableSize 301
+const int step = 1; 
+struct HashItem { char* direct; int id; int empty; int visit; }; 
+struct HashTable { int size; struct HashItem arrayHash[tableSize]; };
+
 int main(int argc, char** argv)
 {
 	int sockfd;

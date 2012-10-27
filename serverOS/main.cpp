@@ -15,6 +15,7 @@ void* ServeClient(void *d)
     read(fd, buf, sizeof buf);
     printf("%d:%d read %s\n", pthread_self(), fd, buf);
     write(fd, "ok", 3);
+    close(fd);
 }
 
 int main(int argc, char *argv[])

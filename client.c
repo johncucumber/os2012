@@ -26,7 +26,7 @@ int main(int argc, char** argv)
 		perror("oops: client");
 		exit(1);
 	}
-	char buf[512] = "Hi!!!";
+	char buf[512];
 	write(sockfd, command, strlen(command));
 	read(sockfd, buf, sizeof buf);
 	printf("reciv = %s\n", buf);

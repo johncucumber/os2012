@@ -3,6 +3,6 @@
 #ifndef CE_H
 #define CE_H
 
-FILE *Execute(char *cmd);
-void PrintComResult(FILE *ptr);
+extern FILE *Execute(char *cmd);
+extern void PrintComResult(FILE *ptr);
 #endif

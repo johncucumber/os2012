@@ -4,29 +4,22 @@
 
 #include "comandexecuter.h"
 #include "taskmanager.h"
-#include "task.h"
-
+#include "epollreciver.h"
 void* f(void *d)
-{
-    std::string buf = *(std::string *)d;
-    printf("Hi! from %d: %s\n", pthread_self(), buf.c_str());
+{    
+    printf("Hi! from %d: %d\n", pthread_self(), d);
 }
 
 int main(int argc, char *argv[])
 {
-    printf("Hell\n");
-    ThreadPool tp(10, f);
-    for (int i = 0; i < 20; i++)
+    if (argc != 3)
     {
-        std::string *tmp = new std::string("Hi!");
-        Task t(false, tmp);
-        tp.AddTask(t);
+        printf("<usage> <port> <number_of_thread>\n");
+        return 0;
     }
-    //ComandExecuter ce;
-    //ce.PrintVec(ce.Execute(argv[1]));
-    for (int i = 0; i < 20000; i++)
-    {
+    ThreadPool tp(atoi(argv[2]), f);
+    EpollReceiver er();
+    er.Start(argv[1], tp);
 
-    }
     return 0;
 }

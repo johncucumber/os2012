@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <pthread.h>
 #include <string>
+#include <vector>
 
 #include "comandexecuter.h"
 #include "taskmanager.h"
@@ -14,7 +15,12 @@ void* ServeClient(void *d)
     char buf[512];
     read(fd, buf, sizeof buf);
     printf("%d:%d read %s\n", pthread_self(), fd, buf);
-    write(fd, "ok", 3);
+    std::vector<std::string> tmp = CE.Execute(std::string(buf));
+    std::string result = "";
+    for (int i = 0; i < tmp.size(); i++)
+        result += tmp[i];
+    //printf("%d:%d exec: %s\n", pthread_self(), fd, result.c_str());
+    write(fd, result.c_str(), strlen(result.c_str()));
     close(fd);
 }
 

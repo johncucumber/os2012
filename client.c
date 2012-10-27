@@ -25,12 +25,12 @@ int main(int argc, char** argv)
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	address.sin_family = AF_INET;
 	address.sin_addr.s_addr = inet_addr("127.0.0.1");
-	address.sin_port = htons(10010);
+	address.sin_port = htons(10018);
 
 	len = sizeof(address);
 	result = connect(sockfd, (struct sockaddr *)&address, len);
 	if(result == -1) {
-		perror("oops: client1");
+		perror("oops: client");
 		exit(1);
 	}
 	char buf[512] = "Hi!!!";

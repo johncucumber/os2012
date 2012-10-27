@@ -6,13 +6,6 @@
 #include <unistd.h>
 #include <stdlib.h>
 
-#include "stringwork.h"
-
-
-char *login = "admin";
-char *pass = "123";
-
-
 int main(int argc, char** argv)
 {
 	int sockfd;

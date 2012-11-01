@@ -57,6 +57,15 @@ void EpollReceiver::Start(std::string port, ThreadPool pool)
                 close (events[i].data.fd);
                 continue;
             }
+            else if (events[n].events & EPOLLRDHUP)
+            {
+                epoll_ctl(efd, EPOLL_CTL_DEL, sfd, &event);
+                //--events_count;
+                close(events[i].data.fd);
+                printf ("Closed connection on descriptor %d\n",
+                        events[i].data.fd);
+                continue;
+            }
             else if (sfd == events[i].data.fd)
             {
                 /* We have a notification on the listening socket, which

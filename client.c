@@ -55,6 +55,7 @@ int main(int argc, char** argv)
 			write(sockfd, command, len);
 			read(sockfd, buf, sizeof buf);
 			printf("<~ %s\n", buf);			
+			//write(sockfd, 0, 1);
 		}
 	}
 	printf("leaving...\n");

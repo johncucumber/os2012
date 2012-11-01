@@ -9,6 +9,7 @@
 
 void* ServeClient(void *d)
 {    
+    std::string tmppass = "123";
     ComandExecuter CE;
     int fd = (long)d;
     printf("%d:%d receiv fd\n", pthread_self(), fd);
@@ -21,7 +22,10 @@ void* ServeClient(void *d)
         result += tmp[i];
     //printf("%d:%d exec: %s\n", pthread_self(), fd, result.c_str());
     write(fd, result.c_str(), strlen(result.c_str()));
-    close(fd);
+    int count = read(fd, buf, sizeof buf);
+    if (count == 0) {
+        close(fd);
+    }
 }
 
 int main(int argc, char *argv[])

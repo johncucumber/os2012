@@ -53,7 +53,7 @@ void EpollReceiver::Start(std::string port, ThreadPool pool)
         {
             if ((events[i].events & EPOLLERR) || (events[i].events & EPOLLHUP) || (!(events[i].events & EPOLLIN)))
             {//error catch (maybe k chertu?)
-                fprintf (stderr, "epoll error\n");
+                fprintf (stderr, "epoll error %d\n", events[i].data.fd);
                 close (events[i].data.fd);
                 continue;
             }

@@ -192,7 +192,7 @@ int create_and_bind (const char *port)
             /* We managed to bind successfully! */
             break;
         }
-        printf("<<<<<<<<<<<<<<,,error=%d\n", s);
+        printf("adress already in use :%d\n", s);
         close (sfd);
     }
     printf("num_of_addrinfo %d\n", counter);

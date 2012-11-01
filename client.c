@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	address.sin_family = AF_INET;
 	address.sin_addr.s_addr = inet_addr("127.0.0.1");
-	address.sin_port = htons(10022);
+	address.sin_port = htons(10023);
 	len = sizeof(address);
 	result = connect(sockfd, (struct sockaddr *)&address, len);
 	if(result == -1) {
@@ -51,7 +51,7 @@ int main(int argc, char** argv)
 			//scanf("%s", command);
 			gets(command);
 			len = strlen(command);
-			printf("before sending...\n");			
+			//printf("before sending...\n");			
 			write(sockfd, command, len);
 			read(sockfd, buf, sizeof buf);
 			printf("<~ %s\n", buf);			

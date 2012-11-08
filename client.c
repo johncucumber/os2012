@@ -36,10 +36,7 @@ int main(int argc, char** argv)
 		char *command = argv[1];
 		write(sockfd, command, strlen(command));
 		read(sockfd, buf, sizeof buf);
-		printf("reciv = %s\n", buf);
-		write(sockfd, "ls", 3);
-		read(sockfd, buf, sizeof buf);
-		printf("reciv2 = %s\n", buf);
+		printf("reciv = %s\n", buf);		
 	}	
 	else
 	{

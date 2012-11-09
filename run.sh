@@ -2,4 +2,4 @@
 rm server
 gcc -o client client.c
 #heh
-serverOS-build-desktop-Qt_4_8_3___PATH___________________/./serverOS 10023 10
+serverOS-build-desktop-Qt_4_8_3___PATH___________________/./serverOS 10025 10

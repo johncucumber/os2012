@@ -54,6 +54,7 @@ void EpollReceiver::Start(std::string port, ThreadPool pool)
             if ((events[i].events & EPOLLERR) || (events[i].events & EPOLLHUP) || (!(events[i].events & EPOLLIN)))
             {//error catch (maybe k chertu?)
                 fprintf (stderr, "epoll error %d\n", events[i].data.fd);
+                epoll_ctl(efd, EPOLL_CTL_DEL, sfd, &event);
                 close (events[i].data.fd);
                 continue;
             }
@@ -61,9 +62,9 @@ void EpollReceiver::Start(std::string port, ThreadPool pool)
             {
                 epoll_ctl(efd, EPOLL_CTL_DEL, sfd, &event);
                 //--events_count;
-                close(events[i].data.fd);
                 printf ("Closed connection on descriptor %d\n",
                         events[i].data.fd);
+                close(events[i].data.fd);
                 continue;
             }
             else if (sfd == events[i].data.fd)

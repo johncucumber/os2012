@@ -24,6 +24,7 @@ int main(int argc, char** argv)
 	address.sin_port = htons(10026);
 	len = sizeof(address);
 	result = connect(sockfd, (struct sockaddr *)&address, len);
+	int i;
 	if(result == -1) {
 		perror("oops: client");
 		exit(1);
@@ -36,32 +37,10 @@ int main(int argc, char** argv)
 		printf("goodby\n");
 		return 0;
 	}
-	if (argc> 1)
-	{
-		char *command = argv[1];
-		write(sockfd, command, strlen(command));
-		memset(buf, 0, 512);		
-		read(sockfd, buf, sizeof buf);
-		printf("reciv = %s\n", buf);		
-	}	
-	else
-	{
-		int len = 1;
-		while ((len != 0))
-		{
-			char command[512];
-			memset(buf, 0, 512);
-			printf("~>");
-			//scanf("%s", command);
-			gets(command);
-			len = strlen(command);
-			//printf("before sending...\n");			
-			write(sockfd, command, len);
-			read(sockfd, buf, sizeof buf);
-			printf("<~ %s\n", buf);			
-			//write(sockfd, 0, 1);
-		}
-	}
+	for (i = 0; i < 600; i++)
+		buf[i] = 1;
+	write(sockfd, buf, 512);
+	read(sockfd, buf, sizeof buf);
 	printf("leaving...\n");
 	close(sockfd);
 	exit(0);

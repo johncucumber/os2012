@@ -14,6 +14,7 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
+QMAKE_CXXFLAGS += -fno-stack-protector
 
 SOURCES += main.cpp \
     comandexecuter.cpp \

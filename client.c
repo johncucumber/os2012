@@ -21,7 +21,7 @@ int main(int argc, char** argv)
 	sockfd = socket(AF_INET, SOCK_STREAM, 0);
 	address.sin_family = AF_INET;
 	address.sin_addr.s_addr = inet_addr("127.0.0.1");
-	address.sin_port = htons(10025);
+	address.sin_port = htons(10026);
 	len = sizeof(address);
 	result = connect(sockfd, (struct sockaddr *)&address, len);
 	if(result == -1) {
@@ -49,6 +49,7 @@ int main(int argc, char** argv)
 		while ((len != 0))
 		{
 			char command[512];
+			memset(buf, 0, 512);
 			printf("~>");
 			//scanf("%s", command);
 			gets(command);

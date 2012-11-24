@@ -11,7 +11,7 @@ void ComandExecuter::PrintVec(std::vector<std::string> vec)
     }
 }
 
-std::vector<std::string> ComandExecuter::Execute(std::string cmd)
+std::vector<std::string> InnerExecute(std::string cmd)
 {
     std::vector<std::string> res;
     char buf[512];
@@ -19,11 +19,21 @@ std::vector<std::string> ComandExecuter::Execute(std::string cmd)
     FILE* ptr = popen(buf, "r");
 
     if (ptr != NULL)
-    {   
+    {
         while (fgets(buf, BUFSIZ, ptr) != NULL)
             res.push_back(buf);
             //(void) printf("~>%s", buf);
         (void) pclose(ptr);
+    }
+    return res;
+}
+
+std::vector<std::string> ComandExecuter::Execute(std::string cmd)
+{
+    std::vector<std::string> res;
+    if (cmd.size() > 0)
+    {
+        res = InnerExecute(cmd);
     }
     return res;
 }

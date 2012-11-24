@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <pthread.h>
-
+#include <string.h>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>
@@ -13,12 +13,13 @@
 
 #define THC 2
 #define PORT 1777
-#define BUF_SIZE 256
+#define BUF_SIZE 512
 sem_t queue_sem;
 pthread_mutex_t mymutex = PTHREAD_MUTEX_INITIALIZER;
 struct Queue *queue;
 
 void *performance();
+char *my_get(char *filename);
 
 int main()
 {
@@ -83,10 +84,26 @@ void *performance()
 		while(1)
         {
             bytes_read = recv(sock, buf, BUF_SIZE, 0);
-            if(bytes_read <= 0) break;
-            send(sock, buf, bytes_read, 0);
+            if(bytes_read <= 0) break;              
+               send(sock, my_get(buf), BUF_SIZE, 0);
         }
     
         close(sock);
 	}
+}
+
+char *my_get(char *header){
+	char result_sting[BUF_SIZE];
+	char delims[] = " ";
+    char *result = NULL;
+    char *command = strtok( header, delims );
+    char *filename = strtok( NULL, delims );
+    char *protocol = strtok( NULL, delims );
+    filename = filename+1;
+    
+    FILE *file;
+    file = fopen(filename,"r");
+    
+    if (fgets(result_sting,BUF_SIZE,file))
+	return result_sting;
 }

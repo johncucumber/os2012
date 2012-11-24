@@ -9,9 +9,11 @@
 
 sem_t sem;
 sem_t endsem;
+pthread_mutex_t mymutex = PTHREAD_MUTEX_INITIALIZER;
 int THC = 4;
 int MAX = 32;
 struct Queue *q;
+int * start;
 
 void swap(int *a,int *b);
 void *Sort();
@@ -25,13 +27,14 @@ int main(int argc, char **argv) {
 		THC = atoi(argv[1]);
 	    MAX = atoi(argv[2]);
 	} else
-	printf("use args THREAD_COUNT  ELEMENTS_COUNT SORT(default thc=4 max=32 sort=0 (Quick))\n");
+	printf("use args THREAD_COUNT  ELEMENTS_COUNT\n");
 	
 	sem_init(&sem, 0, 0);
 	sem_init(&endsem, 0, 0);
 	srand(1);
 	
 	int a[MAX];
+	start = a;
 	
 	int i;
 	
@@ -39,11 +42,6 @@ int main(int argc, char **argv) {
 	for (i = 0; i < MAX; i++) {
 		a[i] = rand() % 10;
 	}
-	/*
-	for (i = 0; i < MAX; i++) {
-		printf("%d ", a[i] = rand() % 10);
-	}
-	printf("\n");*/
 	
 	
 	/* Создаем потоки */
@@ -57,15 +55,16 @@ int main(int argc, char **argv) {
 	q = new_queue();
 	
 	int j, size;
-	int level = (int)(ceil((log(THC)/log(2))))+1;
+	int level = (int)(ceil((log(THC)/log(2)))+1);
 	size = MAX / THC;
 	int t_c = THC;
 	for (j = 0; j < level; j++) {
 		for (i = 0; i < t_c; i++) {
 			push(q, a + size * i,size);
+			sem_post(&sem);
 		}
 		for (i = 0; i < t_c; i++) {
-			sem_post(&sem);
+			
 			sem_wait(&endsem);
 		}
 		t_c /= 2;
@@ -81,12 +80,15 @@ int main(int argc, char **argv) {
 
 void *Sort() {
 	while (1) {
-		struct Node *param;
 		sem_wait(&sem);
+		pthread_mutex_lock(&mymutex);
+		struct Node *param;
 		param = pop(q);
+		pthread_mutex_unlock(&mymutex);
 		int *a = param->first;
 		int size = param->size;
-	//	printf("size %d :  ", size);
+		printf("id %d; first %d; second %d\n", pthread_self(),a-start,a-start+size);
+		fflush(stdout);
 		if (size == MAX / THC) {
 			
 			int i, j;
@@ -134,8 +136,8 @@ void *Sort() {
 				*(a + i) = *(b + i);
 			}
 		}
-		int i;
-	/*	for (i = 0; i < size; i++)
+		/*int i;
+		for (i = 0; i < size; i++)
 			printf("%d ", a[i]);
 		printf("\n");*/
 		sem_post(&endsem);

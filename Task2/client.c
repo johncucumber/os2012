@@ -6,9 +6,9 @@
 #include <netinet/in.h>
 
 #define PORT 1777
-char message[512] = "GET /index.dimko HTTP/1.0";
+char message[512];
 char buf[512];
-
+char * lolka = "GET / HTTP/1.1";
 int main()
 {
     int sock;
@@ -29,13 +29,9 @@ int main()
         perror("connect");
         exit(2);
     }
-
-    send(sock, message, sizeof(message), 0);
+    send(sock, lolka, 512, 0);  
     
-    
-    
-    
-    recv(sock, buf, 512, 0);
+    recv(sock, buf, 1024, 0);
     
     printf("%s\n",buf);
     close(sock);

@@ -18,6 +18,8 @@ void initFileSystem(void)
     }
     strcpy(nodes[0].path, "Daivers fs");
     nodes[0].exists = 1;
+    strcpy(nodes[3].path, "some");
+    nodes[3].exists = 1;
     fwrite(nodes, 1, sizeof(struct filestruct)*MAX_NODES, output);
     fclose(output);
     addLog("New fs was created");

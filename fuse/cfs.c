@@ -41,7 +41,7 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
     for (i = 0; i < MAX_NODES; i++)
     {
         const char *tmppath = path + 1;
-        if (strcmp(tmppath, nodes[i].path) == 0) 
+        if ((nodes[i].exists) &&(strcmp(tmppath, nodes[i].path) == 0)) 
         {
             stbuf->st_mode = S_IFREG | 0444;
             stbuf->st_nlink = 1;

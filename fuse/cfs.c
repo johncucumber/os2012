@@ -31,11 +31,7 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
 		stbuf->st_mode = S_IFDIR | 0755;
 		stbuf->st_nlink = 2;
         return res;
-	} else if (strcmp(path, hello_path) == 0) {
-		stbuf->st_mode = S_IFREG | 0444;
-		stbuf->st_nlink = 1;
-		stbuf->st_size = strlen(hello_str);
-	} 
+	}     
     int i;
     struct filestruct *nodes = getNodes();
     for (i = 0; i < MAX_NODES; i++)
@@ -70,14 +66,11 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
 
     struct filestruct *nodes = getNodes();
     int i;
-	//filler(buf, hello_path + 1, NULL, 0);
     for (i = 0 ; i < MAX_NODES; i++)
     {
-        //strcpy(tmp, nodes[i].path);
         if (nodes[i].exists)
             filler(buf, nodes[i].path, NULL, 0);
     }
-	//filler(buf, hello_path + 1, NULL, 0);
 
 	return 0;
 }

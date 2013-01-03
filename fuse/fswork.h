@@ -10,3 +10,4 @@ struct filestruct
 };
 
 void initFileSystem();
+struct filestruct *getNodes();

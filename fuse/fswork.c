@@ -17,14 +17,14 @@ void initFileSystem(void)
         exit(-1);
     }
     int i;
-    for(i = 0; i < MAX_NODES; i++)
+    /*for(i = 0; i < MAX_NODES; i++)
     {
         nodes[i].exists = 0;
         nodes[i].path[1] = 0;
         //strcpy(nodes[i].path, "");
         strcpy(nodes[i].path, "s\0");
         nodes[i].exists = 0;
-    }
+    }*/
     strcpy(nodes[0].path, "Daivers fs\0");
     nodes[0].exists = 1;
     strcpy(nodes[2].path, "some");

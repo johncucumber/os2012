@@ -255,3 +255,16 @@ file opens
 file opens
 file opens
 file opens
+file opens
+file opens
+file opens
+file opens
+path exists
+file opens
+file opens
+file opens
+path exists
+file opens
+file opens
+file opens
+path exists

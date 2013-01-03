@@ -20,12 +20,15 @@ void initFileSystem(void)
     for(i = 0; i < MAX_NODES; i++)
     {
         nodes[i].exists = 0;
-        nodes[i].path[0] = 0;
+        nodes[i].path[1] = 0;
+        //strcpy(nodes[i].path, "");
+        strcpy(nodes[i].path, "s\0");
+        nodes[i].exists = 0;
     }
     strcpy(nodes[0].path, "Daivers fs\0");
     nodes[0].exists = 1;
     strcpy(nodes[2].path, "some");
-    nodes[3].exists = 1;
+    nodes[2].exists = 1;
     fwrite(nodes, 1, sizeof(struct filestruct)*MAX_NODES, output);
     fclose(output);
     addLog("New fs was created");
@@ -43,9 +46,7 @@ struct filestruct *getNodes()
     }
     addLog("file opens");
     fread(nodes, sizeof(struct filestruct), MAX_NODES, input);
-
     fclose(input);
-
     return nodes;
 }
 

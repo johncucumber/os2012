@@ -70,12 +70,12 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
 
     struct filestruct *nodes = getNodes();
     int i;
-	filler(buf, hello_path + 1, NULL, 0);
+	//filler(buf, hello_path + 1, NULL, 0);
     for (i = 0 ; i < MAX_NODES; i++)
     {
-        char *tmp;
         //strcpy(tmp, nodes[i].path);
-        filler(buf, nodes[i].path, NULL, 0);
+        if (nodes[i].exists)
+            filler(buf, nodes[i].path, NULL, 0);
     }
 	//filler(buf, hello_path + 1, NULL, 0);
 

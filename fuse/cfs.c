@@ -16,6 +16,8 @@
 #include <errno.h>
 #include <fcntl.h>
 
+#include "log.h"
+
 static const char *hello_str = "Hello World!\n";
 static const char *hello_path = "/hello";
 
@@ -83,14 +85,21 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 	return size;
 }
 
+
+static void* cfs_init(struct fuse_conn_info *conn)
+{
+}
+
 static struct fuse_operations cfs_oper = {
 	.getattr	= cfs_getattr,
 	.readdir	= cfs_readdir,
 	.open		= cfs_open,
 	.read		= cfs_read,
+    .init       = cfs_init,
 };
 
 int main(int argc, char *argv[])
 {
+    printf("cfs is mounted!\n");    
 	return fuse_main(argc, argv, &cfs_oper, NULL);
 }

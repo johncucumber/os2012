@@ -16,9 +16,15 @@ void initFileSystem(void)
         puts ("Can't open fs's file.");
         exit(-1);
     }
-    strcpy(nodes[0].path, "Daivers fs");
+    int i;
+    for(i = 0; i < MAX_NODES; i++)
+    {
+        nodes[i].exists = 0;
+        nodes[i].path[0] = 0;
+    }
+    strcpy(nodes[0].path, "Daivers fs\0");
     nodes[0].exists = 1;
-    strcpy(nodes[3].path, "some");
+    strcpy(nodes[2].path, "some");
     nodes[3].exists = 1;
     fwrite(nodes, 1, sizeof(struct filestruct)*MAX_NODES, output);
     fclose(output);

@@ -1,20 +1,24 @@
-.....
 Start work
 Start work
+file opens
 Start work
-Start work
-Start work
-Start work
-Start work
-Start work
+file opens
 Create new fs
 Start work
+file opens
 Create new fs
 Start work
+file opens
 Create new fs
 Start work
+file opens
 Create new fs
 Start work
+file opens
 Create new fs
 Start work
+file opens
+Create new fs
+Start work
+file opens
 Create new fs

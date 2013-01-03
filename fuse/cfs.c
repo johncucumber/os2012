@@ -103,6 +103,7 @@ int main(int argc, char *argv[])
 {
     addLog("Start work");
     initFileSystem();
+    struct filestruct *nodes = getNodes();
     addLog("Create new fs");
 	return fuse_main(argc, argv, &cfs_oper, NULL);
 }

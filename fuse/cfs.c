@@ -30,8 +30,9 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
 	if (strcmp(path, "/") == 0) {
 		stbuf->st_mode = S_IFDIR | 0755;
 		stbuf->st_nlink = 2;
-        return res;
+       return res;
 	}     
+
     int i;
     struct filestruct *nodes = getNodes();
     for (i = 0; i < MAX_NODES; i++)
@@ -46,9 +47,8 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
             return res;
         }
     }
-    
+    //spike    
 	res = -ENOENT;
-
 	return res;
 }
 
@@ -61,9 +61,12 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
 	if (strcmp(path, "/") != 0)
 		return -ENOENT;
 
+    //add selflink 
 	filler(buf, ".", NULL, 0);
+    //add parent link
 	filler(buf, "..", NULL, 0);
 
+    //cut my arms :)
     struct filestruct *nodes = getNodes();
     int i;
     for (i = 0 ; i < MAX_NODES; i++)
@@ -108,6 +111,8 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 
 static void* cfs_init(struct fuse_conn_info *conn)
 {
+    addLog("Start work");
+    initFileSystem();
 }
 
 static struct fuse_operations cfs_oper = {
@@ -120,8 +125,6 @@ static struct fuse_operations cfs_oper = {
 
 int main(int argc, char *argv[])
 {
-    addLog("Start work");
-    initFileSystem();
     //struct filestruct *nodes = getNodes();
 	return fuse_main(argc, argv, &cfs_oper, NULL);
 }

@@ -100,6 +100,6 @@ static struct fuse_operations cfs_oper = {
 
 int main(int argc, char *argv[])
 {
-    printf("cfs is mounted!\n");    
+    addLog("Start work");
 	return fuse_main(argc, argv, &cfs_oper, NULL);
 }

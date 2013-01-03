@@ -17,6 +17,7 @@
 #include <fcntl.h>
 
 #include "log.h"
+#include "fswork.h"
 
 static const char *hello_str = "Hello World!\n";
 static const char *hello_path = "/hello";
@@ -91,15 +92,17 @@ static void* cfs_init(struct fuse_conn_info *conn)
 }
 
 static struct fuse_operations cfs_oper = {
-	.getattr	= cfs_getattr,
-	.readdir	= cfs_readdir,
-	.open		= cfs_open,
-	.read		= cfs_read,
+	.getattr	= cfs_getattr,//
+	.readdir	= cfs_readdir,//
+	.open		= cfs_open,//
+	.read		= cfs_read,//
     .init       = cfs_init,
 };
 
 int main(int argc, char *argv[])
 {
     addLog("Start work");
+    initFileSystem();
+    addLog("Create new fs");
 	return fuse_main(argc, argv, &cfs_oper, NULL);
 }

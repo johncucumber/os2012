@@ -30,12 +30,28 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
 	if (strcmp(path, "/") == 0) {
 		stbuf->st_mode = S_IFDIR | 0755;
 		stbuf->st_nlink = 2;
+        return res;
 	} else if (strcmp(path, hello_path) == 0) {
 		stbuf->st_mode = S_IFREG | 0444;
 		stbuf->st_nlink = 1;
 		stbuf->st_size = strlen(hello_str);
-	} else
-		res = -ENOENT;
+	} 
+    int i;
+    struct filestruct *nodes = getNodes();
+    for (i = 0; i < MAX_NODES; i++)
+    {
+        const char *tmppath = path + 1;
+        if (strcmp(tmppath, nodes[i].path) == 0) 
+        {
+            stbuf->st_mode = S_IFREG | 0444;
+            stbuf->st_nlink = 1;
+            stbuf->st_size = strlen(hello_str);
+            addLog("path exists");
+            return res;
+        }
+    }
+    
+	res = -ENOENT;
 
 	return res;
 }
@@ -51,7 +67,14 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
 
 	filler(buf, ".", NULL, 0);
 	filler(buf, "..", NULL, 0);
-	filler(buf, hello_path + 1, NULL, 0);
+
+    struct filestruct *nodes = getNodes();
+    int i;
+    for (i = 0 ; i < MAX_NODES; i++)
+    {
+        filler(buf, nodes[i].path, NULL, 0);
+    }
+	//filler(buf, hello_path + 1, NULL, 0);
 
 	return 0;
 }
@@ -103,7 +126,6 @@ int main(int argc, char *argv[])
 {
     addLog("Start work");
     initFileSystem();
-    struct filestruct *nodes = getNodes();
-    addLog("Create new fs");
+    //struct filestruct *nodes = getNodes();
 	return fuse_main(argc, argv, &cfs_oper, NULL);
 }

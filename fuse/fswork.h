@@ -7,6 +7,7 @@ struct filestruct
     char path[MAX_FILE_PATH_SIZE];
     int size;
     char type;//0 - file 1 - directory 2 - symlink
+    char exists;//0 - no 1 - yes
 };
 
 void initFileSystem();

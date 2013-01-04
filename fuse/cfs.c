@@ -30,13 +30,13 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
 	if (strcmp(path, "/") == 0) {
 		stbuf->st_mode = S_IFDIR | 0755;
 		stbuf->st_nlink = 2;
-       return res;
+        return res;
 	}     
 
     int i;
     struct filestruct *nodes = getNodes();
-    struct filestruct *nd = getByPath(path, nodes); 
-    if (nd != NULL)
+    int nd = getNumByPath(path, nodes); 
+    if (nd != -1)
     {
         stbuf->st_mode = S_IFREG | 0444;
         stbuf->st_nlink = 1;
@@ -109,6 +109,11 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 	return size;
 }
 
+int cfs_rename(const char *path, const char *newpath)
+{
+    return 0;
+    //return Rename(path, newpath);
+}
 
 static void* cfs_init(struct fuse_conn_info *conn)
 {
@@ -122,6 +127,7 @@ static struct fuse_operations cfs_oper = {
 	.open		= cfs_open,//
 	.read		= cfs_read,//
     .init       = cfs_init,
+    //.rename     = cfs_rename,//
 };
 
 int main(int argc, char *argv[])

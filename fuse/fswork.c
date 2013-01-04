@@ -41,3 +41,18 @@ struct filestruct *getNodes()
     return nodes;
 }
 
+struct filestruct *getByPath(const char *path, struct filestruct *nodes)
+{
+    int i;
+    struct filestruct *res;
+    for (i = 0; i < MAX_NODES; i++)
+    {
+        //const char *tmppath = path + 1;
+        if ((nodes[i].exists) && (strcmp(path, nodes[i].path) == 0)) 
+        {
+            res = &nodes[i];
+            return res;
+        }
+    }
+    return NULL;
+}

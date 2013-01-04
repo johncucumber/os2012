@@ -12,3 +12,4 @@ struct filestruct
 
 void initFileSystem();
 struct filestruct *getNodes();
+struct filestruct *getByPath(const char *path, struct filestruct *nodes);

@@ -1,5 +1,9 @@
-clean: cfs
+clean: cfs createfs
 	rm *.o
+
+createfs: createfs.c
+	gcc -o createfs createfs.c log.o fswork.o
+
 cfs: cfs.c log.o fswork.o
 	gcc -o cfs cfs.c log.o fswork.o -lfuse -D_FILE_OFFSET_BITS=64
 

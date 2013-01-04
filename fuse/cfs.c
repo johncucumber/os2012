@@ -35,17 +35,15 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
 
     int i;
     struct filestruct *nodes = getNodes();
-    for (i = 0; i < MAX_NODES; i++)
+    struct filestruct *nd = getByPath(path, nodes); 
+    if (nd != NULL)
     {
-        //const char *tmppath = path + 1;
-        if ((nodes[i].exists) && (strcmp(path, nodes[i].path) == 0)) 
-        {
-            stbuf->st_mode = S_IFREG | 0444;
-            stbuf->st_nlink = 1;
-            stbuf->st_size = strlen(hello_str);
-            addLog("path exists");
-            return res;
-        }
+        stbuf->st_mode = S_IFREG | 0444;
+        stbuf->st_nlink = 1;
+        stbuf->st_size = strlen(hello_str);
+        addLog("path exists");
+        return res;
+
     }
     //spike    
 	res = -ENOENT;
@@ -115,7 +113,7 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 static void* cfs_init(struct fuse_conn_info *conn)
 {
     addLog("Start work");
-    initFileSystem();
+    //initFileSystem();
 }
 
 static struct fuse_operations cfs_oper = {

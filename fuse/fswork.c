@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <fcntl.h>
+#include <errno.h>
 
 #include "fswork.h"
 #include "log.h"
@@ -67,4 +69,14 @@ void writeNode(struct filestruct node, int pos)
     fseek(fl, pos*sizeof(struct filestruct), 0);
     fwrite(&node, 1, sizeof(struct filestruct), fl);
     fclose(fl);
+}
+
+int Rename(const char *path, const char *newpath)
+{
+    struct filestruct *nodes = getNodes();
+    int ind = getNumByPath(path, nodes);
+    if (ind < 0) return -ENOENT;
+    strcpy(nodes[ind].path, newpath);
+    writeNode(nodes[ind], ind);
+    return 0;
 }

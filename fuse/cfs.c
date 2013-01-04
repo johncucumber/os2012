@@ -111,8 +111,10 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 
 int cfs_rename(const char *path, const char *newpath)
 {
-    return 0;
-    //return Rename(path, newpath);
+    //return 0;
+    addLog("Renaming...");
+    addLog(newpath);
+    return Rename(path, newpath);
 }
 
 static void* cfs_init(struct fuse_conn_info *conn)
@@ -127,7 +129,7 @@ static struct fuse_operations cfs_oper = {
 	.open		= cfs_open,//
 	.read		= cfs_read,//
     .init       = cfs_init,
-    //.rename     = cfs_rename,//
+    .rename     = cfs_rename,//
 };
 
 int main(int argc, char *argv[])

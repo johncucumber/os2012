@@ -14,3 +14,4 @@ void initFileSystem();
 struct filestruct *getNodes();
 int getNumByPath(const char *path, struct filestruct *nodes);
 void writeNode(struct filestruct node, int pos);
+int Rename(const char *path, const char *newpath);

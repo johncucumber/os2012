@@ -123,6 +123,27 @@ static void* cfs_init(struct fuse_conn_info *conn)
     //initFileSystem();
 }
 
+int cfs_mknod(const char *path, mode_t mode, dev_t dev)
+{
+    if (S_ISREG(mode))
+        return createNode(path, mode | S_IFREG);
+
+    return -EINVAL;
+}
+
+int cfs_unlink(const char *path)
+{
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if (nd == -1)
+    {
+        return -ENOENT;
+    }
+    nodes[nd].exists = 0;
+    writeNode(nodes[nd], nd);
+    return 0;
+}
+
 static struct fuse_operations cfs_oper = {
 	.getattr	= cfs_getattr,//
 	.readdir	= cfs_readdir,//
@@ -130,6 +151,8 @@ static struct fuse_operations cfs_oper = {
 	.read		= cfs_read,//
     .init       = cfs_init,
     .rename     = cfs_rename,//
+    .mknod      = cfs_mknod,
+    .unlink     = cfs_unlink,
 };
 
 int main(int argc, char *argv[])

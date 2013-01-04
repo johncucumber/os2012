@@ -80,3 +80,31 @@ int Rename(const char *path, const char *newpath)
     writeNode(nodes[ind], ind);
     return 0;
 }
+
+int createNode(const char *path, mode_t mode)
+{
+    struct filestruct *nodes = getNodes();
+    int ind = getNumByPath(path, nodes);
+    if (ind > -1)
+    {
+        return -EEXIST;
+    }
+    int i, res;
+    for (i = 0; i < MAX_NODES; i++)
+    {
+        if (nodes[i].exists == 0)
+        {
+            res = i;
+            break;
+        }
+    }
+    strcpy(nodes[i].path, path);
+    FILE *bfs = fopen(FS_FILE_PATH, "a+");
+    int noffset = ftell(bfs);
+    nodes[i].offset = noffset;
+    nodes[i].exists = 1;
+    nodes[i].size = 0;//BLOCK_SIZE
+    fclose(bfs);
+    writeNode(nodes[i], i);
+}
+

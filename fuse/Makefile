@@ -1,7 +1,10 @@
-clean: cfs createfs
+clean: cfs createfs ftest
 	rm *.o
 
-createfs: createfs.c
+ftest: ftest.c log.o fswork.o
+	gcc -o ftest ftest.c log.o fswork.o
+
+createfs: createfs.c log.o fswork.o
 	gcc -o createfs createfs.c log.o fswork.o
 
 cfs: cfs.c log.o fswork.o

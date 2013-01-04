@@ -37,8 +37,8 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
     struct filestruct *nodes = getNodes();
     for (i = 0; i < MAX_NODES; i++)
     {
-        const char *tmppath = path + 1;
-        if ((nodes[i].exists) && (strcmp(tmppath, nodes[i].path) == 0)) 
+        //const char *tmppath = path + 1;
+        if ((nodes[i].exists) && (strcmp(path, nodes[i].path) == 0)) 
         {
             stbuf->st_mode = S_IFREG | 0444;
             stbuf->st_nlink = 1;
@@ -72,7 +72,10 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
     for (i = 0 ; i < MAX_NODES; i++)
     {
         if (nodes[i].exists)
-            filler(buf, nodes[i].path, NULL, 0);
+        {
+            const char *tmppath = nodes[i].path + 1;
+            filler(buf, tmppath, NULL, 0);
+        }
     }
 
 	return 0;

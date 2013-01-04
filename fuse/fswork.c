@@ -54,3 +54,17 @@ int getNumByPath(const char *path, struct filestruct *nodes)
     }
     return -1;
 }
+
+void writeNode(struct filestruct node, int pos)
+{
+    FILE *fl;
+    int i;
+    if((fl=fopen(FS_FILE_PATH, "rb+")) == NULL)
+    {
+        puts ("Can't open fs's file.");
+        exit(-1);
+    }
+    fseek(fl, pos*sizeof(struct filestruct), 0);
+    fwrite(&node, 1, sizeof(struct filestruct), fl);
+    fclose(fl);
+}

@@ -100,11 +100,41 @@ int createNode(const char *path, mode_t mode)
     }
     strcpy(nodes[i].path, path);
     FILE *bfs = fopen(FS_FILE_PATH, "a+");
+    fseek(bfs, 0L, SEEK_END);
     int noffset = ftell(bfs);
     nodes[i].offset = noffset;
     nodes[i].exists = 1;
     nodes[i].size = 0;//BLOCK_SIZE
     fclose(bfs);
     writeNode(nodes[i], i);
+    return 0;
 }
 
+char isNodeLast(struct filestruct node)
+{
+    FILE *fp;
+    if((fp=fopen(FS_FILE_PATH, "rb")) == NULL)
+    {
+        puts ("Can't open fs's file.");
+        exit(-1);
+    }
+    fseek(fp, 0L, SEEK_END);
+    int sz = ftell(fp);
+    return node.size + node.offset == sz;
+}
+
+long writeFile(struct filestruct node, void *buf, long offset, long size)
+{
+    FILE *fl;
+    int i;
+    if((fl=fopen(FS_FILE_PATH, "rb+")) == NULL)
+    {
+        puts ("Can't open fs's file.");
+        exit(-1);
+    }
+    fseek(fl, node.offset, 0);
+    fwrite(buf, 1, size, fl);
+    node.size += size;
+    fclose(fl);
+
+}

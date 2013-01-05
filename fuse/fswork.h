@@ -10,6 +10,11 @@ struct filestruct
     char type;//0 - file 1 - directory 2 - symlink
     char exists;//0 - no 1 - yes
     long offset;
+    short uid;      
+    short gid;     
+    time_t atime;
+    time_t mtime;
+    time_t ctime;
 };
 
 void initFileSystem();
@@ -18,3 +23,5 @@ int getNumByPath(const char *path, struct filestruct *nodes);
 void writeNode(struct filestruct node, int pos);
 int Rename(const char *path, const char *newpath);
 int createNode(const char *path, mode_t mode);
+char isNodeLast(struct filestruct node);
+long writeFile(struct filestruct node, void *buf, long offset, long size);

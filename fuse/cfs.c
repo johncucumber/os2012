@@ -81,13 +81,14 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
 
 static int cfs_open(const char *path, struct fuse_file_info *fi)
 {
-	if (strcmp(path, hello_path) != 0)
-		return -ENOENT;
-
-	if ((fi->flags & 3) != O_RDONLY)
-		return -EACCES;
-
-	return 0;
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    fi->fh = nd;
+    if (nd > -1)
+    {
+        return 0;
+    }
+    return -ENOENT;
 }
 
 static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
@@ -107,6 +108,22 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 		size = 0;
 
 	return size;
+}
+
+int cfs_write(const char *path, const char *buf, size_t size, off_t offset, struct fuse_file_info *fi)
+{
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if(nd < 0)
+    {
+        return -ENOENT;
+    }
+    if(writeFile(nodes[nd], (void *)buf, (long)offset, size) < 0)
+    {
+        return -EIO;
+    }
+    writeNode(nodes[nd], nd); 
+    return size;
 }
 
 int cfs_rename(const char *path, const char *newpath)
@@ -150,7 +167,7 @@ static struct fuse_operations cfs_oper = {
 	.open		= cfs_open,//
 	.read		= cfs_read,//
     .init       = cfs_init,
-    .rename     = cfs_rename,//
+    .rename     = cfs_rename,
     .mknod      = cfs_mknod,
     .unlink     = cfs_unlink,
 };

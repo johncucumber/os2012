@@ -38,7 +38,7 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
     int nd = getNumByPath(path, nodes); 
     if (nd != -1)
     {
-        stbuf->st_mode = S_IFREG | 0444;
+        stbuf->st_mode = S_IFREG | 0666;
         stbuf->st_nlink = 1;
         stbuf->st_size = strlen(hello_str);
         addLog("path exists");
@@ -94,19 +94,17 @@ static int cfs_open(const char *path, struct fuse_file_info *fi)
 static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 		      struct fuse_file_info *fi)
 {
-	size_t len;
-	(void) fi;
-	if(strcmp(path, hello_path) != 0)
-		return -ENOENT;
-
-	len = strlen(hello_str);
-	if (offset < len) {
-		if (offset + size > len)
-			size = len - offset;
-		memcpy(buf, hello_str + offset, size);
-	} else
-		size = 0;
-
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if(nd < 0)
+    {
+        return -ENOENT;
+    }
+    if(readFile(nodes[nd], (void *)buf, (long)offset, size) < 0)
+    {
+        return -EIO;
+    }
+ 
 	return size;
 }
 
@@ -166,6 +164,7 @@ static struct fuse_operations cfs_oper = {
 	.readdir	= cfs_readdir,//
 	.open		= cfs_open,//
 	.read		= cfs_read,//
+    .write      = cfs_write,
     .init       = cfs_init,
     .rename     = cfs_rename,
     .mknod      = cfs_mknod,

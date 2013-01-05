@@ -132,9 +132,25 @@ long writeFile(struct filestruct node, void *buf, long offset, long size)
         puts ("Can't open fs's file.");
         exit(-1);
     }
-    fseek(fl, node.offset, 0);
+    fseek(fl, node.offset + offset, 0);
     fwrite(buf, 1, size, fl);
     node.size += size;
     fclose(fl);
 
 }
+
+int readFile(struct filestruct node, char *buf, long offset, long size)
+{
+    FILE *fl;
+    int i;
+    if((fl=fopen(FS_FILE_PATH, "rb+")) == NULL)
+    {
+        puts ("Can't open fs's file.");
+        exit(-1);
+    }
+    fseek(fl, node.offset + offset, 0);
+    fread(buf, 1, size, fl);
+    fclose(fl);
+    return 0;
+}
+

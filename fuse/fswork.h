@@ -25,3 +25,5 @@ int Rename(const char *path, const char *newpath);
 int createNode(const char *path, mode_t mode);
 char isNodeLast(struct filestruct node);
 long writeFile(struct filestruct node, void *buf, long offset, long size);
+int readFile(struct filestruct node, char *buf, long offset, long size);
+

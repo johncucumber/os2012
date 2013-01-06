@@ -9,9 +9,10 @@ int main(int argc, char **argv)
 {
     printf("Start....\n");
     struct filestruct *nodes = getNodes();
-    char buf[255];
-    sprintf(buf, "num %d\n", 42);
-    printf("%s <~\n", buf);
+    printf("name %s s %ld\n", nodes[0].path, nodes[0].size);
+    char *buf = malloc(nodes[0].size);
+    long realsize = readFile(nodes[0], buf, 0, nodes[0].size);
+    printf("realsize %ld\n", realsize);
     printf("Finish\n");
     return 0;
 }

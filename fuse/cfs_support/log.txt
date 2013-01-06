@@ -1,1 +1,484 @@
 path exists
+New fs was created
+Start work
+create file /fromcat noffset 31200, nsize 0
+path exists
+path exists
+path exists
+before read name /fromcat  noffset 31200 nsize 0, offset 0 size 4096
+
+path exists
+path exists
+before read name /fromcat  noffset 31200 nsize 0, offset 0 size 4096
+
+path exists
+before read name /fromcat  noffset 31200 nsize 0, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31200, nsize 0
+path exists
+Renaming...
+/fromcat~
+create file /fromcat noffset 31200, nsize 0
+path exists
+before write name /fromcat  noffset 31200 nsize 0, offset 0 size 4
+
+after write name /fromcat  noffset 31200 nsize 4, offset 0 size 4
+
+path exists
+path exists
+before read name /fromcat  noffset 31200 nsize 4, offset 0 size 4096
+
+path exists
+before read name /fromcat  noffset 31200 nsize 4, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31204, nsize 0
+path exists
+Renaming...
+/fromcat~
+create file /fromcat noffset 31204, nsize 0
+path exists
+before write name /fromcat  noffset 31204 nsize 0, offset 0 size 11
+
+after write name /fromcat  noffset 31204 nsize 11, offset 0 size 11
+
+path exists
+path exists
+before read name /fromcat  noffset 31204 nsize 11, offset 0 size 4096
+
+path exists
+before read name /fromcat  noffset 31204 nsize 11, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31215, nsize 0
+path exists
+Renaming...
+/.fuse_hidden0000000700000001
+Renaming...
+/fromcat~
+create file /fromcat noffset 31215, nsize 0
+path exists
+before write name /fromcat  noffset 31215 nsize 0, offset 0 size 25
+
+after write name /fromcat  noffset 31215 nsize 25, offset 0 size 25
+
+path exists
+path exists
+before read name /fromcat  noffset 31215 nsize 25, offset 0 size 4096
+
+path exists
+path exists
+before read name /fromcat  noffset 31215 nsize 25, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31240, nsize 0
+path exists
+Renaming...
+/fromcat~
+create file /fromcat noffset 31240, nsize 0
+path exists
+before write name /fromcat  noffset 31240 nsize 0, offset 0 size 19
+
+after write name /fromcat  noffset 31240 nsize 19, offset 0 size 19
+
+path exists
+before read name /fromcat  noffset 31240 nsize 19, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31259, nsize 0
+path exists
+Renaming...
+/fromcat~
+create file /fromcat noffset 31259, nsize 0
+path exists
+before write name /fromcat  noffset 31259 nsize 0, offset 0 size 18
+
+after write name /fromcat  noffset 31259 nsize 18, offset 0 size 18
+
+path exists
+before read name /fromcat  noffset 31259 nsize 18, offset 0 size 4096
+
+path exists
+path exists
+before read name /fromcat  noffset 31259 nsize 18, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31277, nsize 0
+path exists
+Renaming...
+/fromcat~
+create file /fromcat noffset 31277, nsize 0
+path exists
+before write name /fromcat  noffset 31277 nsize 0, offset 0 size 68
+
+after write name /fromcat  noffset 31277 nsize 68, offset 0 size 68
+
+path exists
+before read name /fromcat  noffset 31277 nsize 68, offset 0 size 4096
+
+path exists
+New fs was created
+Start work
+create file /brut.c noffset 31200, nsize 0
+path exists
+before write name /brut.c  noffset 31200 nsize 0, offset 0 size 1202
+
+after write name /brut.c  noffset 31200 nsize 1202, offset 0 size 1202
+
+path exists
+before read name /brut.c  noffset 31200 nsize 1202, offset 0 size 4096
+
+path exists
+before read name /brut.c  noffset 31200 nsize 1202, offset 0 size 1202
+
+New fs was created
+Start work
+create file /cfs.c noffset 31200, nsize 0
+path exists
+before write name /cfs.c  noffset 31200 nsize 0, offset 0 size 3729
+
+after write name /cfs.c  noffset 31200 nsize 3729, offset 0 size 3729
+
+path exists
+path exists
+before read name /cfs.c  noffset 31200 nsize 3729, offset 0 size 4096
+
+path exists
+create file /new noffset 34929, nsize 0
+path exists
+before write name /new  noffset 34929 nsize 0, offset 0 size 16
+
+after write name /new  noffset 34929 nsize 16, offset 0 size 16
+
+path exists
+path exists
+before read name /new  noffset 34929 nsize 16, offset 0 size 4096
+
+path exists
+create file /new2 noffset 34945, nsize 0
+path exists
+before write name /new2  noffset 34945 nsize 0, offset 0 size 36
+
+after write name /new2  noffset 34945 nsize 36, offset 0 size 36
+
+path exists
+path exists
+before read name /new2  noffset 34945 nsize 36, offset 0 size 4096
+
+path exists
+path exists
+before read name /new  noffset 34929 nsize 16, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 34981, nsize 0
+path exists
+Renaming...
+/new~
+create file /new noffset 34981, nsize 0
+path exists
+before write name /new  noffset 34981 nsize 0, offset 0 size 14
+
+after write name /new  noffset 34981 nsize 14, offset 0 size 14
+
+path exists
+path exists
+before read name /new  noffset 34981 nsize 14, offset 0 size 4096
+
+path exists
+path exists
+before read name /new2  noffset 34945 nsize 36, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 34995, nsize 0
+path exists
+Renaming...
+/new2~
+create file /new2 noffset 34995, nsize 0
+path exists
+before write name /new2  noffset 34995 nsize 0, offset 0 size 14
+
+after write name /new2  noffset 34995 nsize 14, offset 0 size 14
+
+path exists
+path exists
+before read name /new2  noffset 34995 nsize 14, offset 0 size 4096
+
+path exists
+path exists
+before read name /new  noffset 34981 nsize 14, offset 0 size 4096
+
+path exists
+New fs was created
+create file /fswork noffset 31200, nsize 0
+path exists
+before write name /fswork  noffset 31200 nsize 0, offset 0 size 937
+
+after write name /fswork  noffset 31200 nsize 937, offset 0 size 937
+
+New fs was created
+Start work
+create file /n2 noffset 31200, nsize 0
+path exists
+before write name /n2  noffset 31200 nsize 0, offset 0 size 6
+
+after write name /n2  noffset 31200 nsize 6, offset 0 size 6
+
+path exists
+path exists
+create file /n noffset 31206, nsize 0
+path exists
+before write name /n  noffset 31206 nsize 0, offset 0 size 7
+
+after write name /n  noffset 31206 nsize 7, offset 0 size 7
+
+path exists
+path exists
+path exists
+create file /n3 noffset 31213, nsize 0
+path exists
+before write name /n3  noffset 31213 nsize 0, offset 0 size 6
+
+after write name /n3  noffset 31213 nsize 6, offset 0 size 6
+
+path exists
+path exists
+path exists
+path exists
+path exists
+before read name /n2  noffset 31200 nsize 6, offset 0 size 4096
+
+path exists
+before read name /n2  noffset 31200 nsize 6, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31219, nsize 0
+path exists
+Renaming...
+/n2~
+create file /n2 noffset 31219, nsize 0
+path exists
+before write name /n2  noffset 31219 nsize 0, offset 0 size 25
+
+after write name /n2  noffset 31219 nsize 25, offset 0 size 25
+
+path exists
+path exists
+path exists
+path exists
+path exists
+before read name /n3  noffset 31213 nsize 6, offset 0 size 4096
+
+path exists
+before read name /n3  noffset 31213 nsize 6, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31244, nsize 0
+path exists
+Renaming...
+/n3~
+create file /n3 noffset 31244, nsize 0
+path exists
+before write name /n3  noffset 31244 nsize 0, offset 0 size 18
+
+after write name /n3  noffset 31244 nsize 18, offset 0 size 18
+
+path exists
+before read name /n3  noffset 31244 nsize 18, offset 0 size 4096
+
+path exists
+path exists
+create file /4913 noffset 31262, nsize 0
+path exists
+Renaming...
+/n3~
+create file /n3 noffset 31262, nsize 0
+path exists
+before write name /n3  noffset 31262 nsize 0, offset 0 size 45
+
+after write name /n3  noffset 31262 nsize 45, offset 0 size 45
+
+path exists
+before read name /n3  noffset 31262 nsize 45, offset 0 size 4096
+
+path exists
+New fs was created
+create file /cfd.c noffset 31200, nsize 0
+path exists
+before write name /cfd.c  noffset 31200 nsize 0, offset 0 size 3729
+
+after write name /cfd.c  noffset 31200 nsize 3729, offset 0 size 3729
+
+path exists
+before read name /cfd.c  noffset 31200 nsize 3729, offset 0 size 4096
+
+path exists
+New fs was created
+create file /c.c noffset 31200, nsize 0
+path exists
+before write name /c.c  noffset 31200 nsize 0, offset 0 size 3729
+
+after write name /c.c  noffset 31200 nsize 3729, offset 0 size 3729
+
+New fs was created
+create file /c.c noffset 31200, nsize 0
+path exists
+before write name /c.c  noffset 31200 nsize 0, offset 0 size 203
+
+after write name /c.c  noffset 31200 nsize 203, offset 0 size 203
+
+path exists
+before read name /c.c  noffset 31200 nsize 203, offset 0 size 4096
+
+path exists
+New fs was created
+Start work
+create file /cfs.c noffset 31200, nsize 0
+path exists
+before write name /cfs.c  noffset 31200 nsize 0, offset 0 size 3738
+
+after write name /cfs.c  noffset 31200 nsize 3738, offset 0 size 3738
+
+path exists
+before read name /cfs.c  noffset 31200 nsize 3738, offset 0 size 4096
+
+path exists
+path exists
+path exists
+before read name /cfs.c  noffset 31200 nsize 3738, offset 0 size 4096
+
+path exists
+path exists
+create file /d.d noffset 34938, nsize 0
+path exists
+before write name /d.d  noffset 34938 nsize 0, offset 0 size 15
+
+after write name /d.d  noffset 34938 nsize 15, offset 0 size 15
+
+path exists
+before read name /d.d  noffset 34938 nsize 15, offset 0 size 4096
+
+path exists
+path exists
+path exists
+before read name /cfs.c  noffset 31200 nsize 3738, offset 0 size 4096
+
+path exists
+before read name /d.d  noffset 34938 nsize 15, offset 0 size 4096
+
+path exists
+path exists
+path exists
+path exists
+before read name /d.d  noffset 34938 nsize 15, offset 0 size 4096
+
+path exists
+path exists
+before read name /d.d  noffset 34938 nsize 15, offset 0 size 4096
+
+path exists
+path exists
+path exists
+before read name /cfs.c  noffset 31200 nsize 3738, offset 0 size 4096
+
+path exists
+path exists
+path exists
+before read name /cfs.c  noffset 31200 nsize 3738, offset 0 size 4096
+
+path exists
+path exists
+path exists
+path exists
+path exists
+New fs was created
+Start work
+create file /new noffset 31200, nsize 0
+path exists
+before write name /new  noffset 31200 nsize 0, offset 0 size 89
+
+after write name /new  noffset 31200 nsize 89, offset 0 size 89
+
+path exists
+before read name /new  noffset 31200 nsize 89, offset 0 size 4096
+
+real read 89
+path exists
+path exists
+path exists
+before read name /new  noffset 31200 nsize 89, offset 0 size 4096
+
+real read 89
+path exists
+path exists
+path exists
+path exists
+before read name /new  noffset 31200 nsize 89, offset 0 size 4096
+
+real read 89
+path exists
+before read name /new  noffset 31200 nsize 89, offset 0 size 4096
+
+real read 89
+path exists
+path exists
+path exists
+before read name /new  noffset 31200 nsize 89, offset 0 size 4096
+
+real read 89
+path exists
+path exists
+before read name /new  noffset 31200 nsize 89, offset 0 size 4096
+
+real read 89
+path exists
+path exists
+path exists
+path exists
+path exists
+path exists
+path exists
+New fs was created
+Start work
+create file /cfs.c noffset 31200, nsize 0
+before write name /cfs.c  noffset 31200 nsize 0, offset 0 size 3835
+
+after write name /cfs.c  noffset 31200 nsize 3835, offset 0 size 3835
+
+before read name /cfs.c  noffset 31200 nsize 3835, offset 0 size 4096
+
+real read 3835
+before read name /cfs.c  noffset 31200 nsize 3835, offset 0 size 4096
+
+real read 3835
+before read name /cfs.c  noffset 31200 nsize 3835, offset 0 size 4096
+
+real read 3835
+create file /fswork.c noffset 35035, nsize 0
+before write name /fswork.c  noffset 35035 nsize 0, offset 0 size 4096
+
+after write name /fswork.c  noffset 35035 nsize 4096, offset 0 size 4096
+
+before write name /fswork.c  noffset 35035 nsize 4096, offset 4096 size 879
+
+after write name /fswork.c  noffset 35035 nsize 4975, offset 4096 size 879
+
+before read name /fswork.c  noffset 35035 nsize 4975, offset 0 size 8192
+
+real read 4975
+before read name /fswork.c  noffset 35035 nsize 4975, offset 0 size 8192
+
+real read 4975
+before read name /fswork.c  noffset 35035 nsize 4975, offset 0 size 8192
+
+real read 4975

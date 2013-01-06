@@ -119,6 +119,7 @@ char isNodeLast(struct filestruct node)
     }
     fseek(fp, 0L, SEEK_END);
     int sz = ftell(fp);
+    fclose(fp);
     return node.size + node.offset == sz;
 }
 
@@ -143,14 +144,14 @@ long writeFile(struct filestruct node, void *buf, long offset, long size, int no
         exit(-1);
     }
     fseek(fl, node.offset + offset, 0);
-    fwrite(buf, 1, size, fl);
+    size = fwrite(buf, 1, size, fl);
     //node.size += size;
     
     fclose(fl);
     writeNode(node, nodenum);
     sprintf(sbuf, "after write name %s  noffset %ld nsize %ld, offset %ld size %ld\n", node.path, node.offset, node.size, offset, size);
     addLog(sbuf);
-    return 0;
+    return size;
 }
 
 long readFile(struct filestruct node, char *buf, long offset, long size)
@@ -170,7 +171,7 @@ long readFile(struct filestruct node, char *buf, long offset, long size)
         exit(-1);
     }
     fseek(fl, node.offset + offset, 0);
-    fread(buf, 1, size, fl);
+    size = fread(buf, 1, size, fl);
     fclose(fl);
     return size;
 }

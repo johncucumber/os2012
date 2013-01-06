@@ -40,8 +40,8 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
     {
         stbuf->st_mode = S_IFREG | 0666;
         stbuf->st_nlink = 1;
-        stbuf->st_size = strlen(hello_str);
-        addLog("path exists");
+        stbuf->st_size = nodes[i].size;//strlen(hello_str);
+        //addLog("path exists");
         return res;
 
     }
@@ -104,7 +104,9 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
     {
         return -EIO;
     }
- 
+    char sbuf[1024];
+    sprintf(sbuf, "real read %ld", size);
+    addLog(sbuf);
 	return size;
 }
 
@@ -116,7 +118,7 @@ int cfs_write(const char *path, const char *buf, size_t size, off_t offset, stru
     {
         return -ENOENT;
     }
-    if(writeFile(nodes[nd], (void *)buf, (long)offset, size, nd) < 0)
+    if((size = writeFile(nodes[nd], (void *)buf, (long)offset, size, nd)) < 0)
     {
         return -EIO;
     }

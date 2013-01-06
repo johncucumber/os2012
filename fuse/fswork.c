@@ -78,6 +78,7 @@ int Rename(const char *path, const char *newpath)
 
 int createNode(const char *path, mode_t mode, char type, const char *link)
 {
+    addLog("Before creating");
     struct filestruct *nodes = getNodes();
     int ind = getNumByPath(path, nodes);
     if (ind > -1)
@@ -107,6 +108,7 @@ int createNode(const char *path, mode_t mode, char type, const char *link)
     }
     if (type == 2)
     {
+        addLog("Creating symlink");
         strcpy(nodes[i].link, link);
     }
 
@@ -118,7 +120,8 @@ int createNode(const char *path, mode_t mode, char type, const char *link)
     nodes[i].ctime = time(NULL);
     nodes[i].exists = 1;
     nodes[i].size = 0;//BLOCK_SIZE
-    nodes[i].n_link = 0;
+    nodes[i].n_link = 1;
+    nodes[i].parentdir = -1;
     writeNode(nodes[i], i);
     char sbuf[1024];
     sprintf(sbuf, "create file %s noffset %ld, nsize %ld", path, nodes[i].offset, nodes[i].size);

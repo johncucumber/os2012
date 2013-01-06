@@ -15,6 +15,7 @@
 #include <string.h>
 #include <errno.h>
 #include <fcntl.h>
+#include <stdlib.h>
 
 #include "log.h"
 #include "fswork.h"
@@ -51,7 +52,6 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
         return res;
 
     }
-    //spike    
 	res = -ENOENT;
 	return res;
 }
@@ -73,14 +73,33 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
     //cut my arms :)
     struct filestruct *nodes = getNodes();
     int i;
+    long pd = 0;
+    if (strcmp("/", path) == 0)
+    {
+        pd = -1;
+    }
     for (i = 0 ; i < MAX_NODES; i++)
     {
-        if (nodes[i].exists)
+        if (nodes[i].exists && nodes[i].parentdir == pd)
         {
+            struct stat *stbuf = malloc(sizeof(struct stat));
+            memset(stbuf, 0, sizeof(struct stat));
             const char *tmppath = nodes[i].path + 1;
-            filler(buf, tmppath, NULL, 0);
+            stbuf->st_ino = i;
+            stbuf->st_uid = nodes[i].uid;
+            stbuf->st_gid =  nodes[i].gid;
+            stbuf->st_atime = nodes[i].atime;
+            stbuf->st_mtime = nodes[i].mtime;
+            stbuf->st_ctime = nodes[i].ctime;
+
+            stbuf->st_mode = nodes[i].mode;//S_IFREG | 0777;
+            stbuf->st_nlink = nodes[i].n_link;
+            stbuf->st_size = nodes[i].size;//strlen(hello_str);
+
+            filler(buf, tmppath, stbuf, 0);
         }
     }
+
 
 	return 0;
 }
@@ -166,17 +185,18 @@ int cfs_unlink(const char *path)
     return 0;
 }
 
-int symlink(const char *path, const char *link)
+int cfs_symlink(const char *path, const char *link)
 {
-     struct filestruct *nodes = getNodes();
-    int nd = getNumByPath(path, nodes); 
-    if (nd == -1)
-    {
-        return -EINVAL;
-    }
-    
+    createNode(link, S_IFLNK, 2, path);
+
+    return 0;
 }
 
+
+int cfs_mkdir(const char *path, mode_t mode)
+{
+    return createNode(path, mode, 1, NULL);
+}
 
 static struct fuse_operations cfs_oper = {
 	.getattr	= cfs_getattr,//
@@ -188,6 +208,8 @@ static struct fuse_operations cfs_oper = {
     .rename     = cfs_rename,
     .mknod      = cfs_mknod,
     .unlink     = cfs_unlink,
+    .symlink    = cfs_symlink,
+    .mkdir      = cfs_mkdir,
 };
 
 int main(int argc, char *argv[])

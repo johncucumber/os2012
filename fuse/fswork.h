@@ -11,10 +11,11 @@ struct filestruct
     char type;//0 - file 1 - directory 2 - symlink
     char exists;//0 - no 1 - yes
     long offset;
+    long parentdir;
     long n_link; //links to this file
     short uid;      
     short gid;     
-    ushort mode;
+    mode_t mode;
     time_t atime;
     time_t mtime;
     time_t ctime;

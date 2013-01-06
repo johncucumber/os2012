@@ -7,12 +7,14 @@ struct filestruct
 {
     char path[MAX_FILE_PATH_SIZE];
     long size;
+    char link[MAX_FILE_PATH_SIZE];//just for symblinks
     char type;//0 - file 1 - directory 2 - symlink
     char exists;//0 - no 1 - yes
     long offset;
     long n_link; //links to this file
     short uid;      
     short gid;     
+    ushort mode;
     time_t atime;
     time_t mtime;
     time_t ctime;
@@ -23,7 +25,7 @@ struct filestruct *getNodes();
 int getNumByPath(const char *path, struct filestruct *nodes);
 void writeNode(struct filestruct node, int pos);
 int Rename(const char *path, const char *newpath);
-int createNode(const char *path, mode_t mode);
+int createNode(const char *path, mode_t mode, char type, const char *link);
 char isNodeLast(struct filestruct node);
 long writeFile(struct filestruct node, void *buf, long offset, long size, int nodenum);
 long readFile(struct filestruct node, char *buf, long offset, long size);

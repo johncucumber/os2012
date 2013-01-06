@@ -13,6 +13,7 @@ int main(int argc, char **argv)
     printf("Start....\n");
     struct filestruct *nodes = getNodes();
     printf("time %d\n", time(NULL));
+    printf("err = %d\n", ENOENT);
     printf("Finish\n");
     return 0;
 }

@@ -44,7 +44,7 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
         stbuf->st_mtime = nodes[nd].mtime;
         stbuf->st_ctime = nodes[nd].ctime;
 
-        stbuf->st_mode = S_IFREG | 0777;
+        stbuf->st_mode = nodes[nd].mode;//S_IFREG | 0777;
         stbuf->st_nlink = nodes[nd].n_link;
         stbuf->st_size = nodes[nd].size;//strlen(hello_str);
         //addLog("path exists");
@@ -148,7 +148,7 @@ static void* cfs_init(struct fuse_conn_info *conn)
 int cfs_mknod(const char *path, mode_t mode, dev_t dev)
 {
     if (S_ISREG(mode))
-        return createNode(path, mode | S_IFREG);
+        return createNode(path, mode, 0, NULL);
 
     return -EINVAL;
 }
@@ -165,6 +165,18 @@ int cfs_unlink(const char *path)
     writeNode(nodes[nd], nd);
     return 0;
 }
+
+int symlink(const char *path, const char *link)
+{
+     struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if (nd == -1)
+    {
+        return -EINVAL;
+    }
+    
+}
+
 
 static struct fuse_operations cfs_oper = {
 	.getattr	= cfs_getattr,//

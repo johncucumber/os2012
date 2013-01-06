@@ -76,7 +76,7 @@ int Rename(const char *path, const char *newpath)
     return 0;
 }
 
-int createNode(const char *path, mode_t mode)
+int createNode(const char *path, mode_t mode, char type, const char *link)
 {
     struct filestruct *nodes = getNodes();
     int ind = getNumByPath(path, nodes);
@@ -95,19 +95,30 @@ int createNode(const char *path, mode_t mode)
     }
     i = res;
     strcpy(nodes[i].path, path);
-    FILE *bfs = fopen(FS_FILE_PATH, "a+");
-    fseek(bfs, 0L, SEEK_END);
-    int noffset = ftell(bfs);
+    nodes[i].type = type;
+
+    if (type == 0)
+    {
+        FILE *bfs = fopen(FS_FILE_PATH, "a+");
+        fseek(bfs, 0L, SEEK_END);
+        int noffset = ftell(bfs);
+        nodes[i].offset = noffset;
+        fclose(bfs);
+    }
+    if (type == 2)
+    {
+        strcpy(nodes[i].link, link);
+    }
+
+    nodes[i].mode = mode;
     nodes[i].uid = 0;
     nodes[i].gid = 0;
     nodes[i].atime = time(NULL);
     nodes[i].mtime = time(NULL);
     nodes[i].ctime = time(NULL);
-    nodes[i].offset = noffset;
     nodes[i].exists = 1;
     nodes[i].size = 0;//BLOCK_SIZE
     nodes[i].n_link = 0;
-    fclose(bfs);
     writeNode(nodes[i], i);
     char sbuf[1024];
     sprintf(sbuf, "create file %s noffset %ld, nsize %ld", path, nodes[i].offset, nodes[i].size);

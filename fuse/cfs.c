@@ -100,7 +100,7 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
     {
         return -ENOENT;
     }
-    if(readFile(nodes[nd], (void *)buf, (long)offset, size) < 0)
+    if((size = readFile(nodes[nd], (void *)buf, (long)offset, size)) < 0)
     {
         return -EIO;
     }
@@ -116,11 +116,10 @@ int cfs_write(const char *path, const char *buf, size_t size, off_t offset, stru
     {
         return -ENOENT;
     }
-    if(writeFile(nodes[nd], (void *)buf, (long)offset, size) < 0)
+    if(writeFile(nodes[nd], (void *)buf, (long)offset, size, nd) < 0)
     {
         return -EIO;
     }
-    writeNode(nodes[nd], nd); 
     return size;
 }
 

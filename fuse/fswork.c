@@ -17,11 +17,6 @@ void initFileSystem(void)
         puts ("Can't open fs's file.");
         exit(-1);
     }
-    int i;
-    strcpy(nodes[0].path, "/Daivers fs\0");
-    nodes[0].exists = 1;
-    strcpy(nodes[2].path, "/some");
-    nodes[2].exists = 1;
     fwrite(nodes, 1, sizeof(struct filestruct)*MAX_NODES, output);
     fclose(output);
     addLog("New fs was created");
@@ -37,7 +32,7 @@ struct filestruct *getNodes()
         puts ("Can't open fs's file.");
         exit(-1);
     }
-    addLog("file opens");
+    //addLog("file opens");
     fread(nodes, sizeof(struct filestruct), MAX_NODES, input);
     fclose(input);
     return nodes;
@@ -98,6 +93,7 @@ int createNode(const char *path, mode_t mode)
             break;
         }
     }
+    i = res;
     strcpy(nodes[i].path, path);
     FILE *bfs = fopen(FS_FILE_PATH, "a+");
     fseek(bfs, 0L, SEEK_END);
@@ -107,6 +103,9 @@ int createNode(const char *path, mode_t mode)
     nodes[i].size = 0;//BLOCK_SIZE
     fclose(bfs);
     writeNode(nodes[i], i);
+    char sbuf[1024];
+    sprintf(sbuf, "create file %s noffset %ld, nsize %ld", path, nodes[i].offset, nodes[i].size);
+    addLog(sbuf);
     return 0;
 }
 
@@ -123,8 +122,19 @@ char isNodeLast(struct filestruct node)
     return node.size + node.offset == sz;
 }
 
-long writeFile(struct filestruct node, void *buf, long offset, long size)
+long writeFile(struct filestruct node, void *buf, long offset, long size, int nodenum)
 {
+    char sbuf[1024];
+    sprintf(sbuf, "before write name %s  noffset %ld nsize %ld, offset %ld size %ld\n", node.path, node.offset, node.size, offset, size);
+    addLog(sbuf);
+    if (offset + size > node.size)
+    {
+        if (!isNodeLast(node))
+        {
+           node.offset = copyFileToEnd(node);
+        }
+        node.size = size + offset;
+    }
     FILE *fl;
     int i;
     if((fl=fopen(FS_FILE_PATH, "rb+")) == NULL)
@@ -134,15 +144,26 @@ long writeFile(struct filestruct node, void *buf, long offset, long size)
     }
     fseek(fl, node.offset + offset, 0);
     fwrite(buf, 1, size, fl);
-    node.size += size;
+    //node.size += size;
+    
     fclose(fl);
-
+    writeNode(node, nodenum);
+    sprintf(sbuf, "after write name %s  noffset %ld nsize %ld, offset %ld size %ld\n", node.path, node.offset, node.size, offset, size);
+    addLog(sbuf);
+    return 0;
 }
 
-int readFile(struct filestruct node, char *buf, long offset, long size)
+long readFile(struct filestruct node, char *buf, long offset, long size)
 {
     FILE *fl;
     int i;
+    char sbuf[1024];
+    sprintf(sbuf, "before read name %s  noffset %ld nsize %ld, offset %ld size %ld\n", node.path, node.offset, node.size, offset, size);
+    addLog(sbuf);
+    if (offset + size > node.size)
+    {
+        size = node.size - offset;
+    }
     if((fl=fopen(FS_FILE_PATH, "rb+")) == NULL)
     {
         puts ("Can't open fs's file.");
@@ -151,6 +172,28 @@ int readFile(struct filestruct node, char *buf, long offset, long size)
     fseek(fl, node.offset + offset, 0);
     fread(buf, 1, size, fl);
     fclose(fl);
-    return 0;
+    return size;
+}
+
+int copyFileToEnd(struct filestruct node)
+{
+    FILE *fl;
+    int i;
+    if((fl=fopen(FS_FILE_PATH, "rb+")) == NULL)
+    {
+        puts ("Can't open fs's file.");
+        exit(-1);
+    }
+    char *buf = malloc(node.size);
+    fseek(fl, node.offset, 0);
+    fread(buf, 1, node.size, fl);
+    fseek(fl, 0L, SEEK_END);
+    long offset = ftell(fl);
+    fwrite(buf, 1, node.size, fl);
+    fclose(fl);
+    char sbuf[1024];
+    sprintf(sbuf, "after copy to end name %s  noffset %ld nsize %ld, offset %ld \n", node.path, node.offset, node.size, offset);
+    addLog(sbuf);
+    return offset;
 }
 

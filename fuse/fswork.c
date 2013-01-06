@@ -98,12 +98,15 @@ int createNode(const char *path, mode_t mode)
     FILE *bfs = fopen(FS_FILE_PATH, "a+");
     fseek(bfs, 0L, SEEK_END);
     int noffset = ftell(bfs);
+    nodes[i].uid = 0;
+    nodes[i].gid = 0;
     nodes[i].atime = time(NULL);
     nodes[i].mtime = time(NULL);
     nodes[i].ctime = time(NULL);
     nodes[i].offset = noffset;
     nodes[i].exists = 1;
     nodes[i].size = 0;//BLOCK_SIZE
+    nodes[i].n_link = 0;
     fclose(bfs);
     writeNode(nodes[i], i);
     char sbuf[1024];

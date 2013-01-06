@@ -10,6 +10,7 @@ struct filestruct
     char type;//0 - file 1 - directory 2 - symlink
     char exists;//0 - no 1 - yes
     long offset;
+    long n_link; //links to this file
     short uid;      
     short gid;     
     time_t atime;

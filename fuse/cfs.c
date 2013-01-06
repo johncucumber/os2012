@@ -45,7 +45,7 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
         stbuf->st_ctime = nodes[nd].ctime;
 
         stbuf->st_mode = S_IFREG | 0777;
-        stbuf->st_nlink = 1;
+        stbuf->st_nlink = nodes[nd].n_link;
         stbuf->st_size = nodes[nd].size;//strlen(hello_str);
         //addLog("path exists");
         return res;

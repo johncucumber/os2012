@@ -19,9 +19,6 @@
 #include "log.h"
 #include "fswork.h"
 
-static const char *hello_str = "Hello World!\n";
-static const char *hello_path = "/hello";
-
 static int cfs_getattr(const char *path, struct stat *stbuf)
 {
 	int res = 0;
@@ -38,9 +35,18 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
     int nd = getNumByPath(path, nodes); 
     if (nd != -1)
     {
-        stbuf->st_mode = S_IFREG | 0666;
+        stbuf->st_ino = nd;
+        //stbuf->st_mode = n.di_mode;    /* protection */
+        //stbuf->st_nlink = n.di_nlink;   /* number of hard links */
+        stbuf->st_uid = nodes[nd].uid;
+        stbuf->st_gid =  nodes[nd].gid;
+        stbuf->st_atime = nodes[nd].atime;
+        stbuf->st_mtime = nodes[nd].mtime;
+        stbuf->st_ctime = nodes[nd].ctime;
+
+        stbuf->st_mode = S_IFREG | 0777;
         stbuf->st_nlink = 1;
-        stbuf->st_size = nodes[i].size;//strlen(hello_str);
+        stbuf->st_size = nodes[nd].size;//strlen(hello_str);
         //addLog("path exists");
         return res;
 

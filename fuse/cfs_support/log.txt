@@ -482,3 +482,125 @@ real read 4975
 before read name /fswork.c  noffset 35035 nsize 4975, offset 0 size 8192
 
 real read 4975
+create file /cl noffset 40010, nsize 0
+before write name /cl  noffset 40010 nsize 0, offset 0 size 4096
+
+after write name /cl  noffset 40010 nsize 4096, offset 0 size 4096
+
+before write name /cl  noffset 40010 nsize 4096, offset 4096 size 4096
+
+after write name /cl  noffset 40010 nsize 8192, offset 4096 size 4096
+
+before write name /cl  noffset 40010 nsize 8192, offset 8192 size 1327
+
+after write name /cl  noffset 40010 nsize 9519, offset 8192 size 1327
+
+before read name /cl  noffset 40010 nsize 9519, offset 0 size 8192
+
+real read 8192
+New fs was created
+Start work
+create file /new1 noffset 31200, nsize 0
+before write name /new1  noffset 31200 nsize 0, offset 0 size 78
+
+after write name /new1  noffset 31200 nsize 78, offset 0 size 78
+
+before read name /new1  noffset 31200 nsize 78, offset 0 size 4096
+
+real read 78
+create file /new2 noffset 31278, nsize 0
+before write name /new2  noffset 31278 nsize 0, offset 0 size 46
+
+after write name /new2  noffset 31278 nsize 46, offset 0 size 46
+
+before read name /new2  noffset 31278 nsize 46, offset 0 size 4096
+
+real read 46
+before read name /new1  noffset 31200 nsize 78, offset 0 size 4096
+
+real read 78
+before read name /new1  noffset 31200 nsize 78, offset 0 size 4096
+
+real read 78
+create file /4913 noffset 31324, nsize 0
+Renaming...
+/.fuse_hidden0000000400000001
+Renaming...
+/new1~
+create file /new1 noffset 31324, nsize 0
+before write name /new1  noffset 31324 nsize 0, offset 0 size 84
+
+after write name /new1  noffset 31324 nsize 84, offset 0 size 84
+
+before read name /new1  noffset 31324 nsize 84, offset 0 size 4096
+
+real read 84
+before read name /new2  noffset 31278 nsize 46, offset 0 size 4096
+
+real read 46
+create file /4913 noffset 31408, nsize 0
+Renaming...
+/new2~
+create file /new2 noffset 31408, nsize 0
+before write name /new2  noffset 31408 nsize 0, offset 0 size 91
+
+after write name /new2  noffset 31408 nsize 91, offset 0 size 91
+
+before read name /new2  noffset 31408 nsize 91, offset 0 size 4096
+
+real read 91
+before read name /new1  noffset 31324 nsize 84, offset 0 size 4096
+
+real read 84
+create file /4913 noffset 31499, nsize 0
+Renaming...
+/new1~
+create file /new1 noffset 31499, nsize 0
+before write name /new1  noffset 31499 nsize 0, offset 0 size 94
+
+after write name /new1  noffset 31499 nsize 94, offset 0 size 94
+
+before read name /new1  noffset 31499 nsize 94, offset 0 size 4096
+
+real read 94
+before read name /new2  noffset 31408 nsize 91, offset 0 size 4096
+
+real read 91
+create file /new3 noffset 31593, nsize 0
+before write name /new3  noffset 31593 nsize 0, offset 0 size 112
+
+after write name /new3  noffset 31593 nsize 112, offset 0 size 112
+
+create file /4913 noffset 31705, nsize 0
+Renaming...
+/.fuse_hidden0000000b00000002
+Renaming...
+/new3~
+create file /new3 noffset 31705, nsize 0
+before write name /new3  noffset 31705 nsize 0, offset 0 size 36
+
+after write name /new3  noffset 31705 nsize 36, offset 0 size 36
+
+before read name /new3  noffset 31705 nsize 36, offset 0 size 4096
+
+real read 36
+before read name /new2  noffset 31408 nsize 91, offset 0 size 4096
+
+real read 91
+create file /4913 noffset 31741, nsize 0
+Renaming...
+/new2~
+create file /new2 noffset 31741, nsize 0
+before write name /new2  noffset 31741 nsize 0, offset 0 size 136
+
+after write name /new2  noffset 31741 nsize 136, offset 0 size 136
+
+before read name /new2  noffset 31741 nsize 136, offset 0 size 4096
+
+real read 136
+before read name /new3  noffset 31705 nsize 36, offset 0 size 4096
+
+real read 36
+before read name /new1  noffset 31499 nsize 94, offset 0 size 4096
+
+real read 94

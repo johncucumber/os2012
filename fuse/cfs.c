@@ -297,6 +297,28 @@ int cfs_release(const char *path, struct fuse_file_info *info)
     return 0; 
 }
 
+int cfs_create(const char *path, mode_t mode, struct fuse_file_info *info)
+{
+    int res = cfs_mknod(path, mode, 0);
+    if (res == -EEXIST || res == -ENOENT || -EINVAL)
+        return res;
+    return cfs_open(path, info);
+}
+
+int cfs_truncate(const char *path, off_t size)
+{
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if (nd == -1)
+    {
+        return -ENOENT;
+    }
+    if (nodes[nd].size <= size)
+        return -EINVAL;
+    nodes[nd].size = size;
+    writeNode(nodes[nd], nd);
+    return 0;
+}
 
 static struct fuse_operations cfs_oper = {
 	.getattr	= cfs_getattr,//

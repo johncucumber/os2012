@@ -198,6 +198,24 @@ int cfs_mkdir(const char *path, mode_t mode)
     return createNode(path, mode, 1, NULL);
 }
 
+int cfs_readlink(const char *path, char *buf, size_t size)
+{
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if (nd == -1)
+    {
+        return -ENOENT;
+    }
+    if (nodes[nd].type != 2)
+    {
+        return -EINVAL;
+    }
+
+    strncpy(buf, nodes[nd].link, size);
+
+    return 0;
+}
+
 static struct fuse_operations cfs_oper = {
 	.getattr	= cfs_getattr,//
 	.readdir	= cfs_readdir,//
@@ -210,6 +228,7 @@ static struct fuse_operations cfs_oper = {
     .unlink     = cfs_unlink,
     .symlink    = cfs_symlink,
     .mkdir      = cfs_mkdir,
+    .readlink   = cfs_readlink,
 };
 
 int main(int argc, char *argv[])

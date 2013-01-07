@@ -97,6 +97,7 @@ int createNode(const char *path, mode_t mode, char type, const char *link)
     i = res;
     strcpy(nodes[i].path, path);
     nodes[i].type = type;
+    nodes[i].mode = mode;
 
     if (type == 0)
     {
@@ -106,13 +107,16 @@ int createNode(const char *path, mode_t mode, char type, const char *link)
         nodes[i].offset = noffset;
         fclose(bfs);
     }
+    if (type == 1)
+    {
+        nodes[i].mode = S_IFDIR;
+    }
     if (type == 2)
     {
         addLog("Creating symlink");
         strcpy(nodes[i].link, link);
     }
 
-    nodes[i].mode = mode;
     nodes[i].uid = 0;
     nodes[i].gid = 0;
     nodes[i].atime = time(NULL);

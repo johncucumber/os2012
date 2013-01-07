@@ -110,3 +110,56 @@ Creating symlink
 create file /s noffset 0, nsize 0
 Before creating
 create file /d noffset 0, nsize 0
+New fs was created
+Start work
+Before creating
+create file /n noffset 58400, nsize 0
+before write name /n  noffset 58400 nsize 0, offset 0 size 12
+
+after write name /n  noffset 58400 nsize 12, offset 0 size 12
+
+Before creating
+Creating symlink
+create file /s noffset 0, nsize 0
+Start work
+Start work
+before read name /n  noffset 58400 nsize 12, offset 0 size 4096
+
+real read 12
+Before creating
+create file /s~ noffset 58412, nsize 0
+before read name /n  noffset 58400 nsize 12, offset 0 size 4096
+
+real read 12
+before write name /s~  noffset 58412 nsize 0, offset 0 size 12
+
+after write name /s~  noffset 58412 nsize 12, offset 0 size 12
+
+before read name /n  noffset 58400 nsize 12, offset 0 size 4096
+
+real read 12
+before read name /n  noffset 58400 nsize 12, offset 0 size 4096
+
+real read 12
+Before creating
+create file /s~ noffset 58424, nsize 0
+before read name /n  noffset 58400 nsize 12, offset 0 size 4096
+
+real read 12
+before write name /s~  noffset 58424 nsize 0, offset 0 size 12
+
+after write name /s~  noffset 58424 nsize 12, offset 0 size 12
+
+Before creating
+create file /s~ noffset 58436, nsize 0
+before read name /n  noffset 58400 nsize 12, offset 0 size 4096
+
+real read 12
+before write name /s~  noffset 58436 nsize 0, offset 0 size 12
+
+after write name /s~  noffset 58436 nsize 12, offset 0 size 12
+
+New fs was created
+Start work
+Before creating
+create file /di noffset 0, nsize 0

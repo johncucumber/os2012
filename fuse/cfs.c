@@ -35,7 +35,7 @@ static int cfs_getattr(const char *path, struct stat *stbuf)
     struct filestruct *nodes = getNodes();
     int nd = getNumByPath(path, nodes); 
     if (nd != -1)
-    {
+    { 
         stbuf->st_ino = nd;
         //stbuf->st_mode = n.di_mode;    /* protection */
         //stbuf->st_nlink = n.di_nlink;   /* number of hard links */
@@ -62,8 +62,8 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
 	(void) offset;
 	(void) fi;
 
-	if (strcmp(path, "/") != 0)
-		return -ENOENT;
+	//if (strcmp(path, "/") != 0)
+	//	return -ENOENT;
 
     //add selflink 
 	filler(buf, ".", NULL, 0);
@@ -74,9 +74,20 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
     struct filestruct *nodes = getNodes();
     int i;
     long pd = 0;
+    char sbuf[1024];
+    sprintf(sbuf, "reading dir path %s", path);
+    addLog(sbuf);
     if (strcmp("/", path) == 0)
     {
         pd = -1;
+    }
+    else
+    {
+        pd = getNumByPath(path, nodes);
+        if (pd == -1)
+        {
+            return -ENOENT;
+        }
     }
     for (i = 0 ; i < MAX_NODES; i++)
     {
@@ -84,7 +95,24 @@ static int cfs_readdir(const char *path, void *buf, fuse_fill_dir_t filler,
         {
             struct stat *stbuf = malloc(sizeof(struct stat));
             memset(stbuf, 0, sizeof(struct stat));
-            const char *tmppath = nodes[i].path + 1;
+            if (strlen(path) >= strlen(nodes[i].path))
+            {
+                continue;
+            }
+            const char *tmppath = nodes[i].path + strlen(path);
+            if (tmppath[0] == '/')
+                tmppath += 1;
+
+            /*int j;
+            for (j = 0; j < strlen(nodes[i].path) ; j++)
+            {
+                if (path[j] == '/')
+                {
+                    tmppath = nodes[i].path + j + 1;
+                    sprintf(sbuf, "calc new path %s old %s place of / %d len of old path %d req path %s", tmppath, nodes[i].path, j, (int)strlen(nodes[i].path), path);
+                    addLog(sbuf);
+                }
+            }*/
             stbuf->st_ino = i;
             stbuf->st_uid = nodes[i].uid;
             stbuf->st_gid =  nodes[i].gid;

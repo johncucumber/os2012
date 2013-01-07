@@ -78,14 +78,40 @@ int Rename(const char *path, const char *newpath)
 
 int createNode(const char *path, mode_t mode, char type, const char *link)
 {
-    addLog("Before creating");
+    char sbuf[1024];
+    sprintf(sbuf, "Before creating %s", path);
+    addLog(sbuf);
     struct filestruct *nodes = getNodes();
     int ind = getNumByPath(path, nodes);
+
+    //searching parents dirs
+    int strl = strlen(path);
+    int i, res;
+    long pdir = -1;
+    for (i = strl-1; i > 0; i--)
+    {
+        if (path[i] == '/')
+        {
+            if (i > 0)
+            {
+                char *pdpath = malloc(i+1);
+                int j;
+                for (j = 0; j < i; j++)
+                {
+                    pdpath[j] = path[j];
+                }
+                pdpath[i] = '\0';
+                pdir = getNumByPath(pdpath, nodes);
+                if ((pdir > -1) && (nodes[pdir].type != 1))
+                    return -ENOENT;
+            }
+        }
+    }
+
     if (ind > -1)
     {
         return -EEXIST;
     }
-    int i, res;
     for (i = 0; i < MAX_NODES; i++)
     {
         if (nodes[i].exists == 0)
@@ -109,7 +135,7 @@ int createNode(const char *path, mode_t mode, char type, const char *link)
     }
     if (type == 1)
     {
-        nodes[i].mode = S_IFDIR;
+        nodes[i].mode = S_IFDIR | mode;
     }
     if (type == 2)
     {
@@ -125,9 +151,8 @@ int createNode(const char *path, mode_t mode, char type, const char *link)
     nodes[i].exists = 1;
     nodes[i].size = 0;//BLOCK_SIZE
     nodes[i].n_link = 1;
-    nodes[i].parentdir = -1;
+    nodes[i].parentdir = pdir;
     writeNode(nodes[i], i);
-    char sbuf[1024];
     sprintf(sbuf, "create file %s noffset %ld, nsize %ld", path, nodes[i].offset, nodes[i].size);
     addLog(sbuf);
     return 0;

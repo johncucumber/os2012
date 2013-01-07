@@ -1,165 +1,127 @@
-New fs was created
 Start work
-create file /n noffset 57600, nsize 0
-before write name /n  noffset 57600 nsize 0, offset 0 size 4
-
-after write name /n  noffset 57600 nsize 4, offset 0 size 4
-
-before read name /n  noffset 57600 nsize 4, offset 0 size 4096
-
-real read 4
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
+reading dir path /dr
+calc new path dr/n old /dr/n place of / 0 len of old path 5 req path /dr
+reading dir path /
+calc new path dr old /dr place of / 0 len of old path 3 req path /
 Start work
-before read name /n  noffset 57600 nsize 4, offset 0 size 4096
-
-real read 4
-before read name /n  noffset 57600 nsize 4, offset 0 size 4096
-
-real read 4
-before read name /n  noffset 57600 nsize 4, offset 0 size 4096
-
-real read 4
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /dr
 Start work
-Start work
-Creating symlink...
-Start work
-Creating symlink...
-Before creating
-Creating symlink
-create file td/n noffset 0, nsize 0
-Start work
-Start work
-try create symlink  path td/n link /s
-Start work
-try create symlink  path td/n link /s
-Before creating
-Creating symlink
-create file /s noffset 0, nsize 0
-try create symlink  path td/n link /s1
-Before creating
-Creating symlink
-create file /s1 noffset 0, nsize 0
-New fs was created
-Before creating
-create file /n noffset 57600, nsize 0
-before write name /n  noffset 57600 nsize 0, offset 0 size 8
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /dr
+reading dir path /dr
+reading dir path /
+reading dir path /dr
+before read name /dr/n  noffset 58405 nsize 16, offset 0 size 4096
 
-after write name /n  noffset 57600 nsize 8, offset 0 size 8
+real read 16
+Before creating /dr/4913
+create file /dr/4913 noffset 58421, nsize 0
+Renaming...
+/dr/n~
+Before creating /dr/n
+create file /dr/n noffset 58421, nsize 0
+before write name /dr/n  noffset 58421 nsize 0, offset 0 size 34
 
-try create symlink  path td/n link /s1
-Before creating
-Creating symlink
-create file /s1 noffset 0, nsize 0
-try create symlink  path n link /s2
-Before creating
-Creating symlink
-create file /s2 noffset 0, nsize 0
-New fs was created
-Start work
-Before creating
-create file /n noffset 57600, nsize 0
-before write name /n  noffset 57600 nsize 0, offset 0 size 25
+after write name /dr/n  noffset 58421 nsize 34, offset 0 size 34
 
-after write name /n  noffset 57600 nsize 25, offset 0 size 25
+before read name /dr/n  noffset 58421 nsize 34, offset 0 size 4096
 
-try create symlink  path n link /s
-Before creating
-Creating symlink
-create file /s noffset 0, nsize 0
-New fs was created
-Start work
-Start work
-Start work
-Start work
-Before creating
-create file /d noffset 0, nsize 0
-Start work
-New fs was created
-Before creating
-create file /j noffset 58400, nsize 0
-before write name /j  noffset 58400 nsize 0, offset 0 size 15
+real read 34
+reading dir path /dr
+Before creating /dr/n2
+create file /dr/n2 noffset 58455, nsize 0
+before write name /dr/n2  noffset 58455 nsize 0, offset 0 size 38
 
-after write name /j  noffset 58400 nsize 15, offset 0 size 15
+after write name /dr/n2  noffset 58455 nsize 38, offset 0 size 38
 
-before read name /j  noffset 58400 nsize 15, offset 0 size 4096
+before read name /dr/n2  noffset 58455 nsize 38, offset 0 size 4096
 
-real read 15
-New fs was created
-Start work
-Before creating
-create file /d noffset 58400, nsize 0
-before write name /d  noffset 58400 nsize 0, offset 0 size 17
-
-after write name /d  noffset 58400 nsize 17, offset 0 size 17
-
-Before creating
-create file /d2 noffset 58417, nsize 0
-before write name /d2  noffset 58417 nsize 0, offset 0 size 14
-
-after write name /d2  noffset 58417 nsize 14, offset 0 size 14
-
-New fs was created
-Start work
-Before creating
-create file /n noffset 58400, nsize 0
-before write name /n  noffset 58400 nsize 0, offset 0 size 12
-
-after write name /n  noffset 58400 nsize 12, offset 0 size 12
-
-Before creating
-Creating symlink
-create file /s noffset 0, nsize 0
-Before creating
-create file /d noffset 0, nsize 0
-New fs was created
-Start work
-Before creating
-create file /n noffset 58400, nsize 0
-before write name /n  noffset 58400 nsize 0, offset 0 size 12
-
-after write name /n  noffset 58400 nsize 12, offset 0 size 12
-
-Before creating
-Creating symlink
-create file /s noffset 0, nsize 0
-Start work
-Start work
-before read name /n  noffset 58400 nsize 12, offset 0 size 4096
-
-real read 12
-Before creating
-create file /s~ noffset 58412, nsize 0
-before read name /n  noffset 58400 nsize 12, offset 0 size 4096
-
-real read 12
-before write name /s~  noffset 58412 nsize 0, offset 0 size 12
-
-after write name /s~  noffset 58412 nsize 12, offset 0 size 12
-
-before read name /n  noffset 58400 nsize 12, offset 0 size 4096
-
-real read 12
-before read name /n  noffset 58400 nsize 12, offset 0 size 4096
-
-real read 12
-Before creating
-create file /s~ noffset 58424, nsize 0
-before read name /n  noffset 58400 nsize 12, offset 0 size 4096
-
-real read 12
-before write name /s~  noffset 58424 nsize 0, offset 0 size 12
-
-after write name /s~  noffset 58424 nsize 12, offset 0 size 12
-
-Before creating
-create file /s~ noffset 58436, nsize 0
-before read name /n  noffset 58400 nsize 12, offset 0 size 4096
-
-real read 12
-before write name /s~  noffset 58436 nsize 0, offset 0 size 12
-
-after write name /s~  noffset 58436 nsize 12, offset 0 size 12
-
-New fs was created
-Start work
-Before creating
-create file /di noffset 0, nsize 0
+real read 38

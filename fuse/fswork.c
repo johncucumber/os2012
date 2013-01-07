@@ -104,6 +104,7 @@ int createNode(const char *path, mode_t mode, char type, const char *link)
                 pdir = getNumByPath(pdpath, nodes);
                 if ((pdir > -1) && (nodes[pdir].type != 1))
                     return -ENOENT;
+                break;
             }
         }
     }

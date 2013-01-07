@@ -12,8 +12,9 @@ int main(int argc, char **argv)
 {
     printf("Start....\n");
     struct filestruct *nodes = getNodes();
-    printf("time %d\n", time(NULL));
-    printf("symb %s %d %s \n", nodes[1].path, nodes[1].type, nodes[1].link); 
+    int i;
+    for(i = 0; i < 3; i++)
+        printf("path %s %ld \n", nodes[i].path, nodes[i].parentdir);
     printf("Finish\n");
     return 0;
 }

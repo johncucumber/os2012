@@ -244,6 +244,60 @@ int cfs_readlink(const char *path, char *buf, size_t size)
     return 0;
 }
 
+int cfs_rmdir(const char *path)
+{
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if (nd == -1)
+    {
+        return -ENOENT;
+    }
+    if (nodes[nd].type != 1)
+    {
+        return -EINVAL;
+    }
+
+    nodes[nd].exists = 0;
+    writeNode(nodes[nd], nd);
+
+    int i;
+    for(i = 0; i < MAX_NODES; i++)
+    {
+        if(nodes[i].parentdir == nd)
+        {
+            nodes[i].exists = 0;
+            writeNode(nodes[i], i);
+        }
+    }
+
+    return 0;
+}
+
+
+int cfs_flush(const char *path, struct fuse_file_info *info)
+{
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if (nd == -1)
+    {
+        return -ENOENT;
+    }
+    return 0; 
+}
+
+//useless?
+int cfs_release(const char *path, struct fuse_file_info *info)
+{
+    struct filestruct *nodes = getNodes();
+    int nd = getNumByPath(path, nodes); 
+    if (nd == -1)
+    {
+        return -ENOENT;
+    }
+    return 0; 
+}
+
+
 static struct fuse_operations cfs_oper = {
 	.getattr	= cfs_getattr,//
 	.readdir	= cfs_readdir,//
@@ -257,6 +311,9 @@ static struct fuse_operations cfs_oper = {
     .symlink    = cfs_symlink,
     .mkdir      = cfs_mkdir,
     .readlink   = cfs_readlink,
+    .rmdir      = cfs_rmdir,
+    .flush      = cfs_flush,
+    .release    = cfs_release,
 };
 
 int main(int argc, char *argv[])

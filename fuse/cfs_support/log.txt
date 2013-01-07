@@ -125,3 +125,2666 @@ after write name /dr/n2  noffset 58455 nsize 38, offset 0 size 38
 before read name /dr/n2  noffset 58455 nsize 38, offset 0 size 4096
 
 real read 38
+reading dir path /
+reading dir path /dr
+Before creating /example
+create file /example noffset 0, nsize 0
+Before creating /example/Makefile.in
+create file /example/Makefile.in noffset 58493, nsize 0
+before write name /example/Makefile.in  noffset 58493 nsize 0, offset 0 size 4096
+
+after write name /example/Makefile.in  noffset 58493 nsize 4096, offset 0 size 4096
+
+before write name /example/Makefile.in  noffset 58493 nsize 4096, offset 4096 size 4096
+
+after write name /example/Makefile.in  noffset 58493 nsize 8192, offset 4096 size 4096
+
+before write name /example/Makefile.in  noffset 58493 nsize 8192, offset 8192 size 4096
+
+after write name /example/Makefile.in  noffset 58493 nsize 12288, offset 8192 size 4096
+
+before write name /example/Makefile.in  noffset 58493 nsize 12288, offset 12288 size 4096
+
+after write name /example/Makefile.in  noffset 58493 nsize 16384, offset 12288 size 4096
+
+before write name /example/Makefile.in  noffset 58493 nsize 16384, offset 16384 size 4096
+
+after write name /example/Makefile.in  noffset 58493 nsize 20480, offset 16384 size 4096
+
+before write name /example/Makefile.in  noffset 58493 nsize 20480, offset 20480 size 2737
+
+after write name /example/Makefile.in  noffset 58493 nsize 23217, offset 20480 size 2737
+
+Before creating /example/fusexmp_fh
+create file /example/fusexmp_fh noffset 81710, nsize 0
+before write name /example/fusexmp_fh  noffset 81710 nsize 0, offset 0 size 4096
+
+after write name /example/fusexmp_fh  noffset 81710 nsize 4096, offset 0 size 4096
+
+before write name /example/fusexmp_fh  noffset 81710 nsize 4096, offset 4096 size 3514
+
+after write name /example/fusexmp_fh  noffset 81710 nsize 7610, offset 4096 size 3514
+
+Before creating /example/fioc.c
+create file /example/fioc.c noffset 89320, nsize 0
+before write name /example/fioc.c  noffset 89320 nsize 0, offset 0 size 3911
+
+after write name /example/fioc.c  noffset 89320 nsize 3911, offset 0 size 3911
+
+Before creating /example/hello_ll.c
+create file /example/hello_ll.c noffset 93231, nsize 0
+before write name /example/hello_ll.c  noffset 93231 nsize 0, offset 0 size 4035
+
+after write name /example/hello_ll.c  noffset 93231 nsize 4035, offset 0 size 4035
+
+Before creating /example/fioclient-fioclient.o
+create file /example/fioclient-fioclient.o noffset 97266, nsize 0
+before write name /example/fioclient-fioclient.o  noffset 97266 nsize 0, offset 0 size 4096
+
+after write name /example/fioclient-fioclient.o  noffset 97266 nsize 4096, offset 0 size 4096
+
+before write name /example/fioclient-fioclient.o  noffset 97266 nsize 4096, offset 4096 size 4096
+
+after write name /example/fioclient-fioclient.o  noffset 97266 nsize 8192, offset 4096 size 4096
+
+before write name /example/fioclient-fioclient.o  noffset 97266 nsize 8192, offset 8192 size 4096
+
+after write name /example/fioclient-fioclient.o  noffset 97266 nsize 12288, offset 8192 size 4096
+
+before write name /example/fioclient-fioclient.o  noffset 97266 nsize 12288, offset 12288 size 4096
+
+after write name /example/fioclient-fioclient.o  noffset 97266 nsize 16384, offset 12288 size 4096
+
+before write name /example/fioclient-fioclient.o  noffset 97266 nsize 16384, offset 16384 size 4096
+
+after write name /example/fioclient-fioclient.o  noffset 97266 nsize 20480, offset 16384 size 4096
+
+before write name /example/fioclient-fioclient.o  noffset 97266 nsize 20480, offset 20480 size 984
+
+after write name /example/fioclient-fioclient.o  noffset 97266 nsize 21464, offset 20480 size 984
+
+Before creating /example/null
+create file /example/null noffset 118730, nsize 0
+before write name /example/null  noffset 118730 nsize 0, offset 0 size 4096
+
+after write name /example/null  noffset 118730 nsize 4096, offset 0 size 4096
+
+before write name /example/null  noffset 118730 nsize 4096, offset 4096 size 3398
+
+after write name /example/null  noffset 118730 nsize 7494, offset 4096 size 3398
+
+Before creating /example/fselclient-fselclient.o
+create file /example/fselclient-fselclient.o noffset 126224, nsize 0
+before write name /example/fselclient-fselclient.o  noffset 126224 nsize 0, offset 0 size 4096
+
+after write name /example/fselclient-fselclient.o  noffset 126224 nsize 4096, offset 0 size 4096
+
+before write name /example/fselclient-fselclient.o  noffset 126224 nsize 4096, offset 4096 size 4096
+
+after write name /example/fselclient-fselclient.o  noffset 126224 nsize 8192, offset 4096 size 4096
+
+before write name /example/fselclient-fselclient.o  noffset 126224 nsize 8192, offset 8192 size 4096
+
+after write name /example/fselclient-fselclient.o  noffset 126224 nsize 12288, offset 8192 size 4096
+
+before write name /example/fselclient-fselclient.o  noffset 126224 nsize 12288, offset 12288 size 3600
+
+after write name /example/fselclient-fselclient.o  noffset 126224 nsize 15888, offset 12288 size 3600
+
+Before creating /example/fioc
+create file /example/fioc noffset 142112, nsize 0
+before write name /example/fioc  noffset 142112 nsize 0, offset 0 size 4096
+
+after write name /example/fioc  noffset 142112 nsize 4096, offset 0 size 4096
+
+before write name /example/fioc  noffset 142112 nsize 4096, offset 4096 size 3398
+
+after write name /example/fioc  noffset 142112 nsize 7494, offset 4096 size 3398
+
+Before creating /example/fioc.o
+create file /example/fioc.o noffset 149606, nsize 0
+before write name /example/fioc.o  noffset 149606 nsize 0, offset 0 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 4096, offset 0 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 4096, offset 4096 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 8192, offset 4096 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 8192, offset 8192 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 12288, offset 8192 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 12288, offset 12288 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 16384, offset 12288 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 16384, offset 16384 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 20480, offset 16384 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 20480, offset 20480 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 24576, offset 20480 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 24576, offset 24576 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 28672, offset 24576 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 28672, offset 28672 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 32768, offset 28672 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 32768, offset 32768 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 36864, offset 32768 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 36864, offset 36864 size 4096
+
+after write name /example/fioc.o  noffset 149606 nsize 40960, offset 36864 size 4096
+
+before write name /example/fioc.o  noffset 149606 nsize 40960, offset 40960 size 912
+
+after write name /example/fioc.o  noffset 149606 nsize 41872, offset 40960 size 912
+
+Before creating /example/cusexmp.o
+create file /example/cusexmp.o noffset 191478, nsize 0
+before write name /example/cusexmp.o  noffset 191478 nsize 0, offset 0 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 4096, offset 0 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 4096, offset 4096 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 8192, offset 4096 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 8192, offset 8192 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 12288, offset 8192 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 12288, offset 12288 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 16384, offset 12288 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 16384, offset 16384 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 20480, offset 16384 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 20480, offset 20480 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 24576, offset 20480 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 24576, offset 24576 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 28672, offset 24576 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 28672, offset 28672 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 32768, offset 28672 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 32768, offset 32768 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 36864, offset 32768 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 36864, offset 36864 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 40960, offset 36864 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 40960, offset 40960 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 45056, offset 40960 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 45056, offset 45056 size 4096
+
+after write name /example/cusexmp.o  noffset 191478 nsize 49152, offset 45056 size 4096
+
+before write name /example/cusexmp.o  noffset 191478 nsize 49152, offset 49152 size 1000
+
+after write name /example/cusexmp.o  noffset 191478 nsize 50152, offset 49152 size 1000
+
+Before creating /example/cusexmp.c
+create file /example/cusexmp.c noffset 241630, nsize 0
+before write name /example/cusexmp.c  noffset 241630 nsize 0, offset 0 size 4096
+
+after write name /example/cusexmp.c  noffset 241630 nsize 4096, offset 0 size 4096
+
+before write name /example/cusexmp.c  noffset 241630 nsize 4096, offset 4096 size 2463
+
+after write name /example/cusexmp.c  noffset 241630 nsize 6559, offset 4096 size 2463
+
+Before creating /example/fsel
+create file /example/fsel noffset 248189, nsize 0
+before write name /example/fsel  noffset 248189 nsize 0, offset 0 size 4096
+
+after write name /example/fsel  noffset 248189 nsize 4096, offset 0 size 4096
+
+before write name /example/fsel  noffset 248189 nsize 4096, offset 4096 size 3398
+
+after write name /example/fsel  noffset 248189 nsize 7494, offset 4096 size 3398
+
+Before creating /example/hello_ll
+create file /example/hello_ll noffset 255683, nsize 0
+before write name /example/hello_ll  noffset 255683 nsize 0, offset 0 size 4096
+
+after write name /example/hello_ll  noffset 255683 nsize 4096, offset 0 size 4096
+
+before write name /example/hello_ll  noffset 255683 nsize 4096, offset 4096 size 3442
+
+after write name /example/hello_ll  noffset 255683 nsize 7538, offset 4096 size 3442
+
+Before creating /example/fioclient
+create file /example/fioclient noffset 263221, nsize 0
+before write name /example/fioclient  noffset 263221 nsize 0, offset 0 size 4096
+
+after write name /example/fioclient  noffset 263221 nsize 4096, offset 0 size 4096
+
+before write name /example/fioclient  noffset 263221 nsize 4096, offset 4096 size 4096
+
+after write name /example/fioclient  noffset 263221 nsize 8192, offset 4096 size 4096
+
+before write name /example/fioclient  noffset 263221 nsize 8192, offset 8192 size 4096
+
+after write name /example/fioclient  noffset 263221 nsize 12288, offset 8192 size 4096
+
+before write name /example/fioclient  noffset 263221 nsize 12288, offset 12288 size 4096
+
+after write name /example/fioclient  noffset 263221 nsize 16384, offset 12288 size 4096
+
+before write name /example/fioclient  noffset 263221 nsize 16384, offset 16384 size 4096
+
+after write name /example/fioclient  noffset 263221 nsize 20480, offset 16384 size 4096
+
+before write name /example/fioclient  noffset 263221 nsize 20480, offset 20480 size 1159
+
+after write name /example/fioclient  noffset 263221 nsize 21639, offset 20480 size 1159
+
+Before creating /example/fselclient.c
+create file /example/fselclient.c noffset 284860, nsize 0
+before write name /example/fselclient.c  noffset 284860 nsize 0, offset 0 size 1359
+
+after write name /example/fselclient.c  noffset 284860 nsize 1359, offset 0 size 1359
+
+Before creating /example/fusexmp.c
+create file /example/fusexmp.c noffset 286219, nsize 0
+before write name /example/fusexmp.c  noffset 286219 nsize 0, offset 0 size 4096
+
+after write name /example/fusexmp.c  noffset 286219 nsize 4096, offset 0 size 4096
+
+before write name /example/fusexmp.c  noffset 286219 nsize 4096, offset 4096 size 2919
+
+after write name /example/fusexmp.c  noffset 286219 nsize 7015, offset 4096 size 2919
+
+Before creating /example/null.c
+create file /example/null.c noffset 293234, nsize 0
+before write name /example/null.c  noffset 293234 nsize 0, offset 0 size 1762
+
+after write name /example/null.c  noffset 293234 nsize 1762, offset 0 size 1762
+
+Before creating /example/fusexmp.o
+create file /example/fusexmp.o noffset 294996, nsize 0
+before write name /example/fusexmp.o  noffset 294996 nsize 0, offset 0 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 4096, offset 0 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 4096, offset 4096 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 8192, offset 4096 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 8192, offset 8192 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 12288, offset 8192 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 12288, offset 12288 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 16384, offset 12288 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 16384, offset 16384 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 20480, offset 16384 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 20480, offset 20480 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 24576, offset 20480 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 24576, offset 24576 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 28672, offset 24576 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 28672, offset 28672 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 32768, offset 28672 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 32768, offset 32768 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 36864, offset 32768 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 36864, offset 36864 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 40960, offset 36864 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 40960, offset 40960 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 45056, offset 40960 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 45056, offset 45056 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 49152, offset 45056 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 49152, offset 49152 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 53248, offset 49152 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 53248, offset 53248 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 57344, offset 53248 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 57344, offset 57344 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 61440, offset 57344 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 61440, offset 61440 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 65536, offset 61440 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 65536, offset 65536 size 4096
+
+after write name /example/fusexmp.o  noffset 294996 nsize 69632, offset 65536 size 4096
+
+before write name /example/fusexmp.o  noffset 294996 nsize 69632, offset 69632 size 3088
+
+after write name /example/fusexmp.o  noffset 294996 nsize 72720, offset 69632 size 3088
+
+Before creating /example/hll
+create file /example/hll noffset 367716, nsize 0
+before write name /example/hll  noffset 367716 nsize 0, offset 0 size 4096
+
+after write name /example/hll  noffset 367716 nsize 4096, offset 0 size 4096
+
+before write name /example/hll  noffset 367716 nsize 4096, offset 4096 size 4096
+
+after write name /example/hll  noffset 367716 nsize 8192, offset 4096 size 4096
+
+before write name /example/hll  noffset 367716 nsize 8192, offset 8192 size 1408
+
+after write name /example/hll  noffset 367716 nsize 9600, offset 8192 size 1408
+
+Before creating /example/fsel.c
+create file /example/fsel.c noffset 377316, nsize 0
+before write name /example/fsel.c  noffset 377316 nsize 0, offset 0 size 4096
+
+after write name /example/fsel.c  noffset 377316 nsize 4096, offset 0 size 4096
+
+before write name /example/fsel.c  noffset 377316 nsize 4096, offset 4096 size 1962
+
+after write name /example/fsel.c  noffset 377316 nsize 6058, offset 4096 size 1962
+
+Before creating /example/null.o
+create file /example/null.o noffset 383374, nsize 0
+before write name /example/null.o  noffset 383374 nsize 0, offset 0 size 4096
+
+after write name /example/null.o  noffset 383374 nsize 4096, offset 0 size 4096
+
+before write name /example/null.o  noffset 383374 nsize 4096, offset 4096 size 4096
+
+after write name /example/null.o  noffset 383374 nsize 8192, offset 4096 size 4096
+
+before write name /example/null.o  noffset 383374 nsize 8192, offset 8192 size 4096
+
+after write name /example/null.o  noffset 383374 nsize 12288, offset 8192 size 4096
+
+before write name /example/null.o  noffset 383374 nsize 12288, offset 12288 size 4096
+
+after write name /example/null.o  noffset 383374 nsize 16384, offset 12288 size 4096
+
+before write name /example/null.o  noffset 383374 nsize 16384, offset 16384 size 2616
+
+after write name /example/null.o  noffset 383374 nsize 19000, offset 16384 size 2616
+
+Before creating /example/fusexmp
+create file /example/fusexmp noffset 402374, nsize 0
+before write name /example/fusexmp  noffset 402374 nsize 0, offset 0 size 4096
+
+after write name /example/fusexmp  noffset 402374 nsize 4096, offset 0 size 4096
+
+before write name /example/fusexmp  noffset 402374 nsize 4096, offset 4096 size 3431
+
+after write name /example/fusexmp  noffset 402374 nsize 7527, offset 4096 size 3431
+
+Before creating /example/hello.o
+create file /example/hello.o noffset 409901, nsize 0
+before write name /example/hello.o  noffset 409901 nsize 0, offset 0 size 4096
+
+after write name /example/hello.o  noffset 409901 nsize 4096, offset 0 size 4096
+
+before write name /example/hello.o  noffset 409901 nsize 4096, offset 4096 size 4096
+
+after write name /example/hello.o  noffset 409901 nsize 8192, offset 4096 size 4096
+
+before write name /example/hello.o  noffset 409901 nsize 8192, offset 8192 size 4096
+
+after write name /example/hello.o  noffset 409901 nsize 12288, offset 8192 size 4096
+
+before write name /example/hello.o  noffset 409901 nsize 12288, offset 12288 size 4096
+
+after write name /example/hello.o  noffset 409901 nsize 16384, offset 12288 size 4096
+
+before write name /example/hello.o  noffset 409901 nsize 16384, offset 16384 size 4096
+
+after write name /example/hello.o  noffset 409901 nsize 20480, offset 16384 size 4096
+
+before write name /example/hello.o  noffset 409901 nsize 20480, offset 20480 size 4096
+
+after write name /example/hello.o  noffset 409901 nsize 24576, offset 20480 size 4096
+
+before write name /example/hello.o  noffset 409901 nsize 24576, offset 24576 size 1464
+
+after write name /example/hello.o  noffset 409901 nsize 26040, offset 24576 size 1464
+
+Before creating /example/Makefile.am
+create file /example/Makefile.am noffset 435941, nsize 0
+before write name /example/Makefile.am  noffset 435941 nsize 0, offset 0 size 468
+
+after write name /example/Makefile.am  noffset 435941 nsize 468, offset 0 size 468
+
+Before creating /example/fioc.h
+create file /example/fioc.h noffset 436409, nsize 0
+before write name /example/fioc.h  noffset 436409 nsize 0, offset 0 size 747
+
+after write name /example/fioc.h  noffset 436409 nsize 747, offset 0 size 747
+
+Before creating /example/hll.c
+create file /example/hll.c noffset 437156, nsize 0
+before write name /example/hll.c  noffset 437156 nsize 0, offset 0 size 1977
+
+after write name /example/hll.c  noffset 437156 nsize 1977, offset 0 size 1977
+
+Before creating /example/fioclient.c
+create file /example/fioclient.c noffset 439133, nsize 0
+before write name /example/fioclient.c  noffset 439133 nsize 0, offset 0 size 2454
+
+after write name /example/fioclient.c  noffset 439133 nsize 2454, offset 0 size 2454
+
+Before creating /example/fusexmp_fh.c
+create file /example/fusexmp_fh.c noffset 441587, nsize 0
+before write name /example/fusexmp_fh.c  noffset 441587 nsize 0, offset 0 size 4096
+
+after write name /example/fusexmp_fh.c  noffset 441587 nsize 4096, offset 0 size 4096
+
+before write name /example/fusexmp_fh.c  noffset 441587 nsize 4096, offset 4096 size 4096
+
+after write name /example/fusexmp_fh.c  noffset 441587 nsize 8192, offset 4096 size 4096
+
+before write name /example/fusexmp_fh.c  noffset 441587 nsize 8192, offset 8192 size 1815
+
+after write name /example/fusexmp_fh.c  noffset 441587 nsize 10007, offset 8192 size 1815
+
+Before creating /example/hello.c
+create file /example/hello.c noffset 451594, nsize 0
+before write name /example/hello.c  noffset 451594 nsize 0, offset 0 size 1974
+
+after write name /example/hello.c  noffset 451594 nsize 1974, offset 0 size 1974
+
+Before creating /example/fusexmp_fh.o
+create file /example/fusexmp_fh.o noffset 453568, nsize 0
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 0, offset 0 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 4096, offset 0 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 4096, offset 4096 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 8192, offset 4096 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 8192, offset 8192 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 12288, offset 8192 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 12288, offset 12288 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 16384, offset 12288 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 16384, offset 16384 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 20480, offset 16384 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 20480, offset 20480 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 24576, offset 20480 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 24576, offset 24576 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 28672, offset 24576 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 28672, offset 28672 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 32768, offset 28672 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 32768, offset 32768 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 36864, offset 32768 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 36864, offset 36864 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 40960, offset 36864 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 40960, offset 40960 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 45056, offset 40960 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 45056, offset 45056 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 49152, offset 45056 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 49152, offset 49152 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 53248, offset 49152 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 53248, offset 53248 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 57344, offset 53248 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 57344, offset 57344 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 61440, offset 57344 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 61440, offset 61440 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 65536, offset 61440 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 65536, offset 65536 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 69632, offset 65536 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 69632, offset 69632 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 73728, offset 69632 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 73728, offset 73728 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 77824, offset 73728 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 77824, offset 77824 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 81920, offset 77824 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 81920, offset 81920 size 4096
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 86016, offset 81920 size 4096
+
+before write name /example/fusexmp_fh.o  noffset 453568 nsize 86016, offset 86016 size 4056
+
+after write name /example/fusexmp_fh.o  noffset 453568 nsize 90072, offset 86016 size 4056
+
+Before creating /example/fselclient
+create file /example/fselclient noffset 543640, nsize 0
+before write name /example/fselclient  noffset 543640 nsize 0, offset 0 size 4096
+
+after write name /example/fselclient  noffset 543640 nsize 4096, offset 0 size 4096
+
+before write name /example/fselclient  noffset 543640 nsize 4096, offset 4096 size 4096
+
+after write name /example/fselclient  noffset 543640 nsize 8192, offset 4096 size 4096
+
+before write name /example/fselclient  noffset 543640 nsize 8192, offset 8192 size 4096
+
+after write name /example/fselclient  noffset 543640 nsize 12288, offset 8192 size 4096
+
+before write name /example/fselclient  noffset 543640 nsize 12288, offset 12288 size 2998
+
+after write name /example/fselclient  noffset 543640 nsize 15286, offset 12288 size 2998
+
+Before creating /example/cusexmp
+create file /example/cusexmp noffset 558926, nsize 0
+before write name /example/cusexmp  noffset 558926 nsize 0, offset 0 size 4096
+
+after write name /example/cusexmp  noffset 558926 nsize 4096, offset 0 size 4096
+
+before write name /example/cusexmp  noffset 558926 nsize 4096, offset 4096 size 3431
+
+after write name /example/cusexmp  noffset 558926 nsize 7527, offset 4096 size 3431
+
+Before creating /example/hello_ll.o
+create file /example/hello_ll.o noffset 566453, nsize 0
+before write name /example/hello_ll.o  noffset 566453 nsize 0, offset 0 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 4096, offset 0 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 4096, offset 4096 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 8192, offset 4096 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 8192, offset 8192 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 12288, offset 8192 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 12288, offset 12288 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 16384, offset 12288 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 16384, offset 16384 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 20480, offset 16384 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 20480, offset 20480 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 24576, offset 20480 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 24576, offset 24576 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 28672, offset 24576 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 28672, offset 28672 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 32768, offset 28672 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 32768, offset 32768 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 36864, offset 32768 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 36864, offset 36864 size 4096
+
+after write name /example/hello_ll.o  noffset 566453 nsize 40960, offset 36864 size 4096
+
+before write name /example/hello_ll.o  noffset 566453 nsize 40960, offset 40960 size 3720
+
+after write name /example/hello_ll.o  noffset 566453 nsize 44680, offset 40960 size 3720
+
+Before creating /example/hello
+create file /example/hello noffset 611133, nsize 0
+before write name /example/hello  noffset 611133 nsize 0, offset 0 size 4096
+
+after write name /example/hello  noffset 611133 nsize 4096, offset 0 size 4096
+
+before write name /example/hello  noffset 611133 nsize 4096, offset 4096 size 3409
+
+after write name /example/hello  noffset 611133 nsize 7505, offset 4096 size 3409
+
+Before creating /example/fsel.o
+create file /example/fsel.o noffset 618638, nsize 0
+before write name /example/fsel.o  noffset 618638 nsize 0, offset 0 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 4096, offset 0 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 4096, offset 4096 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 8192, offset 4096 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 8192, offset 8192 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 12288, offset 8192 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 12288, offset 12288 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 16384, offset 12288 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 16384, offset 16384 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 20480, offset 16384 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 20480, offset 20480 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 24576, offset 20480 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 24576, offset 24576 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 28672, offset 24576 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 28672, offset 28672 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 32768, offset 28672 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 32768, offset 32768 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 36864, offset 32768 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 36864, offset 36864 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 40960, offset 36864 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 40960, offset 40960 size 4096
+
+after write name /example/fsel.o  noffset 618638 nsize 45056, offset 40960 size 4096
+
+before write name /example/fsel.o  noffset 618638 nsize 45056, offset 45056 size 3456
+
+after write name /example/fsel.o  noffset 618638 nsize 48512, offset 45056 size 3456
+
+Before creating /example/Makefile
+create file /example/Makefile noffset 667150, nsize 0
+before write name /example/Makefile  noffset 667150 nsize 0, offset 0 size 4096
+
+after write name /example/Makefile  noffset 667150 nsize 4096, offset 0 size 4096
+
+before write name /example/Makefile  noffset 667150 nsize 4096, offset 4096 size 4096
+
+after write name /example/Makefile  noffset 667150 nsize 8192, offset 4096 size 4096
+
+before write name /example/Makefile  noffset 667150 nsize 8192, offset 8192 size 4096
+
+after write name /example/Makefile  noffset 667150 nsize 12288, offset 8192 size 4096
+
+before write name /example/Makefile  noffset 667150 nsize 12288, offset 12288 size 4096
+
+after write name /example/Makefile  noffset 667150 nsize 16384, offset 12288 size 4096
+
+before write name /example/Makefile  noffset 667150 nsize 16384, offset 16384 size 4096
+
+after write name /example/Makefile  noffset 667150 nsize 20480, offset 16384 size 4096
+
+before write name /example/Makefile  noffset 667150 nsize 20480, offset 20480 size 1447
+
+after write name /example/Makefile  noffset 667150 nsize 21927, offset 20480 size 1447
+
+Before creating /example/tmnt
+create file /example/tmnt noffset 0, nsize 0
+Before creating /example/.deps
+create file /example/.deps noffset 0, nsize 0
+Before creating /example/.deps/fioc.Po
+create file /example/.deps/fioc.Po noffset 689077, nsize 0
+before write name /example/.deps/fioc.Po  noffset 689077 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/fioc.Po  noffset 689077 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/fioc.Po  noffset 689077 nsize 4096, offset 4096 size 2091
+
+after write name /example/.deps/fioc.Po  noffset 689077 nsize 6187, offset 4096 size 2091
+
+Before creating /example/.deps/hello.Po
+create file /example/.deps/hello.Po noffset 695264, nsize 0
+before write name /example/.deps/hello.Po  noffset 695264 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/hello.Po  noffset 695264 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/hello.Po  noffset 695264 nsize 4096, offset 4096 size 486
+
+after write name /example/.deps/hello.Po  noffset 695264 nsize 4582, offset 4096 size 486
+
+Before creating /example/.deps/hello_ll.Po
+create file /example/.deps/hello_ll.Po noffset 699846, nsize 0
+before write name /example/.deps/hello_ll.Po  noffset 699846 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/hello_ll.Po  noffset 699846 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/hello_ll.Po  noffset 699846 nsize 4096, offset 4096 size 1381
+
+after write name /example/.deps/hello_ll.Po  noffset 699846 nsize 5477, offset 4096 size 1381
+
+Before creating /example/.deps/fsel.Po
+create file /example/.deps/fsel.Po noffset 705323, nsize 0
+before write name /example/.deps/fsel.Po  noffset 705323 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/fsel.Po  noffset 705323 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/fsel.Po  noffset 705323 nsize 4096, offset 4096 size 1850
+
+after write name /example/.deps/fsel.Po  noffset 705323 nsize 5946, offset 4096 size 1850
+
+Before creating /example/.deps/fusexmp.Po
+create file /example/.deps/fusexmp.Po noffset 711269, nsize 0
+before write name /example/.deps/fusexmp.Po  noffset 711269 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/fusexmp.Po  noffset 711269 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/fusexmp.Po  noffset 711269 nsize 4096, offset 4096 size 1093
+
+after write name /example/.deps/fusexmp.Po  noffset 711269 nsize 5189, offset 4096 size 1093
+
+Before creating /example/.deps/null.Po
+create file /example/.deps/null.Po noffset 716458, nsize 0
+before write name /example/.deps/null.Po  noffset 716458 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/null.Po  noffset 716458 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/null.Po  noffset 716458 nsize 4096, offset 4096 size 290
+
+after write name /example/.deps/null.Po  noffset 716458 nsize 4386, offset 4096 size 290
+
+Before creating /example/.deps/cusexmp.Po
+create file /example/.deps/cusexmp.Po noffset 720844, nsize 0
+before write name /example/.deps/cusexmp.Po  noffset 720844 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/cusexmp.Po  noffset 720844 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/cusexmp.Po  noffset 720844 nsize 4096, offset 4096 size 2220
+
+after write name /example/.deps/cusexmp.Po  noffset 720844 nsize 6316, offset 4096 size 2220
+
+Before creating /example/.deps/fioclient-fioclient.Po
+create file /example/.deps/fioclient-fioclient.Po noffset 727160, nsize 0
+before write name /example/.deps/fioclient-fioclient.Po  noffset 727160 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/fioclient-fioclient.Po  noffset 727160 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/fioclient-fioclient.Po  noffset 727160 nsize 4096, offset 4096 size 817
+
+after write name /example/.deps/fioclient-fioclient.Po  noffset 727160 nsize 4913, offset 4096 size 817
+
+Before creating /example/.deps/fusexmp_fh.Po
+create file /example/.deps/fusexmp_fh.Po noffset 732073, nsize 0
+before write name /example/.deps/fusexmp_fh.Po  noffset 732073 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/fusexmp_fh.Po  noffset 732073 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/fusexmp_fh.Po  noffset 732073 nsize 4096, offset 4096 size 2163
+
+after write name /example/.deps/fusexmp_fh.Po  noffset 732073 nsize 6259, offset 4096 size 2163
+
+Before creating /example/.deps/fselclient-fselclient.Po
+create file /example/.deps/fselclient-fselclient.Po noffset 738332, nsize 0
+before write name /example/.deps/fselclient-fselclient.Po  noffset 738332 nsize 0, offset 0 size 4096
+
+after write name /example/.deps/fselclient-fselclient.Po  noffset 738332 nsize 4096, offset 0 size 4096
+
+before write name /example/.deps/fselclient-fselclient.Po  noffset 738332 nsize 4096, offset 4096 size 350
+
+after write name /example/.deps/fselclient-fselclient.Po  noffset 738332 nsize 4446, offset 4096 size 350
+
+Before creating /example/.libs
+create file /example/.libs noffset 0, nsize 0
+Before creating /example/.libs/fusexmp_fh
+create file /example/.libs/fusexmp_fh noffset 742778, nsize 0
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 20480, offset 20480 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 24576, offset 20480 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 24576, offset 24576 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 28672, offset 24576 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 28672, offset 28672 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 32768, offset 28672 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 32768, offset 32768 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 36864, offset 32768 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 36864, offset 36864 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 40960, offset 36864 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 40960, offset 40960 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 45056, offset 40960 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 45056, offset 45056 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 49152, offset 45056 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 49152, offset 49152 size 4096
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 53248, offset 49152 size 4096
+
+before write name /example/.libs/fusexmp_fh  noffset 742778 nsize 53248, offset 53248 size 786
+
+after write name /example/.libs/fusexmp_fh  noffset 742778 nsize 54034, offset 53248 size 786
+
+Before creating /example/.libs/null
+create file /example/.libs/null noffset 796812, nsize 0
+before write name /example/.libs/null  noffset 796812 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/null  noffset 796812 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/null  noffset 796812 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/null  noffset 796812 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/null  noffset 796812 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/null  noffset 796812 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/null  noffset 796812 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/null  noffset 796812 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/null  noffset 796812 nsize 16384, offset 16384 size 1550
+
+after write name /example/.libs/null  noffset 796812 nsize 17934, offset 16384 size 1550
+
+Before creating /example/.libs/fioc
+create file /example/.libs/fioc noffset 814746, nsize 0
+before write name /example/.libs/fioc  noffset 814746 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/fioc  noffset 814746 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/fioc  noffset 814746 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/fioc  noffset 814746 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/fioc  noffset 814746 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/fioc  noffset 814746 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/fioc  noffset 814746 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/fioc  noffset 814746 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/fioc  noffset 814746 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/fioc  noffset 814746 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/fioc  noffset 814746 nsize 20480, offset 20480 size 4096
+
+after write name /example/.libs/fioc  noffset 814746 nsize 24576, offset 20480 size 4096
+
+before write name /example/.libs/fioc  noffset 814746 nsize 24576, offset 24576 size 4096
+
+after write name /example/.libs/fioc  noffset 814746 nsize 28672, offset 24576 size 4096
+
+before write name /example/.libs/fioc  noffset 814746 nsize 28672, offset 28672 size 1808
+
+after write name /example/.libs/fioc  noffset 814746 nsize 30480, offset 28672 size 1808
+
+Before creating /example/.libs/fsel
+create file /example/.libs/fsel noffset 845226, nsize 0
+before write name /example/.libs/fsel  noffset 845226 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 20480, offset 20480 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 24576, offset 20480 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 24576, offset 24576 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 28672, offset 24576 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 28672, offset 28672 size 4096
+
+after write name /example/.libs/fsel  noffset 845226 nsize 32768, offset 28672 size 4096
+
+before write name /example/.libs/fsel  noffset 845226 nsize 32768, offset 32768 size 730
+
+after write name /example/.libs/fsel  noffset 845226 nsize 33498, offset 32768 size 730
+
+Before creating /example/.libs/hello_ll
+create file /example/.libs/hello_ll noffset 878724, nsize 0
+before write name /example/.libs/hello_ll  noffset 878724 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/hello_ll  noffset 878724 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/hello_ll  noffset 878724 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/hello_ll  noffset 878724 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/hello_ll  noffset 878724 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/hello_ll  noffset 878724 nsize 20480, offset 20480 size 4096
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 24576, offset 20480 size 4096
+
+before write name /example/.libs/hello_ll  noffset 878724 nsize 24576, offset 24576 size 4096
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 28672, offset 24576 size 4096
+
+before write name /example/.libs/hello_ll  noffset 878724 nsize 28672, offset 28672 size 3579
+
+after write name /example/.libs/hello_ll  noffset 878724 nsize 32251, offset 28672 size 3579
+
+Before creating /example/.libs/lt-hello
+create file /example/.libs/lt-hello noffset 910975, nsize 0
+before write name /example/.libs/lt-hello  noffset 910975 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/lt-hello  noffset 910975 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/lt-hello  noffset 910975 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/lt-hello  noffset 910975 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/lt-hello  noffset 910975 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/lt-hello  noffset 910975 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/lt-hello  noffset 910975 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/lt-hello  noffset 910975 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/lt-hello  noffset 910975 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/lt-hello  noffset 910975 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/lt-hello  noffset 910975 nsize 20480, offset 20480 size 161
+
+after write name /example/.libs/lt-hello  noffset 910975 nsize 20641, offset 20480 size 161
+
+Before creating /example/.libs/fusexmp
+create file /example/.libs/fusexmp noffset 931616, nsize 0
+before write name /example/.libs/fusexmp  noffset 931616 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 20480, offset 20480 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 24576, offset 20480 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 24576, offset 24576 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 28672, offset 24576 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 28672, offset 28672 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 32768, offset 28672 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 32768, offset 32768 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 36864, offset 32768 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 36864, offset 36864 size 4096
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 40960, offset 36864 size 4096
+
+before write name /example/.libs/fusexmp  noffset 931616 nsize 40960, offset 40960 size 2257
+
+after write name /example/.libs/fusexmp  noffset 931616 nsize 43217, offset 40960 size 2257
+
+Before creating /example/.libs/cusexmp
+create file /example/.libs/cusexmp noffset 974833, nsize 0
+before write name /example/.libs/cusexmp  noffset 974833 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/cusexmp  noffset 974833 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/cusexmp  noffset 974833 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/cusexmp  noffset 974833 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/cusexmp  noffset 974833 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/cusexmp  noffset 974833 nsize 20480, offset 20480 size 4096
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 24576, offset 20480 size 4096
+
+before write name /example/.libs/cusexmp  noffset 974833 nsize 24576, offset 24576 size 4096
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 28672, offset 24576 size 4096
+
+before write name /example/.libs/cusexmp  noffset 974833 nsize 28672, offset 28672 size 3518
+
+after write name /example/.libs/cusexmp  noffset 974833 nsize 32190, offset 28672 size 3518
+
+Before creating /example/.libs/hello
+create file /example/.libs/hello noffset 1007023, nsize 0
+before write name /example/.libs/hello  noffset 1007023 nsize 0, offset 0 size 4096
+
+after write name /example/.libs/hello  noffset 1007023 nsize 4096, offset 0 size 4096
+
+before write name /example/.libs/hello  noffset 1007023 nsize 4096, offset 4096 size 4096
+
+after write name /example/.libs/hello  noffset 1007023 nsize 8192, offset 4096 size 4096
+
+before write name /example/.libs/hello  noffset 1007023 nsize 8192, offset 8192 size 4096
+
+after write name /example/.libs/hello  noffset 1007023 nsize 12288, offset 8192 size 4096
+
+before write name /example/.libs/hello  noffset 1007023 nsize 12288, offset 12288 size 4096
+
+after write name /example/.libs/hello  noffset 1007023 nsize 16384, offset 12288 size 4096
+
+before write name /example/.libs/hello  noffset 1007023 nsize 16384, offset 16384 size 4096
+
+after write name /example/.libs/hello  noffset 1007023 nsize 20480, offset 16384 size 4096
+
+before write name /example/.libs/hello  noffset 1007023 nsize 20480, offset 20480 size 161
+
+after write name /example/.libs/hello  noffset 1007023 nsize 20641, offset 20480 size 161
+
+reading dir path /example
+reading dir path /example
+before read name /example/Makefile.in  noffset 58493 nsize 23217, offset 0 size 16384
+
+real read 16384
+before read name /example/fusexmp_fh  noffset 81710 nsize 7610, offset 0 size 8192
+
+real read 7610
+before read name /example/null  noffset 118730 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/fioc  noffset 142112 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/fsel  noffset 248189 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/hello_ll  noffset 255683 nsize 7538, offset 0 size 8192
+
+real read 7538
+before read name /example/fioclient  noffset 263221 nsize 21639, offset 0 size 16384
+
+real read 16384
+before read name /example/hll  noffset 367716 nsize 9600, offset 0 size 12288
+
+real read 9600
+before read name /example/fusexmp  noffset 402374 nsize 7527, offset 0 size 8192
+
+real read 7527
+before read name /example/Makefile.am  noffset 435941 nsize 468, offset 0 size 4096
+
+real read 468
+before read name /example/fselclient  noffset 543640 nsize 15286, offset 0 size 16384
+
+real read 15286
+before read name /example/cusexmp  noffset 558926 nsize 7527, offset 0 size 8192
+
+real read 7527
+before read name /example/hello  noffset 611133 nsize 7505, offset 0 size 8192
+
+real read 7505
+before read name /example/.libs/fusexmp_fh  noffset 742778 nsize 54034, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/null  noffset 796812 nsize 17934, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/fioc  noffset 814746 nsize 30480, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/fsel  noffset 845226 nsize 33498, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/hello_ll  noffset 878724 nsize 32251, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/lt-hello  noffset 910975 nsize 20641, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/fusexmp  noffset 931616 nsize 43217, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/cusexmp  noffset 974833 nsize 32190, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/hello  noffset 1007023 nsize 20641, offset 0 size 16384
+
+real read 16384
+reading dir path /example/tmnt
+before read name /example/cusexmp.c  noffset 241630 nsize 6559, offset 0 size 8192
+
+real read 6559
+before read name /example/fioc.c  noffset 89320 nsize 3911, offset 0 size 4096
+
+real read 3911
+before read name /example/fioc.h  noffset 436409 nsize 747, offset 0 size 4096
+
+real read 747
+before read name /example/fioclient.c  noffset 439133 nsize 2454, offset 0 size 4096
+
+real read 2454
+before read name /example/fsel.c  noffset 377316 nsize 6058, offset 0 size 8192
+
+real read 6058
+before read name /example/fselclient.c  noffset 284860 nsize 1359, offset 0 size 4096
+
+real read 1359
+before read name /example/fusexmp.c  noffset 286219 nsize 7015, offset 0 size 8192
+
+real read 7015
+before read name /example/fusexmp_fh.c  noffset 441587 nsize 10007, offset 0 size 12288
+
+real read 10007
+before read name /example/hello.c  noffset 451594 nsize 1974, offset 0 size 4096
+
+real read 1974
+before read name /example/hello_ll.c  noffset 93231 nsize 4035, offset 0 size 4096
+
+real read 4035
+before read name /example/hll.c  noffset 437156 nsize 1977, offset 0 size 4096
+
+real read 1977
+before read name /example/Makefile  noffset 667150 nsize 21927, offset 0 size 16384
+
+real read 16384
+before read name /example/Makefile.am  noffset 435941 nsize 468, offset 0 size 4096
+
+real read 468
+before read name /example/Makefile.in  noffset 58493 nsize 23217, offset 0 size 16384
+
+real read 16384
+before read name /example/null.c  noffset 293234 nsize 1762, offset 0 size 4096
+
+real read 1762
+reading dir path /example/tmnt
+reading dir path /example
+before read name /example/Makefile.in  noffset 58493 nsize 23217, offset 0 size 16384
+
+real read 16384
+before read name /example/fusexmp_fh  noffset 81710 nsize 7610, offset 0 size 8192
+
+real read 7610
+before read name /example/null  noffset 118730 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/fioc  noffset 142112 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/fsel  noffset 248189 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/hello_ll  noffset 255683 nsize 7538, offset 0 size 8192
+
+real read 7538
+before read name /example/fioclient  noffset 263221 nsize 21639, offset 0 size 16384
+
+real read 16384
+before read name /example/hll  noffset 367716 nsize 9600, offset 0 size 12288
+
+real read 9600
+before read name /example/fusexmp  noffset 402374 nsize 7527, offset 0 size 8192
+
+real read 7527
+before read name /example/Makefile.am  noffset 435941 nsize 468, offset 0 size 4096
+
+real read 468
+before read name /example/fselclient  noffset 543640 nsize 15286, offset 0 size 16384
+
+real read 15286
+before read name /example/cusexmp  noffset 558926 nsize 7527, offset 0 size 8192
+
+real read 7527
+before read name /example/hello  noffset 611133 nsize 7505, offset 0 size 8192
+
+real read 7505
+before read name /example/.libs/fusexmp_fh  noffset 742778 nsize 54034, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/null  noffset 796812 nsize 17934, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/fioc  noffset 814746 nsize 30480, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/fsel  noffset 845226 nsize 33498, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/hello_ll  noffset 878724 nsize 32251, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/lt-hello  noffset 910975 nsize 20641, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/fusexmp  noffset 931616 nsize 43217, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/cusexmp  noffset 974833 nsize 32190, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/hello  noffset 1007023 nsize 20641, offset 0 size 16384
+
+real read 16384
+before read name /example/cusexmp.c  noffset 241630 nsize 6559, offset 0 size 8192
+
+real read 6559
+before read name /example/fioc.c  noffset 89320 nsize 3911, offset 0 size 4096
+
+real read 3911
+before read name /example/fioc.h  noffset 436409 nsize 747, offset 0 size 4096
+
+real read 747
+before read name /example/fioclient.c  noffset 439133 nsize 2454, offset 0 size 4096
+
+real read 2454
+before read name /example/fsel.c  noffset 377316 nsize 6058, offset 0 size 8192
+
+real read 6058
+before read name /example/fselclient.c  noffset 284860 nsize 1359, offset 0 size 4096
+
+real read 1359
+before read name /example/fusexmp.c  noffset 286219 nsize 7015, offset 0 size 8192
+
+real read 7015
+before read name /example/fusexmp_fh.c  noffset 441587 nsize 10007, offset 0 size 12288
+
+real read 10007
+before read name /example/hello.c  noffset 451594 nsize 1974, offset 0 size 4096
+
+real read 1974
+before read name /example/hello_ll.c  noffset 93231 nsize 4035, offset 0 size 4096
+
+real read 4035
+before read name /example/hll.c  noffset 437156 nsize 1977, offset 0 size 4096
+
+real read 1977
+before read name /example/Makefile  noffset 667150 nsize 21927, offset 0 size 16384
+
+real read 16384
+before read name /example/Makefile.am  noffset 435941 nsize 468, offset 0 size 4096
+
+real read 468
+before read name /example/Makefile.in  noffset 58493 nsize 23217, offset 0 size 16384
+
+real read 16384
+before read name /example/null.c  noffset 293234 nsize 1762, offset 0 size 4096
+
+real read 1762
+reading dir path /
+reading dir path /dr
+reading dir path /example
+reading dir path /example/.libs
+reading dir path /example/.deps
+reading dir path /example/tmnt
+reading dir path /example
+before read name /example/Makefile.in  noffset 58493 nsize 23217, offset 0 size 24576
+
+real read 23217
+before read name /example/fusexmp_fh  noffset 81710 nsize 7610, offset 0 size 8192
+
+real read 7610
+before read name /example/fioc.c  noffset 89320 nsize 3911, offset 0 size 4096
+
+real read 3911
+before read name /example/hello_ll.c  noffset 93231 nsize 4035, offset 0 size 4096
+
+real read 4035
+before read name /example/fioclient-fioclient.o  noffset 97266 nsize 21464, offset 0 size 24576
+
+real read 21464
+before read name /example/null  noffset 118730 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/fselclient-fselclient.o  noffset 126224 nsize 15888, offset 0 size 16384
+
+real read 15888
+before read name /example/fioc  noffset 142112 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/fioc.o  noffset 149606 nsize 41872, offset 0 size 45056
+
+real read 41872
+before read name /example/cusexmp.o  noffset 191478 nsize 50152, offset 0 size 53248
+
+real read 50152
+before read name /example/cusexmp.c  noffset 241630 nsize 6559, offset 0 size 8192
+
+real read 6559
+before read name /example/fsel  noffset 248189 nsize 7494, offset 0 size 8192
+
+real read 7494
+before read name /example/hello_ll  noffset 255683 nsize 7538, offset 0 size 8192
+
+real read 7538
+before read name /example/fioclient  noffset 263221 nsize 21639, offset 0 size 24576
+
+real read 21639
+before read name /example/fselclient.c  noffset 284860 nsize 1359, offset 0 size 4096
+
+real read 1359
+before read name /example/fusexmp.c  noffset 286219 nsize 7015, offset 0 size 8192
+
+real read 7015
+before read name /example/null.c  noffset 293234 nsize 1762, offset 0 size 4096
+
+real read 1762
+before read name /example/fusexmp.o  noffset 294996 nsize 72720, offset 0 size 73728
+
+real read 72720
+before read name /example/hll  noffset 367716 nsize 9600, offset 0 size 12288
+
+real read 9600
+before read name /example/fsel.c  noffset 377316 nsize 6058, offset 0 size 8192
+
+real read 6058
+before read name /example/null.o  noffset 383374 nsize 19000, offset 0 size 20480
+
+real read 19000
+before read name /example/fusexmp  noffset 402374 nsize 7527, offset 0 size 8192
+
+real read 7527
+before read name /example/hello.o  noffset 409901 nsize 26040, offset 0 size 28672
+
+real read 26040
+before read name /example/Makefile.am  noffset 435941 nsize 468, offset 0 size 4096
+
+real read 468
+before read name /example/fioc.h  noffset 436409 nsize 747, offset 0 size 4096
+
+real read 747
+before read name /example/hll.c  noffset 437156 nsize 1977, offset 0 size 4096
+
+real read 1977
+before read name /example/fioclient.c  noffset 439133 nsize 2454, offset 0 size 4096
+
+real read 2454
+before read name /example/fusexmp_fh.c  noffset 441587 nsize 10007, offset 0 size 12288
+
+real read 10007
+before read name /example/hello.c  noffset 451594 nsize 1974, offset 0 size 4096
+
+real read 1974
+before read name /example/fusexmp_fh.o  noffset 453568 nsize 90072, offset 0 size 90112
+
+real read 90072
+before read name /example/fselclient  noffset 543640 nsize 15286, offset 0 size 16384
+
+real read 15286
+before read name /example/cusexmp  noffset 558926 nsize 7527, offset 0 size 8192
+
+real read 7527
+before read name /example/hello_ll.o  noffset 566453 nsize 44680, offset 0 size 45056
+
+real read 44680
+before read name /example/hello  noffset 611133 nsize 7505, offset 0 size 8192
+
+real read 7505
+before read name /example/fsel.o  noffset 618638 nsize 48512, offset 0 size 49152
+
+real read 48512
+before read name /example/Makefile  noffset 667150 nsize 21927, offset 0 size 24576
+
+real read 21927
+reading dir path /example/tmnt
+reading dir path /example/.deps
+before read name /example/.deps/fioc.Po  noffset 689077 nsize 6187, offset 0 size 8192
+
+real read 6187
+before read name /example/.deps/hello.Po  noffset 695264 nsize 4582, offset 0 size 8192
+
+real read 4582
+before read name /example/.deps/hello_ll.Po  noffset 699846 nsize 5477, offset 0 size 8192
+
+real read 5477
+before read name /example/.deps/fsel.Po  noffset 705323 nsize 5946, offset 0 size 8192
+
+real read 5946
+before read name /example/.deps/fusexmp.Po  noffset 711269 nsize 5189, offset 0 size 8192
+
+real read 5189
+before read name /example/.deps/null.Po  noffset 716458 nsize 4386, offset 0 size 8192
+
+real read 4386
+before read name /example/.deps/cusexmp.Po  noffset 720844 nsize 6316, offset 0 size 8192
+
+real read 6316
+before read name /example/.deps/fioclient-fioclient.Po  noffset 727160 nsize 4913, offset 0 size 8192
+
+real read 4913
+before read name /example/.deps/fusexmp_fh.Po  noffset 732073 nsize 6259, offset 0 size 8192
+
+real read 6259
+before read name /example/.deps/fselclient-fselclient.Po  noffset 738332 nsize 4446, offset 0 size 8192
+
+real read 4446
+reading dir path /example/.libs
+before read name /example/.libs/fusexmp_fh  noffset 742778 nsize 54034, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/fusexmp_fh  noffset 742778 nsize 54034, offset 0 size 57344
+
+real read 54034
+before read name /example/.libs/null  noffset 796812 nsize 17934, offset 0 size 16384
+
+real read 16384
+before read name /example/.libs/null  noffset 796812 nsize 17934, offset 0 size 20480
+
+real read 17934
+before read name /example/.libs/fioc  noffset 814746 nsize 30480, offset 0 size 32768
+
+real read 30480
+before read name /example/.libs/fsel  noffset 845226 nsize 33498, offset 0 size 36864
+
+real read 33498
+before read name /example/.libs/hello_ll  noffset 878724 nsize 32251, offset 0 size 32768
+
+real read 32251
+before read name /example/.libs/lt-hello  noffset 910975 nsize 20641, offset 0 size 24576
+
+real read 20641
+before read name /example/.libs/fusexmp  noffset 931616 nsize 43217, offset 0 size 45056
+
+real read 43217
+before read name /example/.libs/cusexmp  noffset 974833 nsize 32190, offset 0 size 32768
+
+real read 32190
+before read name /example/.libs/hello  noffset 1007023 nsize 20641, offset 0 size 24576
+
+real read 20641
+reading dir path /
+reading dir path /dr
+Before creating /src
+create file /src noffset 0, nsize 0
+Before creating /src/bbfs.c
+create file /src/bbfs.c noffset 1027664, nsize 0
+before write name /src/bbfs.c  noffset 1027664 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.c  noffset 1027664 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.c  noffset 1027664 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.c  noffset 1027664 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.c  noffset 1027664 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.c  noffset 1027664 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.c  noffset 1027664 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.c  noffset 1027664 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.c  noffset 1027664 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.c  noffset 1027664 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.c  noffset 1027664 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.c  noffset 1027664 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.c  noffset 1027664 nsize 24576, offset 24576 size 2484
+
+after write name /src/bbfs.c  noffset 1027664 nsize 27060, offset 24576 size 2484
+
+Before creating /src/params.h
+create file /src/params.h noffset 1054724, nsize 0
+before write name /src/params.h  noffset 1054724 nsize 0, offset 0 size 687
+
+after write name /src/params.h  noffset 1054724 nsize 687, offset 0 size 687
+
+Before creating /src/log.c
+create file /src/log.c noffset 1055411, nsize 0
+before write name /src/log.c  noffset 1055411 nsize 0, offset 0 size 4096
+
+after write name /src/log.c  noffset 1055411 nsize 4096, offset 0 size 4096
+
+before write name /src/log.c  noffset 1055411 nsize 4096, offset 4096 size 898
+
+after write name /src/log.c  noffset 1055411 nsize 4994, offset 4096 size 898
+
+Before creating /src/log.h
+create file /src/log.h noffset 1060405, nsize 0
+before write name /src/log.h  noffset 1060405 nsize 0, offset 0 size 420
+
+after write name /src/log.h  noffset 1060405 nsize 420, offset 0 size 420
+
+Before creating /src/Makefile
+create file /src/Makefile noffset 1060825, nsize 0
+before write name /src/Makefile  noffset 1060825 nsize 0, offset 0 size 649
+
+after write name /src/Makefile  noffset 1060825 nsize 649, offset 0 size 649
+
+Before creating /src/bbfs.o
+create file /src/bbfs.o noffset 1061474, nsize 0
+before write name /src/bbfs.o  noffset 1061474 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 24576, offset 24576 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 28672, offset 24576 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 28672, offset 28672 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 32768, offset 28672 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 32768, offset 32768 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 36864, offset 32768 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 36864, offset 36864 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 40960, offset 36864 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 40960, offset 40960 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 45056, offset 40960 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 45056, offset 45056 size 4096
+
+after write name /src/bbfs.o  noffset 1061474 nsize 49152, offset 45056 size 4096
+
+before write name /src/bbfs.o  noffset 1061474 nsize 49152, offset 49152 size 2576
+
+after write name /src/bbfs.o  noffset 1061474 nsize 51728, offset 49152 size 2576
+
+Before creating /src/log.o
+create file /src/log.o noffset 1113202, nsize 0
+before write name /src/log.o  noffset 1113202 nsize 0, offset 0 size 4096
+
+after write name /src/log.o  noffset 1113202 nsize 4096, offset 0 size 4096
+
+before write name /src/log.o  noffset 1113202 nsize 4096, offset 4096 size 4096
+
+after write name /src/log.o  noffset 1113202 nsize 8192, offset 4096 size 4096
+
+before write name /src/log.o  noffset 1113202 nsize 8192, offset 8192 size 4096
+
+after write name /src/log.o  noffset 1113202 nsize 12288, offset 8192 size 4096
+
+before write name /src/log.o  noffset 1113202 nsize 12288, offset 12288 size 2704
+
+after write name /src/log.o  noffset 1113202 nsize 14992, offset 12288 size 2704
+
+reading dir path /src
+reading dir path /
+reading dir path /src
+reading dir path /src
+before read name /src/bbfs.c  noffset 1027664 nsize 27060, offset 0 size 28672
+
+real read 27060
+before read name /src/params.h  noffset 1054724 nsize 687, offset 0 size 4096
+
+real read 687
+before read name /src/log.c  noffset 1055411 nsize 4994, offset 0 size 8192
+
+real read 4994
+before read name /src/log.h  noffset 1060405 nsize 420, offset 0 size 4096
+
+real read 420
+before read name /src/Makefile  noffset 1060825 nsize 649, offset 0 size 4096
+
+real read 649
+before read name /src/bbfs.o  noffset 1061474 nsize 51728, offset 0 size 53248
+
+real read 51728
+before read name /src/log.o  noffset 1113202 nsize 14992, offset 0 size 16384
+
+real read 14992
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /mydir
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /mydir
+create file /mydir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /mydir
+Before creating /mydir/hi
+create file /mydir/hi noffset 58400, nsize 0
+before write name /mydir/hi  noffset 58400 nsize 0, offset 0 size 39
+
+after write name /mydir/hi  noffset 58400 nsize 39, offset 0 size 39
+
+before read name /mydir/hi  noffset 58400 nsize 39, offset 0 size 4096
+
+real read 39
+reading dir path /
+reading dir path /
+reading dir path /mydir
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /d
+create file /d noffset 0, nsize 0
+reading dir path /
+reading dir path /d
+Before creating /d/hi
+create file /d/hi noffset 58400, nsize 0
+before write name /d/hi  noffset 58400 nsize 0, offset 0 size 15
+
+after write name /d/hi  noffset 58400 nsize 15, offset 0 size 15
+
+reading dir path /
+reading dir path /
+reading dir path /d
+reading dir path /
+before read name /d/hi  noffset 58400 nsize 15, offset 0 size 4096
+
+real read 15
+Before creating /d/4913
+create file /d/4913 noffset 58415, nsize 0
+Renaming...
+/d/hi~
+Before creating /d/hi
+create file /d/hi noffset 58415, nsize 0
+before write name /d/hi  noffset 58415 nsize 0, offset 0 size 29
+
+after write name /d/hi  noffset 58415 nsize 29, offset 0 size 29
+
+reading dir path /
+reading dir path /
+reading dir path /d
+reading dir path /
+Before creating /hi
+create file /hi noffset 58444, nsize 0
+before write name /hi  noffset 58444 nsize 0, offset 0 size 10
+
+after write name /hi  noffset 58444 nsize 10, offset 0 size 10
+
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /d
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /d
+reading dir path /
+Before creating /hifromd
+create file /hifromd noffset 58454, nsize 0
+before read name /d/hi  noffset 58415 nsize 29, offset 0 size 4096
+
+real read 29
+before write name /hifromd  noffset 58454 nsize 0, offset 0 size 29
+
+after write name /hifromd  noffset 58454 nsize 29, offset 0 size 29
+
+reading dir path /
+reading dir path /
+reading dir path /
+before read name /hifromd  noffset 58454 nsize 29, offset 0 size 4096
+
+real read 29
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+Before creating /src
+create file /src noffset 0, nsize 0
+Before creating /src/bbfs.c
+create file /src/bbfs.c noffset 58483, nsize 0
+before write name /src/bbfs.c  noffset 58483 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.c  noffset 58483 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.c  noffset 58483 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.c  noffset 58483 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.c  noffset 58483 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.c  noffset 58483 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.c  noffset 58483 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.c  noffset 58483 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.c  noffset 58483 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.c  noffset 58483 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.c  noffset 58483 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.c  noffset 58483 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.c  noffset 58483 nsize 24576, offset 24576 size 2484
+
+after write name /src/bbfs.c  noffset 58483 nsize 27060, offset 24576 size 2484
+
+Before creating /src/params.h
+create file /src/params.h noffset 85543, nsize 0
+before write name /src/params.h  noffset 85543 nsize 0, offset 0 size 687
+
+after write name /src/params.h  noffset 85543 nsize 687, offset 0 size 687
+
+Before creating /src/log.c
+create file /src/log.c noffset 86230, nsize 0
+before write name /src/log.c  noffset 86230 nsize 0, offset 0 size 4096
+
+after write name /src/log.c  noffset 86230 nsize 4096, offset 0 size 4096
+
+before write name /src/log.c  noffset 86230 nsize 4096, offset 4096 size 898
+
+after write name /src/log.c  noffset 86230 nsize 4994, offset 4096 size 898
+
+Before creating /src/log.h
+create file /src/log.h noffset 91224, nsize 0
+before write name /src/log.h  noffset 91224 nsize 0, offset 0 size 420
+
+after write name /src/log.h  noffset 91224 nsize 420, offset 0 size 420
+
+Before creating /src/Makefile
+create file /src/Makefile noffset 91644, nsize 0
+before write name /src/Makefile  noffset 91644 nsize 0, offset 0 size 649
+
+after write name /src/Makefile  noffset 91644 nsize 649, offset 0 size 649
+
+Before creating /src/bbfs.o
+create file /src/bbfs.o noffset 92293, nsize 0
+before write name /src/bbfs.o  noffset 92293 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 24576, offset 24576 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 28672, offset 24576 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 28672, offset 28672 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 32768, offset 28672 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 32768, offset 32768 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 36864, offset 32768 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 36864, offset 36864 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 40960, offset 36864 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 40960, offset 40960 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 45056, offset 40960 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 45056, offset 45056 size 4096
+
+after write name /src/bbfs.o  noffset 92293 nsize 49152, offset 45056 size 4096
+
+before write name /src/bbfs.o  noffset 92293 nsize 49152, offset 49152 size 2576
+
+after write name /src/bbfs.o  noffset 92293 nsize 51728, offset 49152 size 2576
+
+Before creating /src/log.o
+create file /src/log.o noffset 144021, nsize 0
+before write name /src/log.o  noffset 144021 nsize 0, offset 0 size 4096
+
+after write name /src/log.o  noffset 144021 nsize 4096, offset 0 size 4096
+
+before write name /src/log.o  noffset 144021 nsize 4096, offset 4096 size 4096
+
+after write name /src/log.o  noffset 144021 nsize 8192, offset 4096 size 4096
+
+before write name /src/log.o  noffset 144021 nsize 8192, offset 8192 size 4096
+
+after write name /src/log.o  noffset 144021 nsize 12288, offset 8192 size 4096
+
+before write name /src/log.o  noffset 144021 nsize 12288, offset 12288 size 2704
+
+after write name /src/log.o  noffset 144021 nsize 14992, offset 12288 size 2704
+
+reading dir path /src
+reading dir path /src
+before read name /src/bbfs.c  noffset 58483 nsize 27060, offset 0 size 16384
+
+real read 16384
+before read name /src/log.c  noffset 86230 nsize 4994, offset 0 size 8192
+
+real read 4994
+before read name /src/log.h  noffset 91224 nsize 420, offset 0 size 4096
+
+real read 420
+before read name /src/Makefile  noffset 91644 nsize 649, offset 0 size 4096
+
+real read 649
+before read name /src/params.h  noffset 85543 nsize 687, offset 0 size 4096
+
+real read 687
+reading dir path /
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+reading dir path /
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+reading dir path /src
+before read name /src/bbfs.c  noffset 58483 nsize 27060, offset 0 size 16384
+
+real read 16384
+before read name /src/log.c  noffset 86230 nsize 4994, offset 0 size 8192
+
+real read 4994
+before read name /src/log.h  noffset 91224 nsize 420, offset 0 size 4096
+
+real read 420
+before read name /src/Makefile  noffset 91644 nsize 649, offset 0 size 4096
+
+real read 649
+before read name /src/params.h  noffset 85543 nsize 687, offset 0 size 4096
+
+real read 687
+reading dir path /
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+reading dir path /src
+reading dir path /src
+before read name /src/bbfs.c  noffset 58483 nsize 27060, offset 0 size 28672
+
+real read 27060
+before read name /src/params.h  noffset 85543 nsize 687, offset 0 size 4096
+
+real read 687
+before read name /src/log.c  noffset 86230 nsize 4994, offset 0 size 8192
+
+real read 4994
+before read name /src/log.h  noffset 91224 nsize 420, offset 0 size 4096
+
+real read 420
+before read name /src/Makefile  noffset 91644 nsize 649, offset 0 size 4096
+
+real read 649
+before read name /src/bbfs.o  noffset 92293 nsize 51728, offset 0 size 53248
+
+real read 51728
+before read name /src/log.o  noffset 144021 nsize 14992, offset 0 size 16384
+
+real read 14992
+reading dir path /
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+Before creating /.Trash-1000
+create file /.Trash-1000 noffset 0, nsize 0
+reading dir path /src
+reading dir path /
+reading dir path /
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /hi  noffset 58444 nsize 10, offset 0 size 4096
+
+real read 10
+Before creating /.Trash-1000
+create file /.Trash-1000 noffset 0, nsize 0
+reading dir path /
+reading dir path /
+Before creating /src
+create file /src noffset 0, nsize 0
+reading dir path /
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /src
+create file /src noffset 0, nsize 0
+Before creating /src/bbfs.c
+create file /src/bbfs.c noffset 58400, nsize 0
+before write name /src/bbfs.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.c  noffset 58400 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.c  noffset 58400 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.c  noffset 58400 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.c  noffset 58400 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.c  noffset 58400 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.c  noffset 58400 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.c  noffset 58400 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.c  noffset 58400 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.c  noffset 58400 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.c  noffset 58400 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.c  noffset 58400 nsize 24576, offset 24576 size 2484
+
+after write name /src/bbfs.c  noffset 58400 nsize 27060, offset 24576 size 2484
+
+Before creating /src/bbfs.o
+create file /src/bbfs.o noffset 85460, nsize 0
+before write name /src/bbfs.o  noffset 85460 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 24576, offset 24576 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 28672, offset 24576 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 28672, offset 28672 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 32768, offset 28672 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 32768, offset 32768 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 36864, offset 32768 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 36864, offset 36864 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 40960, offset 36864 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 40960, offset 40960 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 45056, offset 40960 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 45056, offset 45056 size 4096
+
+after write name /src/bbfs.o  noffset 85460 nsize 49152, offset 45056 size 4096
+
+before write name /src/bbfs.o  noffset 85460 nsize 49152, offset 49152 size 2576
+
+after write name /src/bbfs.o  noffset 85460 nsize 51728, offset 49152 size 2576
+
+Before creating /src/params.h
+create file /src/params.h noffset 137188, nsize 0
+before write name /src/params.h  noffset 137188 nsize 0, offset 0 size 687
+
+after write name /src/params.h  noffset 137188 nsize 687, offset 0 size 687
+
+Before creating /src/log.o
+create file /src/log.o noffset 137875, nsize 0
+before write name /src/log.o  noffset 137875 nsize 0, offset 0 size 4096
+
+after write name /src/log.o  noffset 137875 nsize 4096, offset 0 size 4096
+
+before write name /src/log.o  noffset 137875 nsize 4096, offset 4096 size 4096
+
+after write name /src/log.o  noffset 137875 nsize 8192, offset 4096 size 4096
+
+before write name /src/log.o  noffset 137875 nsize 8192, offset 8192 size 4096
+
+after write name /src/log.o  noffset 137875 nsize 12288, offset 8192 size 4096
+
+before write name /src/log.o  noffset 137875 nsize 12288, offset 12288 size 2704
+
+after write name /src/log.o  noffset 137875 nsize 14992, offset 12288 size 2704
+
+Before creating /src/log.c
+create file /src/log.c noffset 152867, nsize 0
+before write name /src/log.c  noffset 152867 nsize 0, offset 0 size 4096
+
+after write name /src/log.c  noffset 152867 nsize 4096, offset 0 size 4096
+
+before write name /src/log.c  noffset 152867 nsize 4096, offset 4096 size 898
+
+after write name /src/log.c  noffset 152867 nsize 4994, offset 4096 size 898
+
+Before creating /src/log.h
+create file /src/log.h noffset 157861, nsize 0
+before write name /src/log.h  noffset 157861 nsize 0, offset 0 size 420
+
+after write name /src/log.h  noffset 157861 nsize 420, offset 0 size 420
+
+Before creating /src/Makefile
+create file /src/Makefile noffset 158281, nsize 0
+before write name /src/Makefile  noffset 158281 nsize 0, offset 0 size 649
+
+after write name /src/Makefile  noffset 158281 nsize 649, offset 0 size 649
+
+reading dir path /
+reading dir path /src
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /src
+create file /src noffset 0, nsize 0
+Before creating /src/bbfs.c
+create file /src/bbfs.c noffset 158930, nsize 0
+before write name /src/bbfs.c  noffset 158930 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.c  noffset 158930 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.c  noffset 158930 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.c  noffset 158930 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.c  noffset 158930 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.c  noffset 158930 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.c  noffset 158930 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.c  noffset 158930 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.c  noffset 158930 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.c  noffset 158930 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.c  noffset 158930 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.c  noffset 158930 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.c  noffset 158930 nsize 24576, offset 24576 size 2484
+
+after write name /src/bbfs.c  noffset 158930 nsize 27060, offset 24576 size 2484
+
+Before creating /src/bbfs.o
+create file /src/bbfs.o noffset 185990, nsize 0
+before write name /src/bbfs.o  noffset 185990 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 24576, offset 24576 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 28672, offset 24576 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 28672, offset 28672 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 32768, offset 28672 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 32768, offset 32768 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 36864, offset 32768 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 36864, offset 36864 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 40960, offset 36864 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 40960, offset 40960 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 45056, offset 40960 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 45056, offset 45056 size 4096
+
+after write name /src/bbfs.o  noffset 185990 nsize 49152, offset 45056 size 4096
+
+before write name /src/bbfs.o  noffset 185990 nsize 49152, offset 49152 size 2576
+
+after write name /src/bbfs.o  noffset 185990 nsize 51728, offset 49152 size 2576
+
+Before creating /src/params.h
+create file /src/params.h noffset 237718, nsize 0
+before write name /src/params.h  noffset 237718 nsize 0, offset 0 size 687
+
+after write name /src/params.h  noffset 237718 nsize 687, offset 0 size 687
+
+Before creating /src/log.o
+create file /src/log.o noffset 238405, nsize 0
+before write name /src/log.o  noffset 238405 nsize 0, offset 0 size 4096
+
+after write name /src/log.o  noffset 238405 nsize 4096, offset 0 size 4096
+
+before write name /src/log.o  noffset 238405 nsize 4096, offset 4096 size 4096
+
+after write name /src/log.o  noffset 238405 nsize 8192, offset 4096 size 4096
+
+before write name /src/log.o  noffset 238405 nsize 8192, offset 8192 size 4096
+
+after write name /src/log.o  noffset 238405 nsize 12288, offset 8192 size 4096
+
+before write name /src/log.o  noffset 238405 nsize 12288, offset 12288 size 2704
+
+after write name /src/log.o  noffset 238405 nsize 14992, offset 12288 size 2704
+
+Before creating /src/log.c
+create file /src/log.c noffset 253397, nsize 0
+before write name /src/log.c  noffset 253397 nsize 0, offset 0 size 4096
+
+after write name /src/log.c  noffset 253397 nsize 4096, offset 0 size 4096
+
+before write name /src/log.c  noffset 253397 nsize 4096, offset 4096 size 898
+
+after write name /src/log.c  noffset 253397 nsize 4994, offset 4096 size 898
+
+Before creating /src/log.h
+create file /src/log.h noffset 258391, nsize 0
+before write name /src/log.h  noffset 258391 nsize 0, offset 0 size 420
+
+after write name /src/log.h  noffset 258391 nsize 420, offset 0 size 420
+
+Before creating /src/Makefile
+create file /src/Makefile noffset 258811, nsize 0
+before write name /src/Makefile  noffset 258811 nsize 0, offset 0 size 649
+
+after write name /src/Makefile  noffset 258811 nsize 649, offset 0 size 649
+
+reading dir path /
+reading dir path /
+reading dir path /src
+reading dir path /
+Before creating /tmp
+create file /tmp noffset 259460, nsize 0
+before write name /tmp  noffset 259460 nsize 0, offset 0 size 32
+
+after write name /tmp  noffset 259460 nsize 32, offset 0 size 32
+
+reading dir path /
+reading dir path /
+before read name /tmp  noffset 259460 nsize 32, offset 0 size 4096
+
+real read 32
+reading dir path /
+Before creating /src
+create file /src noffset 158930, nsize 0
+Before creating /src/bbfs.c
+create file /src/bbfs.c noffset 259492, nsize 0
+before write name /src/bbfs.c  noffset 259492 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.c  noffset 259492 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.c  noffset 259492 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.c  noffset 259492 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.c  noffset 259492 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.c  noffset 259492 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.c  noffset 259492 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.c  noffset 259492 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.c  noffset 259492 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.c  noffset 259492 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.c  noffset 259492 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.c  noffset 259492 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.c  noffset 259492 nsize 24576, offset 24576 size 2484
+
+after write name /src/bbfs.c  noffset 259492 nsize 27060, offset 24576 size 2484
+
+Before creating /src/bbfs.o
+create file /src/bbfs.o noffset 286552, nsize 0
+before write name /src/bbfs.o  noffset 286552 nsize 0, offset 0 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 4096, offset 0 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 4096, offset 4096 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 8192, offset 4096 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 8192, offset 8192 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 12288, offset 8192 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 12288, offset 12288 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 16384, offset 12288 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 16384, offset 16384 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 20480, offset 16384 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 20480, offset 20480 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 24576, offset 20480 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 24576, offset 24576 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 28672, offset 24576 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 28672, offset 28672 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 32768, offset 28672 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 32768, offset 32768 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 36864, offset 32768 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 36864, offset 36864 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 40960, offset 36864 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 40960, offset 40960 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 45056, offset 40960 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 45056, offset 45056 size 4096
+
+after write name /src/bbfs.o  noffset 286552 nsize 49152, offset 45056 size 4096
+
+before write name /src/bbfs.o  noffset 286552 nsize 49152, offset 49152 size 2576
+
+after write name /src/bbfs.o  noffset 286552 nsize 51728, offset 49152 size 2576
+
+Before creating /src/params.h
+create file /src/params.h noffset 338280, nsize 0
+before write name /src/params.h  noffset 338280 nsize 0, offset 0 size 687
+
+after write name /src/params.h  noffset 338280 nsize 687, offset 0 size 687
+
+Before creating /src/log.o
+create file /src/log.o noffset 338967, nsize 0
+before write name /src/log.o  noffset 338967 nsize 0, offset 0 size 4096
+
+after write name /src/log.o  noffset 338967 nsize 4096, offset 0 size 4096
+
+before write name /src/log.o  noffset 338967 nsize 4096, offset 4096 size 4096
+
+after write name /src/log.o  noffset 338967 nsize 8192, offset 4096 size 4096
+
+before write name /src/log.o  noffset 338967 nsize 8192, offset 8192 size 4096
+
+after write name /src/log.o  noffset 338967 nsize 12288, offset 8192 size 4096
+
+before write name /src/log.o  noffset 338967 nsize 12288, offset 12288 size 2704
+
+after write name /src/log.o  noffset 338967 nsize 14992, offset 12288 size 2704
+
+Before creating /src/log.c
+create file /src/log.c noffset 353959, nsize 0
+before write name /src/log.c  noffset 353959 nsize 0, offset 0 size 4096
+
+after write name /src/log.c  noffset 353959 nsize 4096, offset 0 size 4096
+
+before write name /src/log.c  noffset 353959 nsize 4096, offset 4096 size 898
+
+after write name /src/log.c  noffset 353959 nsize 4994, offset 4096 size 898
+
+Before creating /src/log.h
+create file /src/log.h noffset 358953, nsize 0
+before write name /src/log.h  noffset 358953 nsize 0, offset 0 size 420
+
+after write name /src/log.h  noffset 358953 nsize 420, offset 0 size 420
+
+Before creating /src/Makefile
+create file /src/Makefile noffset 359373, nsize 0
+before write name /src/Makefile  noffset 359373 nsize 0, offset 0 size 649
+
+after write name /src/Makefile  noffset 359373 nsize 649, offset 0 size 649
+
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /src
+reading dir path /
+reading dir path /
+before read name /tmp  noffset 259460 nsize 32, offset 0 size 4096
+
+real read 32
+before read name /tmp  noffset 259460 nsize 32, offset 0 size 4096
+
+real read 32
+Before creating /4913
+create file /4913 noffset 360022, nsize 0
+Renaming...
+/tmp~
+Before creating /tmp
+create file /tmp noffset 360022, nsize 0
+before write name /tmp  noffset 360022 nsize 0, offset 0 size 52
+
+after write name /tmp  noffset 360022 nsize 52, offset 0 size 52
+
+reading dir path /
+before read name /tmp  noffset 360022 nsize 52, offset 0 size 4096
+
+real read 52

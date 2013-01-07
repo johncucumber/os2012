@@ -13,3 +13,4 @@
 *.a
 
 fuse/td/
+fuse/cfs_support/

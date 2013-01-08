@@ -71,6 +71,31 @@ int Rename(const char *path, const char *newpath)
     struct filestruct *nodes = getNodes();
     int ind = getNumByPath(path, nodes);
     if (ind < 0) return -ENOENT;
+    long pdir = -1;
+    int i;
+    int strl = strlen(newpath);
+    for (i = strl-1; i > 0; i--)
+    {
+        if (newpath[i] == '/')
+        {
+            if (i > 0)
+            {
+                char *pdpath = malloc(i+1);
+                int j;
+                for (j = 0; j < i; j++)
+                {
+                    pdpath[j] = newpath[j];
+                }
+                pdpath[i] = '\0';
+                pdir = getNumByPath(pdpath, nodes);
+                if ((pdir > -1) && (nodes[pdir].type != 1))
+                    return -ENOENT;
+                break;
+            }
+        }
+    }
+
+    nodes[ind].parentdir = pdir;
     strcpy(nodes[ind].path, newpath);
     writeNode(nodes[ind], ind);
     return 0;

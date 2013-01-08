@@ -336,6 +336,7 @@ static struct fuse_operations cfs_oper = {
     .rmdir      = cfs_rmdir,
     .flush      = cfs_flush,
     .release    = cfs_release,
+    .truncate   = cfs_truncate,
 };
 
 int main(int argc, char *argv[])

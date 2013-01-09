@@ -273,3 +273,19 @@ int copyFileToEnd(struct filestruct node)
     return offset;
 }
 
+struct filestruct readNode(int pos)
+{
+    struct filestruct res;
+    FILE *fl;
+    int i;
+    if((fl=fopen(FS_FILE_PATH, "rb+")) == NULL)
+    {
+        puts ("Can't open fs's file.");
+        exit(-1);
+    }
+    fseek(fl, pos*sizeof(struct filestruct), 0);
+    fread(&res, 1, sizeof(struct filestruct), fl);
+    fclose(fl);
+
+    return res;
+}

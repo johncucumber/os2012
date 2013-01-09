@@ -147,13 +147,21 @@ static int cfs_open(const char *path, struct fuse_file_info *fi)
 static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 		      struct fuse_file_info *fi)
 {
-    struct filestruct *nodes = getNodes();
-    int nd = getNumByPath(path, nodes); 
+    //struct filestruct *nodes = getNodes();
+    //int nd = getNumByPath(path, nodes); 
+    int nd = fi->fh;
     if(nd < 0)
     {
         return -ENOENT;
     }
-    if((size = readFile(nodes[nd], (void *)buf, (long)offset, size)) < 0)
+    
+    struct filestruct node = readNode(nd);
+    if (!node.exists)
+    {
+        return -ENOENT;
+    }
+
+    if((size = readFile(node, (void *)buf, (long)offset, size)) < 0)
     {
         return -EIO;
     }
@@ -165,13 +173,24 @@ static int cfs_read(const char *path, char *buf, size_t size, off_t offset,
 
 int cfs_write(const char *path, const char *buf, size_t size, off_t offset, struct fuse_file_info *fi)
 {
-    struct filestruct *nodes = getNodes();
-    int nd = getNumByPath(path, nodes); 
+    //char sbuf[1024];
+    //sprintf(sbuf, "read finfo %ld", fi->fh );
+    //addLog(sbuf);
+    //struct filestruct *nodes = getNodes();
+    //int nd = getNumByPath(path, nodes); 
+    int nd = fi->fh;
     if(nd < 0)
     {
         return -ENOENT;
     }
-    if((size = writeFile(nodes[nd], (void *)buf, (long)offset, size, nd)) < 0)
+
+    struct filestruct node = readNode(nd);
+    if (!node.exists)
+    {
+        return -ENOENT;
+    }
+
+    if((size = writeFile(node, (void *)buf, (long)offset, size, nd)) < 0)
     {
         return -EIO;
     }

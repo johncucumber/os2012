@@ -31,3 +31,4 @@ char isNodeLast(struct filestruct node);
 long writeFile(struct filestruct node, void *buf, long offset, long size, int nodenum);
 long readFile(struct filestruct node, char *buf, long offset, long size);
 int copyFileToEnd(struct filestruct node);
+struct filestruct readNode(int pos);

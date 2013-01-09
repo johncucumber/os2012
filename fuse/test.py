@@ -140,6 +140,28 @@ if __name__ == '__main__':
                 test_finish()
                 exit()
     print(' >Unmount 2 test passed!') 
+
+    print('Big data test')
+    su.call('mkdir %sdtobg' % test_dir, shell=True)
+    su.call('cp bg.tar.gz %sdtobg/bg.tar.gz' % test_dir, shell=True)
+    test_file_path = '%sdtobg/bg.tar.gz' % test_dir
+    if not os.path.exists(test_file_path):
+        print(' >big data failed: file not exists')
+        test_finish()
+        exit()
+    else:
+        if not filecmp.cmp('bg.tar.gz', test_file_path):
+            print(' >big data failed: bad data')
+            test_finish()
+            exit()
+        else:
+            print(' >big data sucsessfull. Data valid')
+
+    #print('remove test')
+    #su.call('rm %s' % test_file_path, shell=True)
+    #if os.path.exists(test_file_path):
+    #    print('remove test failed')
+ 
     print('\nAll tests passed!')
     test_finish()
 

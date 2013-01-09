@@ -31139,3 +31139,3135 @@ reading dir path /
 before read name /f  noffset 30227939 nsize 10, offset 0 size 4096
 
 real read 10
+reading dir path /
+before read name /f  noffset 30227939 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+reading dir path /d1
+before read name /f  noffset 30227939 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+reading dir path /
+before read name /f  noffset 30227939 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+Before creating /somelink2~
+create file /somelink2~ noffset 30227949, nsize 0
+before read name /somefile  noffset 20159291 nsize 34, offset 0 size 4096
+
+real read 34
+before write name /somelink2~  noffset 30227949 nsize 0, offset 0 size 34
+
+after write name /somelink2~  noffset 30227949 nsize 34, offset 0 size 34
+
+before write name /somefile  noffset 20159291 nsize 0, offset 0 size 42
+
+after copy to end name /somefile  noffset 20159291 nsize 0, offset 30227983 
+
+after write name /somefile  noffset 30227983 nsize 42, offset 0 size 42
+
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+reading dir path /
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /f  noffset 30227939 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+reading dir path /
+reading dir path /
+before read name /f  noffset 30227939 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+reading dir path /d1
+before read name /f  noffset 30227939 nsize 10, offset 0 size 4096
+
+real read 10
+before read name /somefile  noffset 30227983 nsize 42, offset 0 size 4096
+
+real read 42
+Before creating /fuse-2.9.2
+create file /fuse-2.9.2 noffset 20159325, nsize 0
+Before creating /fuse-2.9.2/configure.in
+create file /fuse-2.9.2/configure.in noffset 30228025, nsize 0
+before write name /fuse-2.9.2/configure.in  noffset 30228025 nsize 0, offset 0 size 3450
+
+after write name /fuse-2.9.2/configure.in  noffset 30228025 nsize 3450, offset 0 size 3450
+
+Before creating /fuse-2.9.2/INSTALL
+create file /fuse-2.9.2/INSTALL noffset 30231475, nsize 0
+before write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 12288, offset 12288 size 3290
+
+after write name /fuse-2.9.2/INSTALL  noffset 30231475 nsize 15578, offset 12288 size 3290
+
+Before creating /fuse-2.9.2/COPYING
+create file /fuse-2.9.2/COPYING noffset 30247053, nsize 0
+before write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 16384, offset 16384 size 1708
+
+after write name /fuse-2.9.2/COPYING  noffset 30247053 nsize 18092, offset 16384 size 1708
+
+Before creating /fuse-2.9.2/NEWS
+create file /fuse-2.9.2/NEWS noffset 30265145, nsize 0
+before write name /fuse-2.9.2/NEWS  noffset 30265145 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/NEWS  noffset 30265145 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/NEWS  noffset 30265145 nsize 4096, offset 4096 size 3604
+
+after write name /fuse-2.9.2/NEWS  noffset 30265145 nsize 7700, offset 4096 size 3604
+
+Before creating /fuse-2.9.2/depcomp
+create file /fuse-2.9.2/depcomp noffset 30272845, nsize 0
+before write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 16384, offset 16384 size 2231
+
+after write name /fuse-2.9.2/depcomp  noffset 30272845 nsize 18615, offset 16384 size 2231
+
+Before creating /fuse-2.9.2/ChangeLog
+create file /fuse-2.9.2/ChangeLog noffset 30291460, nsize 0
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 69632, offset 69632 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 73728, offset 69632 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 73728, offset 73728 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 77824, offset 73728 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 77824, offset 77824 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 81920, offset 77824 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 81920, offset 81920 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 86016, offset 81920 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 86016, offset 86016 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 90112, offset 86016 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 90112, offset 90112 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 94208, offset 90112 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 94208, offset 94208 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 98304, offset 94208 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 98304, offset 98304 size 4096
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 102400, offset 98304 size 4096
+
+before write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 102400, offset 102400 size 3261
+
+after write name /fuse-2.9.2/ChangeLog  noffset 30291460 nsize 105661, offset 102400 size 3261
+
+Before creating /fuse-2.9.2/fuse.pc.in
+create file /fuse-2.9.2/fuse.pc.in noffset 30397121, nsize 0
+before write name /fuse-2.9.2/fuse.pc.in  noffset 30397121 nsize 0, offset 0 size 265
+
+after write name /fuse-2.9.2/fuse.pc.in  noffset 30397121 nsize 265, offset 0 size 265
+
+Before creating /fuse-2.9.2/COPYING.LIB
+create file /fuse-2.9.2/COPYING.LIB noffset 30397386, nsize 0
+before write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 24576, offset 24576 size 1954
+
+after write name /fuse-2.9.2/COPYING.LIB  noffset 30397386 nsize 26530, offset 24576 size 1954
+
+Before creating /fuse-2.9.2/configure
+create file /fuse-2.9.2/configure noffset 30423916, nsize 0
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 69632, offset 69632 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 73728, offset 69632 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 73728, offset 73728 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 77824, offset 73728 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 77824, offset 77824 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 81920, offset 77824 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 81920, offset 81920 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 86016, offset 81920 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 86016, offset 86016 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 90112, offset 86016 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 90112, offset 90112 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 94208, offset 90112 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 94208, offset 94208 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 98304, offset 94208 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 98304, offset 98304 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 102400, offset 98304 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 102400, offset 102400 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 106496, offset 102400 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 106496, offset 106496 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 110592, offset 106496 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 110592, offset 110592 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 114688, offset 110592 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 114688, offset 114688 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 118784, offset 114688 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 118784, offset 118784 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 122880, offset 118784 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 122880, offset 122880 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 126976, offset 122880 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 126976, offset 126976 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 131072, offset 126976 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 131072, offset 131072 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 135168, offset 131072 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 135168, offset 135168 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 139264, offset 135168 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 139264, offset 139264 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 143360, offset 139264 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 143360, offset 143360 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 147456, offset 143360 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 147456, offset 147456 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 151552, offset 147456 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 151552, offset 151552 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 155648, offset 151552 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 155648, offset 155648 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 159744, offset 155648 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 159744, offset 159744 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 163840, offset 159744 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 163840, offset 163840 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 167936, offset 163840 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 167936, offset 167936 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 172032, offset 167936 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 172032, offset 172032 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 176128, offset 172032 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 176128, offset 176128 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 180224, offset 176128 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 180224, offset 180224 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 184320, offset 180224 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 184320, offset 184320 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 188416, offset 184320 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 188416, offset 188416 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 192512, offset 188416 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 192512, offset 192512 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 196608, offset 192512 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 196608, offset 196608 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 200704, offset 196608 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 200704, offset 200704 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 204800, offset 200704 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 204800, offset 204800 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 208896, offset 204800 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 208896, offset 208896 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 212992, offset 208896 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 212992, offset 212992 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 217088, offset 212992 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 217088, offset 217088 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 221184, offset 217088 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 221184, offset 221184 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 225280, offset 221184 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 225280, offset 225280 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 229376, offset 225280 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 229376, offset 229376 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 233472, offset 229376 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 233472, offset 233472 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 237568, offset 233472 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 237568, offset 237568 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 241664, offset 237568 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 241664, offset 241664 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 245760, offset 241664 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 245760, offset 245760 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 249856, offset 245760 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 249856, offset 249856 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 253952, offset 249856 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 253952, offset 253952 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 258048, offset 253952 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 258048, offset 258048 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 262144, offset 258048 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 262144, offset 262144 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 266240, offset 262144 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 266240, offset 266240 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 270336, offset 266240 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 270336, offset 270336 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 274432, offset 270336 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 274432, offset 274432 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 278528, offset 274432 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 278528, offset 278528 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 282624, offset 278528 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 282624, offset 282624 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 286720, offset 282624 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 286720, offset 286720 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 290816, offset 286720 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 290816, offset 290816 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 294912, offset 290816 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 294912, offset 294912 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 299008, offset 294912 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 299008, offset 299008 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 303104, offset 299008 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 303104, offset 303104 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 307200, offset 303104 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 307200, offset 307200 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 311296, offset 307200 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 311296, offset 311296 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 315392, offset 311296 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 315392, offset 315392 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 319488, offset 315392 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 319488, offset 319488 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 323584, offset 319488 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 323584, offset 323584 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 327680, offset 323584 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 327680, offset 327680 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 331776, offset 327680 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 331776, offset 331776 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 335872, offset 331776 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 335872, offset 335872 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 339968, offset 335872 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 339968, offset 339968 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 344064, offset 339968 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 344064, offset 344064 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 348160, offset 344064 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 348160, offset 348160 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 352256, offset 348160 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 352256, offset 352256 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 356352, offset 352256 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 356352, offset 356352 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 360448, offset 356352 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 360448, offset 360448 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 364544, offset 360448 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 364544, offset 364544 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 368640, offset 364544 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 368640, offset 368640 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 372736, offset 368640 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 372736, offset 372736 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 376832, offset 372736 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 376832, offset 376832 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 380928, offset 376832 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 380928, offset 380928 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 385024, offset 380928 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 385024, offset 385024 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 389120, offset 385024 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 389120, offset 389120 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 393216, offset 389120 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 393216, offset 393216 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 397312, offset 393216 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 397312, offset 397312 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 401408, offset 397312 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 401408, offset 401408 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 405504, offset 401408 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 405504, offset 405504 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 409600, offset 405504 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 409600, offset 409600 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 413696, offset 409600 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 413696, offset 413696 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 417792, offset 413696 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 417792, offset 417792 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 421888, offset 417792 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 421888, offset 421888 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 425984, offset 421888 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 425984, offset 425984 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 430080, offset 425984 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 430080, offset 430080 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 434176, offset 430080 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 434176, offset 434176 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 438272, offset 434176 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 438272, offset 438272 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 442368, offset 438272 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 442368, offset 442368 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 446464, offset 442368 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 446464, offset 446464 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 450560, offset 446464 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 450560, offset 450560 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 454656, offset 450560 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 454656, offset 454656 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 458752, offset 454656 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 458752, offset 458752 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 462848, offset 458752 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 462848, offset 462848 size 4096
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 466944, offset 462848 size 4096
+
+before write name /fuse-2.9.2/configure  noffset 30423916 nsize 466944, offset 466944 size 2436
+
+after write name /fuse-2.9.2/configure  noffset 30423916 nsize 469380, offset 466944 size 2436
+
+Before creating /fuse-2.9.2/aclocal.m4
+create file /fuse-2.9.2/aclocal.m4 noffset 30893296, nsize 0
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 69632, offset 69632 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 73728, offset 69632 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 73728, offset 73728 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 77824, offset 73728 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 77824, offset 77824 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 81920, offset 77824 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 81920, offset 81920 size 4096
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 86016, offset 81920 size 4096
+
+before write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 86016, offset 86016 size 3685
+
+after write name /fuse-2.9.2/aclocal.m4  noffset 30893296 nsize 89701, offset 86016 size 3685
+
+Before creating /fuse-2.9.2/AUTHORS
+create file /fuse-2.9.2/AUTHORS noffset 30982997, nsize 0
+before write name /fuse-2.9.2/AUTHORS  noffset 30982997 nsize 0, offset 0 size 84
+
+after write name /fuse-2.9.2/AUTHORS  noffset 30982997 nsize 84, offset 0 size 84
+
+Before creating /fuse-2.9.2/ltmain.sh
+create file /fuse-2.9.2/ltmain.sh noffset 30983081, nsize 0
+reading dir path /fuse-2.9.2
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 69632, offset 69632 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 73728, offset 69632 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 73728, offset 73728 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 77824, offset 73728 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 77824, offset 77824 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 81920, offset 77824 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 81920, offset 81920 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 86016, offset 81920 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 86016, offset 86016 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 90112, offset 86016 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 90112, offset 90112 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 94208, offset 90112 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 94208, offset 94208 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 98304, offset 94208 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 98304, offset 98304 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 102400, offset 98304 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 102400, offset 102400 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 106496, offset 102400 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 106496, offset 106496 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 110592, offset 106496 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 110592, offset 110592 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 114688, offset 110592 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 114688, offset 114688 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 118784, offset 114688 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 118784, offset 118784 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 122880, offset 118784 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 122880, offset 122880 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 126976, offset 122880 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 126976, offset 126976 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 131072, offset 126976 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 131072, offset 131072 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 135168, offset 131072 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 135168, offset 135168 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 139264, offset 135168 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 139264, offset 139264 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 143360, offset 139264 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 143360, offset 143360 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 147456, offset 143360 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 147456, offset 147456 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 151552, offset 147456 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 151552, offset 151552 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 155648, offset 151552 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 155648, offset 155648 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 159744, offset 155648 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 159744, offset 159744 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 163840, offset 159744 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 163840, offset 163840 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 167936, offset 163840 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 167936, offset 167936 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 172032, offset 167936 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 172032, offset 172032 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 176128, offset 172032 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 176128, offset 176128 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 180224, offset 176128 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 180224, offset 180224 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 184320, offset 180224 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 184320, offset 184320 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 188416, offset 184320 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 188416, offset 188416 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 192512, offset 188416 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 192512, offset 192512 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 196608, offset 192512 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 196608, offset 196608 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 200704, offset 196608 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 200704, offset 200704 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 204800, offset 200704 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 204800, offset 204800 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 208896, offset 204800 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 208896, offset 208896 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 212992, offset 208896 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 212992, offset 212992 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 217088, offset 212992 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 217088, offset 217088 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 221184, offset 217088 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 221184, offset 221184 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 225280, offset 221184 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 225280, offset 225280 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 229376, offset 225280 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 229376, offset 229376 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 233472, offset 229376 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 233472, offset 233472 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 237568, offset 233472 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 237568, offset 237568 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 241664, offset 237568 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 241664, offset 241664 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 245760, offset 241664 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 245760, offset 245760 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 249856, offset 245760 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 249856, offset 249856 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 253952, offset 249856 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 253952, offset 253952 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 258048, offset 253952 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 258048, offset 258048 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 262144, offset 258048 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 262144, offset 262144 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 266240, offset 262144 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 266240, offset 266240 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 270336, offset 266240 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 270336, offset 270336 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 274432, offset 270336 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 274432, offset 274432 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 278528, offset 274432 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 278528, offset 278528 size 4096
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 282624, offset 278528 size 4096
+
+before write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 282624, offset 282624 size 121
+
+after write name /fuse-2.9.2/ltmain.sh  noffset 30983081 nsize 282745, offset 282624 size 121
+
+Before creating /fuse-2.9.2/FAQ
+create file /fuse-2.9.2/FAQ noffset 31265826, nsize 0
+before write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 12288, offset 12288 size 2837
+
+after write name /fuse-2.9.2/FAQ  noffset 31265826 nsize 15125, offset 12288 size 2837
+
+Before creating /fuse-2.9.2/missing
+create file /fuse-2.9.2/missing noffset 31280951, nsize 0
+before write name /fuse-2.9.2/missing  noffset 31280951 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/missing  noffset 31280951 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/missing  noffset 31280951 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/missing  noffset 31280951 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/missing  noffset 31280951 nsize 8192, offset 8192 size 3227
+
+after write name /fuse-2.9.2/missing  noffset 31280951 nsize 11419, offset 8192 size 3227
+
+Before creating /fuse-2.9.2/Makefile.am
+create file /fuse-2.9.2/Makefile.am noffset 31292370, nsize 0
+before write name /fuse-2.9.2/Makefile.am  noffset 31292370 nsize 0, offset 0 size 266
+
+after write name /fuse-2.9.2/Makefile.am  noffset 31292370 nsize 266, offset 0 size 266
+
+Before creating /fuse-2.9.2/Filesystems
+create file /fuse-2.9.2/Filesystems noffset 31292636, nsize 0
+before write name /fuse-2.9.2/Filesystems  noffset 31292636 nsize 0, offset 0 size 256
+
+after write name /fuse-2.9.2/Filesystems  noffset 31292636 nsize 256, offset 0 size 256
+
+Before creating /fuse-2.9.2/compile
+create file /fuse-2.9.2/compile noffset 31292892, nsize 0
+before write name /fuse-2.9.2/compile  noffset 31292892 nsize 0, offset 0 size 3769
+
+after write name /fuse-2.9.2/compile  noffset 31292892 nsize 3769, offset 0 size 3769
+
+Before creating /fuse-2.9.2/config.rpath
+create file /fuse-2.9.2/config.rpath noffset 31296661, nsize 0
+before write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 16384, offset 16384 size 2058
+
+after write name /fuse-2.9.2/config.rpath  noffset 31296661 nsize 18442, offset 16384 size 2058
+
+Before creating /fuse-2.9.2/install-sh
+create file /fuse-2.9.2/install-sh noffset 31315103, nsize 0
+before write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 12288, offset 12288 size 1375
+
+after write name /fuse-2.9.2/install-sh  noffset 31315103 nsize 13663, offset 12288 size 1375
+
+Before creating /fuse-2.9.2/config.sub
+create file /fuse-2.9.2/config.sub noffset 31328766, nsize 0
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 32768, offset 32768 size 1655
+
+after write name /fuse-2.9.2/config.sub  noffset 31328766 nsize 34423, offset 32768 size 1655
+
+Before creating /fuse-2.9.2/Makefile.in
+create file /fuse-2.9.2/Makefile.in noffset 31363189, nsize 0
+before write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 24576, offset 24576 size 298
+
+after write name /fuse-2.9.2/Makefile.in  noffset 31363189 nsize 24874, offset 24576 size 298
+
+Before creating /fuse-2.9.2/config.guess
+create file /fuse-2.9.2/config.guess noffset 31388063, nsize 0
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 45056, offset 45056 size 201
+
+after write name /fuse-2.9.2/config.guess  noffset 31388063 nsize 45257, offset 45056 size 201
+
+Before creating /fuse-2.9.2/README
+create file /fuse-2.9.2/README noffset 31433320, nsize 0
+before write name /fuse-2.9.2/README  noffset 31433320 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/README  noffset 31433320 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/README  noffset 31433320 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/README  noffset 31433320 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/README  noffset 31433320 nsize 8192, offset 8192 size 2666
+
+after write name /fuse-2.9.2/README  noffset 31433320 nsize 10858, offset 8192 size 2666
+
+Before creating /fuse-2.9.2/README.NFS
+create file /fuse-2.9.2/README.NFS noffset 31444178, nsize 0
+before write name /fuse-2.9.2/README.NFS  noffset 31444178 nsize 0, offset 0 size 1382
+
+after write name /fuse-2.9.2/README.NFS  noffset 31444178 nsize 1382, offset 0 size 1382
+
+Before creating /fuse-2.9.2/config.log
+create file /fuse-2.9.2/config.log noffset 31445560, nsize 0
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/config.log  noffset 31445560 nsize 36864, offset 36864 size 3610
+
+after write name /fuse-2.9.2/config.log  noffset 31445560 nsize 40474, offset 36864 size 3610
+
+Before creating /fuse-2.9.2/config.status
+create file /fuse-2.9.2/config.status noffset 31486034, nsize 0
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/config.status  noffset 31486034 nsize 61440, offset 61440 size 1871
+
+after write name /fuse-2.9.2/config.status  noffset 31486034 nsize 63311, offset 61440 size 1871
+
+Before creating /fuse-2.9.2/libtool
+create file /fuse-2.9.2/libtool noffset 31549345, nsize 0
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 69632, offset 69632 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 73728, offset 69632 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 73728, offset 73728 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 77824, offset 73728 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 77824, offset 77824 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 81920, offset 77824 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 81920, offset 81920 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 86016, offset 81920 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 86016, offset 86016 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 90112, offset 86016 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 90112, offset 90112 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 94208, offset 90112 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 94208, offset 94208 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 98304, offset 94208 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 98304, offset 98304 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 102400, offset 98304 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 102400, offset 102400 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 106496, offset 102400 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 106496, offset 106496 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 110592, offset 106496 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 110592, offset 110592 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 114688, offset 110592 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 114688, offset 114688 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 118784, offset 114688 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 118784, offset 118784 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 122880, offset 118784 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 122880, offset 122880 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 126976, offset 122880 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 126976, offset 126976 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 131072, offset 126976 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 131072, offset 131072 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 135168, offset 131072 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 135168, offset 135168 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 139264, offset 135168 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 139264, offset 139264 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 143360, offset 139264 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 143360, offset 143360 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 147456, offset 143360 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 147456, offset 147456 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 151552, offset 147456 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 151552, offset 151552 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 155648, offset 151552 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 155648, offset 155648 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 159744, offset 155648 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 159744, offset 159744 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 163840, offset 159744 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 163840, offset 163840 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 167936, offset 163840 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 167936, offset 167936 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 172032, offset 167936 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 172032, offset 172032 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 176128, offset 172032 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 176128, offset 176128 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 180224, offset 176128 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 180224, offset 180224 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 184320, offset 180224 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 184320, offset 184320 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 188416, offset 184320 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 188416, offset 188416 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 192512, offset 188416 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 192512, offset 192512 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 196608, offset 192512 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 196608, offset 196608 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 200704, offset 196608 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 200704, offset 200704 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 204800, offset 200704 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 204800, offset 204800 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 208896, offset 204800 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 208896, offset 208896 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 212992, offset 208896 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 212992, offset 212992 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 217088, offset 212992 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 217088, offset 217088 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 221184, offset 217088 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 221184, offset 221184 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 225280, offset 221184 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 225280, offset 225280 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 229376, offset 225280 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 229376, offset 229376 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 233472, offset 229376 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 233472, offset 233472 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 237568, offset 233472 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 237568, offset 237568 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 241664, offset 237568 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 241664, offset 241664 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 245760, offset 241664 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 245760, offset 245760 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 249856, offset 245760 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 249856, offset 249856 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 253952, offset 249856 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 253952, offset 253952 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 258048, offset 253952 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 258048, offset 258048 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 262144, offset 258048 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 262144, offset 262144 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 266240, offset 262144 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 266240, offset 266240 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 270336, offset 266240 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 270336, offset 270336 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 274432, offset 270336 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 274432, offset 274432 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 278528, offset 274432 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 278528, offset 278528 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 282624, offset 278528 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 282624, offset 282624 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 286720, offset 282624 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 286720, offset 286720 size 4096
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 290816, offset 286720 size 4096
+
+before write name /fuse-2.9.2/libtool  noffset 31549345 nsize 290816, offset 290816 size 1896
+
+after write name /fuse-2.9.2/libtool  noffset 31549345 nsize 292712, offset 290816 size 1896
+
+Before creating /fuse-2.9.2/m4
+create file /fuse-2.9.2/m4 noffset 0, nsize 0
+Before creating /fuse-2.9.2/m4/libtool.m4
+create file /fuse-2.9.2/m4/libtool.m4 noffset 31842057, nsize 0
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 69632, offset 69632 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 73728, offset 69632 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 73728, offset 73728 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 77824, offset 73728 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 77824, offset 77824 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 81920, offset 77824 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 81920, offset 81920 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 86016, offset 81920 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 86016, offset 86016 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 90112, offset 86016 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 90112, offset 90112 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 94208, offset 90112 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 94208, offset 94208 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 98304, offset 94208 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 98304, offset 98304 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 102400, offset 98304 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 102400, offset 102400 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 106496, offset 102400 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 106496, offset 106496 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 110592, offset 106496 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 110592, offset 110592 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 114688, offset 110592 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 114688, offset 114688 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 118784, offset 114688 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 118784, offset 118784 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 122880, offset 118784 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 122880, offset 122880 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 126976, offset 122880 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 126976, offset 126976 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 131072, offset 126976 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 131072, offset 131072 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 135168, offset 131072 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 135168, offset 135168 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 139264, offset 135168 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 139264, offset 139264 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 143360, offset 139264 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 143360, offset 143360 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 147456, offset 143360 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 147456, offset 147456 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 151552, offset 147456 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 151552, offset 151552 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 155648, offset 151552 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 155648, offset 155648 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 159744, offset 155648 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 159744, offset 159744 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 163840, offset 159744 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 163840, offset 163840 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 167936, offset 163840 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 167936, offset 167936 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 172032, offset 167936 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 172032, offset 172032 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 176128, offset 172032 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 176128, offset 176128 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 180224, offset 176128 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 180224, offset 180224 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 184320, offset 180224 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 184320, offset 184320 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 188416, offset 184320 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 188416, offset 188416 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 192512, offset 188416 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 192512, offset 192512 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 196608, offset 192512 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 196608, offset 196608 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 200704, offset 196608 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 200704, offset 200704 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 204800, offset 200704 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 204800, offset 204800 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 208896, offset 204800 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 208896, offset 208896 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 212992, offset 208896 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 212992, offset 212992 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 217088, offset 212992 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 217088, offset 217088 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 221184, offset 217088 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 221184, offset 221184 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 225280, offset 221184 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 225280, offset 225280 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 229376, offset 225280 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 229376, offset 229376 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 233472, offset 229376 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 233472, offset 233472 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 237568, offset 233472 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 237568, offset 237568 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 241664, offset 237568 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 241664, offset 241664 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 245760, offset 241664 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 245760, offset 245760 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 249856, offset 245760 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 249856, offset 249856 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 253952, offset 249856 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 253952, offset 253952 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 258048, offset 253952 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 258048, offset 258048 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 262144, offset 258048 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 262144, offset 262144 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 266240, offset 262144 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 266240, offset 266240 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 270336, offset 266240 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 270336, offset 270336 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 274432, offset 270336 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 274432, offset 274432 size 4096
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 278528, offset 274432 size 4096
+
+before write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 278528, offset 278528 size 2529
+
+after write name /fuse-2.9.2/m4/libtool.m4  noffset 31842057 nsize 281057, offset 278528 size 2529
+
+Before creating /fuse-2.9.2/m4/lt~obsolete.m4
+create file /fuse-2.9.2/m4/lt~obsolete.m4 noffset 32123114, nsize 0
+before write name /fuse-2.9.2/m4/lt~obsolete.m4  noffset 32123114 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/m4/lt~obsolete.m4  noffset 32123114 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/m4/lt~obsolete.m4  noffset 32123114 nsize 4096, offset 4096 size 2030
+
+after write name /fuse-2.9.2/m4/lt~obsolete.m4  noffset 32123114 nsize 6126, offset 4096 size 2030
+
+Before creating /fuse-2.9.2/m4/ltoptions.m4
+create file /fuse-2.9.2/m4/ltoptions.m4 noffset 32129240, nsize 0
+before write name /fuse-2.9.2/m4/ltoptions.m4  noffset 32129240 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/m4/ltoptions.m4  noffset 32129240 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/m4/ltoptions.m4  noffset 32129240 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/m4/ltoptions.m4  noffset 32129240 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/m4/ltoptions.m4  noffset 32129240 nsize 8192, offset 8192 size 3758
+
+after write name /fuse-2.9.2/m4/ltoptions.m4  noffset 32129240 nsize 11950, offset 8192 size 3758
+
+Before creating /fuse-2.9.2/m4/ltsugar.m4
+create file /fuse-2.9.2/m4/ltsugar.m4 noffset 32141190, nsize 0
+before write name /fuse-2.9.2/m4/ltsugar.m4  noffset 32141190 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/m4/ltsugar.m4  noffset 32141190 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/m4/ltsugar.m4  noffset 32141190 nsize 4096, offset 4096 size 276
+
+after write name /fuse-2.9.2/m4/ltsugar.m4  noffset 32141190 nsize 4372, offset 4096 size 276
+
+Before creating /fuse-2.9.2/m4/ltversion.m4
+create file /fuse-2.9.2/m4/ltversion.m4 noffset 32145562, nsize 0
+before write name /fuse-2.9.2/m4/ltversion.m4  noffset 32145562 nsize 0, offset 0 size 686
+
+after write name /fuse-2.9.2/m4/ltversion.m4  noffset 32145562 nsize 686, offset 0 size 686
+
+Before creating /fuse-2.9.2/doc
+create file /fuse-2.9.2/doc noffset 0, nsize 0
+Before creating /fuse-2.9.2/doc/fusermount.1
+create file /fuse-2.9.2/doc/fusermount.1 noffset 32146248, nsize 0
+before write name /fuse-2.9.2/doc/fusermount.1  noffset 32146248 nsize 0, offset 0 size 1099
+
+after write name /fuse-2.9.2/doc/fusermount.1  noffset 32146248 nsize 1099, offset 0 size 1099
+
+Before creating /fuse-2.9.2/doc/ulockmgr_server.1
+create file /fuse-2.9.2/doc/ulockmgr_server.1 noffset 32147347, nsize 0
+before write name /fuse-2.9.2/doc/ulockmgr_server.1  noffset 32147347 nsize 0, offset 0 size 966
+
+after write name /fuse-2.9.2/doc/ulockmgr_server.1  noffset 32147347 nsize 966, offset 0 size 966
+
+Before creating /fuse-2.9.2/doc/Doxyfile
+create file /fuse-2.9.2/doc/Doxyfile noffset 32148313, nsize 0
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 57344, offset 57344 size 2409
+
+after write name /fuse-2.9.2/doc/Doxyfile  noffset 32148313 nsize 59753, offset 57344 size 2409
+
+Before creating /fuse-2.9.2/doc/how-fuse-works
+create file /fuse-2.9.2/doc/how-fuse-works noffset 32208066, nsize 0
+before write name /fuse-2.9.2/doc/how-fuse-works  noffset 32208066 nsize 0, offset 0 size 2381
+
+after write name /fuse-2.9.2/doc/how-fuse-works  noffset 32208066 nsize 2381, offset 0 size 2381
+
+Before creating /fuse-2.9.2/doc/kernel.txt
+create file /fuse-2.9.2/doc/kernel.txt noffset 32210447, nsize 0
+before write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 12288, offset 12288 size 3849
+
+after write name /fuse-2.9.2/doc/kernel.txt  noffset 32210447 nsize 16137, offset 12288 size 3849
+
+Before creating /fuse-2.9.2/doc/Makefile.am
+create file /fuse-2.9.2/doc/Makefile.am noffset 32226584, nsize 0
+before write name /fuse-2.9.2/doc/Makefile.am  noffset 32226584 nsize 0, offset 0 size 168
+
+after write name /fuse-2.9.2/doc/Makefile.am  noffset 32226584 nsize 168, offset 0 size 168
+
+Before creating /fuse-2.9.2/doc/mount.fuse.8
+create file /fuse-2.9.2/doc/mount.fuse.8 noffset 32226752, nsize 0
+before write name /fuse-2.9.2/doc/mount.fuse.8  noffset 32226752 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/doc/mount.fuse.8  noffset 32226752 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/doc/mount.fuse.8  noffset 32226752 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/doc/mount.fuse.8  noffset 32226752 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/doc/mount.fuse.8  noffset 32226752 nsize 8192, offset 8192 size 2168
+
+after write name /fuse-2.9.2/doc/mount.fuse.8  noffset 32226752 nsize 10360, offset 8192 size 2168
+
+Before creating /fuse-2.9.2/doc/Makefile.in
+create file /fuse-2.9.2/doc/Makefile.in noffset 32237112, nsize 0
+before write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 12288, offset 12288 size 3165
+
+after write name /fuse-2.9.2/doc/Makefile.in  noffset 32237112 nsize 15453, offset 12288 size 3165
+
+Before creating /fuse-2.9.2/doc/Makefile
+create file /fuse-2.9.2/doc/Makefile noffset 32252565, nsize 0
+before write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 12288, offset 12288 size 3582
+
+after write name /fuse-2.9.2/doc/Makefile  noffset 32252565 nsize 15870, offset 12288 size 3582
+
+Before creating /fuse-2.9.2/example
+create file /fuse-2.9.2/example noffset 0, nsize 0
+Before creating /fuse-2.9.2/example/hello.c
+create file /fuse-2.9.2/example/hello.c noffset 32268435, nsize 0
+before write name /fuse-2.9.2/example/hello.c  noffset 32268435 nsize 0, offset 0 size 1974
+
+after write name /fuse-2.9.2/example/hello.c  noffset 32268435 nsize 1974, offset 0 size 1974
+
+Before creating /fuse-2.9.2/example/fusexmp.c
+create file /fuse-2.9.2/example/fusexmp.c noffset 32270409, nsize 0
+before write name /fuse-2.9.2/example/fusexmp.c  noffset 32270409 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.c  noffset 32270409 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.c  noffset 32270409 nsize 4096, offset 4096 size 2919
+
+after write name /fuse-2.9.2/example/fusexmp.c  noffset 32270409 nsize 7015, offset 4096 size 2919
+
+Before creating /fuse-2.9.2/example/fioc.h
+create file /fuse-2.9.2/example/fioc.h noffset 32277424, nsize 0
+before write name /fuse-2.9.2/example/fioc.h  noffset 32277424 nsize 0, offset 0 size 747
+
+after write name /fuse-2.9.2/example/fioc.h  noffset 32277424 nsize 747, offset 0 size 747
+
+Before creating /fuse-2.9.2/example/fioclient.c
+create file /fuse-2.9.2/example/fioclient.c noffset 32278171, nsize 0
+before write name /fuse-2.9.2/example/fioclient.c  noffset 32278171 nsize 0, offset 0 size 2454
+
+after write name /fuse-2.9.2/example/fioclient.c  noffset 32278171 nsize 2454, offset 0 size 2454
+
+Before creating /fuse-2.9.2/example/hello_ll.c
+create file /fuse-2.9.2/example/hello_ll.c noffset 32280625, nsize 0
+before write name /fuse-2.9.2/example/hello_ll.c  noffset 32280625 nsize 0, offset 0 size 4035
+
+after write name /fuse-2.9.2/example/hello_ll.c  noffset 32280625 nsize 4035, offset 0 size 4035
+
+Before creating /fuse-2.9.2/example/fioc.c
+create file /fuse-2.9.2/example/fioc.c noffset 32284660, nsize 0
+before write name /fuse-2.9.2/example/fioc.c  noffset 32284660 nsize 0, offset 0 size 3911
+
+after write name /fuse-2.9.2/example/fioc.c  noffset 32284660 nsize 3911, offset 0 size 3911
+
+Before creating /fuse-2.9.2/example/fusexmp_fh.c
+create file /fuse-2.9.2/example/fusexmp_fh.c noffset 32288571, nsize 0
+before write name /fuse-2.9.2/example/fusexmp_fh.c  noffset 32288571 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.c  noffset 32288571 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.c  noffset 32288571 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.c  noffset 32288571 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.c  noffset 32288571 nsize 8192, offset 8192 size 1815
+
+after write name /fuse-2.9.2/example/fusexmp_fh.c  noffset 32288571 nsize 10007, offset 8192 size 1815
+
+Before creating /fuse-2.9.2/example/cusexmp.c
+create file /fuse-2.9.2/example/cusexmp.c noffset 32298578, nsize 0
+before write name /fuse-2.9.2/example/cusexmp.c  noffset 32298578 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.c  noffset 32298578 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.c  noffset 32298578 nsize 4096, offset 4096 size 2463
+
+after write name /fuse-2.9.2/example/cusexmp.c  noffset 32298578 nsize 6559, offset 4096 size 2463
+
+Before creating /fuse-2.9.2/example/Makefile.am
+create file /fuse-2.9.2/example/Makefile.am noffset 32305137, nsize 0
+before write name /fuse-2.9.2/example/Makefile.am  noffset 32305137 nsize 0, offset 0 size 468
+
+after write name /fuse-2.9.2/example/Makefile.am  noffset 32305137 nsize 468, offset 0 size 468
+
+Before creating /fuse-2.9.2/example/fsel.c
+create file /fuse-2.9.2/example/fsel.c noffset 32305605, nsize 0
+before write name /fuse-2.9.2/example/fsel.c  noffset 32305605 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fsel.c  noffset 32305605 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fsel.c  noffset 32305605 nsize 4096, offset 4096 size 1962
+
+after write name /fuse-2.9.2/example/fsel.c  noffset 32305605 nsize 6058, offset 4096 size 1962
+
+Before creating /fuse-2.9.2/example/Makefile.in
+create file /fuse-2.9.2/example/Makefile.in noffset 32311663, nsize 0
+before write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 20480, offset 20480 size 2737
+
+after write name /fuse-2.9.2/example/Makefile.in  noffset 32311663 nsize 23217, offset 20480 size 2737
+
+Before creating /fuse-2.9.2/example/null.c
+create file /fuse-2.9.2/example/null.c noffset 32334880, nsize 0
+before write name /fuse-2.9.2/example/null.c  noffset 32334880 nsize 0, offset 0 size 1762
+
+after write name /fuse-2.9.2/example/null.c  noffset 32334880 nsize 1762, offset 0 size 1762
+
+Before creating /fuse-2.9.2/example/fselclient.c
+create file /fuse-2.9.2/example/fselclient.c noffset 32336642, nsize 0
+before write name /fuse-2.9.2/example/fselclient.c  noffset 32336642 nsize 0, offset 0 size 1359
+
+after write name /fuse-2.9.2/example/fselclient.c  noffset 32336642 nsize 1359, offset 0 size 1359
+
+Before creating /fuse-2.9.2/example/fusexmp.o
+create file /fuse-2.9.2/example/fusexmp.o noffset 32338001, nsize 0
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 69632, offset 69632 size 3088
+
+after write name /fuse-2.9.2/example/fusexmp.o  noffset 32338001 nsize 72720, offset 69632 size 3088
+
+Before creating /fuse-2.9.2/example/fusexmp
+create file /fuse-2.9.2/example/fusexmp noffset 32410721, nsize 0
+before write name /fuse-2.9.2/example/fusexmp  noffset 32410721 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp  noffset 32410721 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp  noffset 32410721 nsize 4096, offset 4096 size 3431
+
+after write name /fuse-2.9.2/example/fusexmp  noffset 32410721 nsize 7527, offset 4096 size 3431
+
+Before creating /fuse-2.9.2/example/fusexmp_fh.o
+create file /fuse-2.9.2/example/fusexmp_fh.o noffset 32418248, nsize 0
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 49152, offset 49152 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 53248, offset 49152 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 53248, offset 53248 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 57344, offset 53248 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 57344, offset 57344 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 61440, offset 57344 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 61440, offset 61440 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 65536, offset 61440 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 65536, offset 65536 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 69632, offset 65536 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 69632, offset 69632 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 73728, offset 69632 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 73728, offset 73728 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 77824, offset 73728 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 77824, offset 77824 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 81920, offset 77824 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 81920, offset 81920 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 86016, offset 81920 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 86016, offset 86016 size 4056
+
+after write name /fuse-2.9.2/example/fusexmp_fh.o  noffset 32418248 nsize 90072, offset 86016 size 4056
+
+Before creating /fuse-2.9.2/example/fusexmp_fh
+create file /fuse-2.9.2/example/fusexmp_fh noffset 32508320, nsize 0
+before write name /fuse-2.9.2/example/fusexmp_fh  noffset 32508320 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fusexmp_fh  noffset 32508320 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fusexmp_fh  noffset 32508320 nsize 4096, offset 4096 size 3514
+
+after write name /fuse-2.9.2/example/fusexmp_fh  noffset 32508320 nsize 7610, offset 4096 size 3514
+
+Before creating /fuse-2.9.2/example/null.o
+create file /fuse-2.9.2/example/null.o noffset 32515930, nsize 0
+before write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 16384, offset 16384 size 2616
+
+after write name /fuse-2.9.2/example/null.o  noffset 32515930 nsize 19000, offset 16384 size 2616
+
+Before creating /fuse-2.9.2/example/null
+create file /fuse-2.9.2/example/null noffset 32534930, nsize 0
+before write name /fuse-2.9.2/example/null  noffset 32534930 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/null  noffset 32534930 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/null  noffset 32534930 nsize 4096, offset 4096 size 3398
+
+after write name /fuse-2.9.2/example/null  noffset 32534930 nsize 7494, offset 4096 size 3398
+
+Before creating /fuse-2.9.2/example/hello.o
+create file /fuse-2.9.2/example/hello.o noffset 32542424, nsize 0
+before write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 24576, offset 24576 size 1464
+
+after write name /fuse-2.9.2/example/hello.o  noffset 32542424 nsize 26040, offset 24576 size 1464
+
+Before creating /fuse-2.9.2/example/hello
+create file /fuse-2.9.2/example/hello noffset 32568464, nsize 0
+before write name /fuse-2.9.2/example/hello  noffset 32568464 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/hello  noffset 32568464 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/hello  noffset 32568464 nsize 4096, offset 4096 size 3409
+
+after write name /fuse-2.9.2/example/hello  noffset 32568464 nsize 7505, offset 4096 size 3409
+
+Before creating /fuse-2.9.2/example/hello_ll.o
+create file /fuse-2.9.2/example/hello_ll.o noffset 32575969, nsize 0
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 40960, offset 40960 size 3720
+
+after write name /fuse-2.9.2/example/hello_ll.o  noffset 32575969 nsize 44680, offset 40960 size 3720
+
+Before creating /fuse-2.9.2/example/hello_ll
+create file /fuse-2.9.2/example/hello_ll noffset 32620649, nsize 0
+before write name /fuse-2.9.2/example/hello_ll  noffset 32620649 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/hello_ll  noffset 32620649 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/hello_ll  noffset 32620649 nsize 4096, offset 4096 size 3442
+
+after write name /fuse-2.9.2/example/hello_ll  noffset 32620649 nsize 7538, offset 4096 size 3442
+
+Before creating /fuse-2.9.2/example/fioc.o
+create file /fuse-2.9.2/example/fioc.o noffset 32628187, nsize 0
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 40960, offset 40960 size 912
+
+after write name /fuse-2.9.2/example/fioc.o  noffset 32628187 nsize 41872, offset 40960 size 912
+
+Before creating /fuse-2.9.2/example/fioc
+create file /fuse-2.9.2/example/fioc noffset 32670059, nsize 0
+before write name /fuse-2.9.2/example/fioc  noffset 32670059 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fioc  noffset 32670059 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fioc  noffset 32670059 nsize 4096, offset 4096 size 3398
+
+after write name /fuse-2.9.2/example/fioc  noffset 32670059 nsize 7494, offset 4096 size 3398
+
+Before creating /fuse-2.9.2/example/fioclient-fioclient.o
+create file /fuse-2.9.2/example/fioclient-fioclient.o noffset 32677553, nsize 0
+before write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 20480, offset 20480 size 984
+
+after write name /fuse-2.9.2/example/fioclient-fioclient.o  noffset 32677553 nsize 21464, offset 20480 size 984
+
+Before creating /fuse-2.9.2/example/fioclient
+create file /fuse-2.9.2/example/fioclient noffset 32699017, nsize 0
+before write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 20480, offset 20480 size 1159
+
+after write name /fuse-2.9.2/example/fioclient  noffset 32699017 nsize 21639, offset 20480 size 1159
+
+Before creating /fuse-2.9.2/example/fsel.o
+create file /fuse-2.9.2/example/fsel.o noffset 32720656, nsize 0
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 45056, offset 45056 size 3456
+
+after write name /fuse-2.9.2/example/fsel.o  noffset 32720656 nsize 48512, offset 45056 size 3456
+
+Before creating /fuse-2.9.2/example/fsel
+create file /fuse-2.9.2/example/fsel noffset 32769168, nsize 0
+before write name /fuse-2.9.2/example/fsel  noffset 32769168 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fsel  noffset 32769168 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fsel  noffset 32769168 nsize 4096, offset 4096 size 3398
+
+after write name /fuse-2.9.2/example/fsel  noffset 32769168 nsize 7494, offset 4096 size 3398
+
+Before creating /fuse-2.9.2/example/fselclient-fselclient.o
+create file /fuse-2.9.2/example/fselclient-fselclient.o noffset 32776662, nsize 0
+before write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 12288, offset 12288 size 3600
+
+after write name /fuse-2.9.2/example/fselclient-fselclient.o  noffset 32776662 nsize 15888, offset 12288 size 3600
+
+Before creating /fuse-2.9.2/example/fselclient
+create file /fuse-2.9.2/example/fselclient noffset 32792550, nsize 0
+before write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 12288, offset 12288 size 2998
+
+after write name /fuse-2.9.2/example/fselclient  noffset 32792550 nsize 15286, offset 12288 size 2998
+
+Before creating /fuse-2.9.2/example/cusexmp.o
+create file /fuse-2.9.2/example/cusexmp.o noffset 32807836, nsize 0
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 20480, offset 20480 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 24576, offset 20480 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 24576, offset 24576 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 28672, offset 24576 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 28672, offset 28672 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 32768, offset 28672 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 32768, offset 32768 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 36864, offset 32768 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 36864, offset 36864 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 40960, offset 36864 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 40960, offset 40960 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 45056, offset 40960 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 45056, offset 45056 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 49152, offset 45056 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 49152, offset 49152 size 1000
+
+after write name /fuse-2.9.2/example/cusexmp.o  noffset 32807836 nsize 50152, offset 49152 size 1000
+
+Before creating /fuse-2.9.2/example/cusexmp
+create file /fuse-2.9.2/example/cusexmp noffset 32857988, nsize 0
+before write name /fuse-2.9.2/example/cusexmp  noffset 32857988 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/cusexmp  noffset 32857988 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/cusexmp  noffset 32857988 nsize 4096, offset 4096 size 3431
+
+after write name /fuse-2.9.2/example/cusexmp  noffset 32857988 nsize 7527, offset 4096 size 3431
+
+Before creating /fuse-2.9.2/example/hll
+create file /fuse-2.9.2/example/hll noffset 32865515, nsize 0
+before write name /fuse-2.9.2/example/hll  noffset 32865515 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/hll  noffset 32865515 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/hll  noffset 32865515 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/hll  noffset 32865515 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/hll  noffset 32865515 nsize 8192, offset 8192 size 1408
+
+after write name /fuse-2.9.2/example/hll  noffset 32865515 nsize 9600, offset 8192 size 1408
+
+Before creating /fuse-2.9.2/example/hll.c
+create file /fuse-2.9.2/example/hll.c noffset 32875115, nsize 0
+before write name /fuse-2.9.2/example/hll.c  noffset 32875115 nsize 0, offset 0 size 1977
+
+after write name /fuse-2.9.2/example/hll.c  noffset 32875115 nsize 1977, offset 0 size 1977
+
+Before creating /fuse-2.9.2/example/Makefile
+create file /fuse-2.9.2/example/Makefile noffset 32877092, nsize 0
+before write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 4096, offset 4096 size 4096
+
+after write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 8192, offset 4096 size 4096
+
+before write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 8192, offset 8192 size 4096
+
+after write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 12288, offset 8192 size 4096
+
+before write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 12288, offset 12288 size 4096
+
+after write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 16384, offset 12288 size 4096
+
+before write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 16384, offset 16384 size 4096
+
+after write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 20480, offset 16384 size 4096
+
+before write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 20480, offset 20480 size 1447
+
+after write name /fuse-2.9.2/example/Makefile  noffset 32877092 nsize 21927, offset 20480 size 1447
+
+Before creating /fuse-2.9.2/example/.deps
+create file /fuse-2.9.2/example/.deps noffset 0, nsize 0
+Before creating /fuse-2.9.2/example/.deps/fsel.Po
+create file /fuse-2.9.2/example/.deps/fsel.Po noffset 32899019, nsize 0
+before write name /fuse-2.9.2/example/.deps/fsel.Po  noffset 32899019 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/fsel.Po  noffset 32899019 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/fsel.Po  noffset 32899019 nsize 4096, offset 4096 size 1850
+
+after write name /fuse-2.9.2/example/.deps/fsel.Po  noffset 32899019 nsize 5946, offset 4096 size 1850
+
+Before creating /fuse-2.9.2/example/.deps/cusexmp.Po
+create file /fuse-2.9.2/example/.deps/cusexmp.Po noffset 32904965, nsize 0
+before write name /fuse-2.9.2/example/.deps/cusexmp.Po  noffset 32904965 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/cusexmp.Po  noffset 32904965 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/cusexmp.Po  noffset 32904965 nsize 4096, offset 4096 size 2220
+
+after write name /fuse-2.9.2/example/.deps/cusexmp.Po  noffset 32904965 nsize 6316, offset 4096 size 2220
+
+Before creating /fuse-2.9.2/example/.deps/fusexmp.Po
+create file /fuse-2.9.2/example/.deps/fusexmp.Po noffset 32911281, nsize 0
+before write name /fuse-2.9.2/example/.deps/fusexmp.Po  noffset 32911281 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/fusexmp.Po  noffset 32911281 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/fusexmp.Po  noffset 32911281 nsize 4096, offset 4096 size 1093
+
+after write name /fuse-2.9.2/example/.deps/fusexmp.Po  noffset 32911281 nsize 5189, offset 4096 size 1093
+
+Before creating /fuse-2.9.2/example/.deps/fusexmp_fh.Po
+create file /fuse-2.9.2/example/.deps/fusexmp_fh.Po noffset 32916470, nsize 0
+before write name /fuse-2.9.2/example/.deps/fusexmp_fh.Po  noffset 32916470 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/fusexmp_fh.Po  noffset 32916470 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/fusexmp_fh.Po  noffset 32916470 nsize 4096, offset 4096 size 2163
+
+after write name /fuse-2.9.2/example/.deps/fusexmp_fh.Po  noffset 32916470 nsize 6259, offset 4096 size 2163
+
+Before creating /fuse-2.9.2/example/.deps/null.Po
+create file /fuse-2.9.2/example/.deps/null.Po noffset 32922729, nsize 0
+before write name /fuse-2.9.2/example/.deps/null.Po  noffset 32922729 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/null.Po  noffset 32922729 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/null.Po  noffset 32922729 nsize 4096, offset 4096 size 290
+
+after write name /fuse-2.9.2/example/.deps/null.Po  noffset 32922729 nsize 4386, offset 4096 size 290
+
+Before creating /fuse-2.9.2/example/.deps/hello.Po
+create file /fuse-2.9.2/example/.deps/hello.Po noffset 32927115, nsize 0
+before write name /fuse-2.9.2/example/.deps/hello.Po  noffset 32927115 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/hello.Po  noffset 32927115 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/hello.Po  noffset 32927115 nsize 4096, offset 4096 size 486
+
+after write name /fuse-2.9.2/example/.deps/hello.Po  noffset 32927115 nsize 4582, offset 4096 size 486
+
+Before creating /fuse-2.9.2/example/.deps/hello_ll.Po
+create file /fuse-2.9.2/example/.deps/hello_ll.Po noffset 32931697, nsize 0
+before write name /fuse-2.9.2/example/.deps/hello_ll.Po  noffset 32931697 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/hello_ll.Po  noffset 32931697 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/hello_ll.Po  noffset 32931697 nsize 4096, offset 4096 size 1381
+
+after write name /fuse-2.9.2/example/.deps/hello_ll.Po  noffset 32931697 nsize 5477, offset 4096 size 1381
+
+Before creating /fuse-2.9.2/example/.deps/fioc.Po
+create file /fuse-2.9.2/example/.deps/fioc.Po noffset 32937174, nsize 0
+before write name /fuse-2.9.2/example/.deps/fioc.Po  noffset 32937174 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/fioc.Po  noffset 32937174 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/fioc.Po  noffset 32937174 nsize 4096, offset 4096 size 2091
+
+after write name /fuse-2.9.2/example/.deps/fioc.Po  noffset 32937174 nsize 6187, offset 4096 size 2091
+
+Before creating /fuse-2.9.2/example/.deps/fioclient-fioclient.Po
+create file /fuse-2.9.2/example/.deps/fioclient-fioclient.Po noffset 32943361, nsize 0
+before write name /fuse-2.9.2/example/.deps/fioclient-fioclient.Po  noffset 32943361 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/fioclient-fioclient.Po  noffset 32943361 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/fioclient-fioclient.Po  noffset 32943361 nsize 4096, offset 4096 size 817
+
+after write name /fuse-2.9.2/example/.deps/fioclient-fioclient.Po  noffset 32943361 nsize 4913, offset 4096 size 817
+
+Before creating /fuse-2.9.2/example/.deps/fselclient-fselclient.Po
+create file /fuse-2.9.2/example/.deps/fselclient-fselclient.Po noffset 32948274, nsize 0
+before write name /fuse-2.9.2/example/.deps/fselclient-fselclient.Po  noffset 32948274 nsize 0, offset 0 size 4096
+
+after write name /fuse-2.9.2/example/.deps/fselclient-fselclient.Po  noffset 32948274 nsize 4096, offset 0 size 4096
+
+before write name /fuse-2.9.2/example/.deps/fselclient-fselclient.Po  noffset 32948274 nsize 4096, offset 4096 size 350
+
+after write name /fuse-2.9.2/example/.deps/fselclient-fselclient.Po  noffset 32948274 nsize 4446, offset 4096 size 350
+
+Before creating /fuse-2.9.2/example/.libs

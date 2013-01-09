@@ -156,12 +156,39 @@ if __name__ == '__main__':
             exit()
         else:
             print(' >big data sucsessfull. Data valid')
+    print('remove test')
+    test_file_path = '%stestdir/d2/mvfile' % test_dir
+    su.call('rm %s' % test_file_path, shell=True)
+    if os.path.exists(test_file_path):
+        print('remove test failed')
+        test_finish()
+        exit()
+    else:
+        print(' >remove test sucsessfull')
 
-    #print('remove test')
-    #su.call('rm %s' % test_file_path, shell=True)
-    #if os.path.exists(test_file_path):
-    #    print('remove test failed')
- 
+    print('rmdir test')
+    su.call('rmdir %stestdir' % test_dir, shell=True)
+    if os.path.exists('%stestdir' % test_dir):
+        print(' >rmdir test failed')
+        test_finish()
+        exit()
+    else:
+        print(' >rmdir sucsessfull')
+
+    print('big data 2 test')
+    print('copying 1gb, please wait')
+    su.call('cp /home/kirill/m.tar.gz %sm.tar.gz' % test_dir, shell=True)
+    print('Waiting for unmount')
+    waiting()
+    umount()
+    mount()
+    if not filecmp.cmp('/home/kirill/m.tar.gz', '%sm.tar.gz' % test_dir):
+        print(' >big data 2 failed')
+        test_finish()
+        exit()
+    else:
+        print(' >big data 2 sucsessfull')
+
     print('\nAll tests passed!')
     test_finish()
 

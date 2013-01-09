@@ -4,6 +4,8 @@ import sys
 import subprocess as su
 import filecmp
 
+from random import random
+
 def mount():
     print('Mounting...') 
     su.call('./cfs %s' % test_dir, shell=True)
@@ -174,6 +176,67 @@ if __name__ == '__main__':
         exit()
     else:
         print(' >rmdir sucsessfull')
+
+    print('filework test')
+    strforcheck = ''
+    with open('%sfile' % test_dir, 'w') as f:
+        s = 'hi!'
+        s += '\n'
+        strforcheck += s
+        f.write(strforcheck)
+
+    with open('%sfile' % test_dir) as f:
+        tmp = f.read()
+        if tmp != strforcheck:
+            print(' >filework test failed')
+            test_finish()
+            exit()
+        else:
+            print(' >filework sucsessfull')
+
+    with open('%sfile' % test_dir, 'a+') as f:
+        s = ':)'
+        s += '\n'
+        strforcheck += s
+        f.write(s)
+
+    with open('%sfile' % test_dir) as f:
+        tmp = f.read()
+        if tmp != strforcheck:
+            print(' >filework2 test failed')
+            test_finish()
+            exit()
+        else:
+            print(' >filework2 sucsessfull')
+    print('symlink test')
+    #su.call('cd %s' % test_dir, shell=True)
+    os.chdir(os.path.abspath(test_dir))
+    print('Creating symlink')
+    su.call('ln -s file smlt', shell=True)
+
+    with open('smlt') as f:
+        tmp = f.read()
+        if tmp != strforcheck:
+            print(' >symlink1 test failed')
+            test_finish()
+            exit()
+        else:
+            print(' >symlink1 sucsessfull')
+    with open('smlt', 'a+') as f:
+        s = '(:'
+        s += '\n'
+        strforcheck += s
+        f.write(s)
+    with open('smlt') as f:
+        tmp = f.read()
+        if tmp != strforcheck:
+            print(' >symlink2 test failed')
+            test_finish()
+            exit()
+        else:
+            print(' >symlink2 sucsessfull')
+ 
+    os.chdir(os.path.abspath('..'))
 
     print('big data 2 test')
     print('copying 1gb, please wait')

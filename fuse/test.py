@@ -57,5 +57,34 @@ if __name__ == '__main__':
             exit()
         else:
             print(' >cp file sucsessfull. Data valid')
+    print('subdir test')
+    su.call('mkdir %stestdir/d2' % test_dir, shell=True)
+    if not os.path.exists(test_dir + 'testdir/d2'):
+        print(' >Mk subdir failed')
+        test_finish()
+        exit()
+    else:
+        print(' >Making subdir sucsessfull')
+
+    print('mv test')
+    new_test_file_path = '%stestdir/d2/f2' % test_dir
+    su.call('mv %s %s' % (test_file_path, new_test_file_path), shell=True)
+    if os.path.exists(test_file_path):
+        print(' >mv file failed: old file exists')
+        test_finish()
+        exit()
+    else:
+        if not os.path.exists(new_test_file_path):
+            print(' >mv file failed: file not exists')
+            test_finish()
+            exit()
+        else:
+            if not filecmp.cmp('fswork.c', new_test_file_path):
+                print(' >mv file failed: bad data')
+                test_finish()
+                exit()
+            else:
+                print(' >mv file sucsessfull. Data valid')
+     
     test_finish()
 

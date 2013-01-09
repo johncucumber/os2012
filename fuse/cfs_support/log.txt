@@ -308,3 +308,201 @@ before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
 real read 6797
 reading dir path /
 reading dir path /
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+reading dir path /
+create file /testdir/fswork.c noffset 58400, nsize 0
+reading dir path /
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /testdir
+reading dir path /
+reading dir path /
+reading dir path /testdir
+reading dir path /
+reading dir path /testdir
+reading dir path /testdir/d2
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+reading dir path /
+create file /testdir/fswork.c noffset 58400, nsize 0
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+reading dir path /
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+reading dir path /
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+reading dir path /
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/f2
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/f2
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797

@@ -506,3 +506,4365 @@ Renaming...
 before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
 
 real read 6797
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/f2
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/f20
+create file /testdir/d2/f20 noffset 65197, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f20  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f20  noffset 65197 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f20  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f20  noffset 65197 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f21
+create file /testdir/d2/f21 noffset 71994, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f21  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f21  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f21  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f21  noffset 71994 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f22
+create file /testdir/d2/f22 noffset 78791, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f22  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f22  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f22  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f22  noffset 78791 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f23
+create file /testdir/d2/f23 noffset 85588, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f23  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f23  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f23  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f23  noffset 85588 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f24
+create file /testdir/d2/f24 noffset 92385, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f24  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f24  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f24  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f24  noffset 92385 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f25
+create file /testdir/d2/f25 noffset 99182, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f25  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f25  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f25  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f25  noffset 99182 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f26
+create file /testdir/d2/f26 noffset 105979, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f26  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f26  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f26  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f26  noffset 105979 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f27
+create file /testdir/d2/f27 noffset 112776, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f27  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f27  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f27  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f27  noffset 112776 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f28
+create file /testdir/d2/f28 noffset 119573, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f28  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f28  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f28  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f28  noffset 119573 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f29
+create file /testdir/d2/f29 noffset 126370, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f29  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f29  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f29  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f29  noffset 126370 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f210
+create file /testdir/d2/f210 noffset 133167, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f210  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f210  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f210  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f210  noffset 133167 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f211
+create file /testdir/d2/f211 noffset 139964, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f211  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f211  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f211  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f211  noffset 139964 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f212
+create file /testdir/d2/f212 noffset 146761, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f212  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f212  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f212  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f212  noffset 146761 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f213
+create file /testdir/d2/f213 noffset 153558, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f213  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f213  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f213  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f213  noffset 153558 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f214
+create file /testdir/d2/f214 noffset 160355, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f214  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f214  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f214  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f214  noffset 160355 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f215
+create file /testdir/d2/f215 noffset 167152, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f215  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f215  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f215  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f215  noffset 167152 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f216
+create file /testdir/d2/f216 noffset 173949, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f216  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f216  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f216  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f216  noffset 173949 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f217
+create file /testdir/d2/f217 noffset 180746, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f217  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f217  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f217  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f217  noffset 180746 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f218
+create file /testdir/d2/f218 noffset 187543, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f218  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f218  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f218  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f218  noffset 187543 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/f219
+create file /testdir/d2/f219 noffset 194340, nsize 0
+before read name /testdir/d2/f2  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/f219  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/f219  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/f219  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/f219  noffset 194340 nsize 6797, offset 4096 size 2701
+
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /testdir
+reading dir path /
+reading dir path /
+reading dir path /testdir
+reading dir path /testdir/d2
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/mvfile
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile0
+create file /testdir/d2/mvfile0 noffset 65197, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile1
+create file /testdir/d2/mvfile1 noffset 71994, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile2
+create file /testdir/d2/mvfile2 noffset 78791, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile3
+create file /testdir/d2/mvfile3 noffset 85588, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile4
+create file /testdir/d2/mvfile4 noffset 92385, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile5
+create file /testdir/d2/mvfile5 noffset 99182, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile6
+create file /testdir/d2/mvfile6 noffset 105979, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile7
+create file /testdir/d2/mvfile7 noffset 112776, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile8
+create file /testdir/d2/mvfile8 noffset 119573, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile9
+create file /testdir/d2/mvfile9 noffset 126370, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile10
+create file /testdir/d2/mvfile10 noffset 133167, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile11
+create file /testdir/d2/mvfile11 noffset 139964, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile12
+create file /testdir/d2/mvfile12 noffset 146761, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile13
+create file /testdir/d2/mvfile13 noffset 153558, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile14
+create file /testdir/d2/mvfile14 noffset 160355, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile15
+create file /testdir/d2/mvfile15 noffset 167152, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile16
+create file /testdir/d2/mvfile16 noffset 173949, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile17
+create file /testdir/d2/mvfile17 noffset 180746, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile18
+create file /testdir/d2/mvfile18 noffset 187543, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile19
+create file /testdir/d2/mvfile19 noffset 194340, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 4096 size 2701
+
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+reading dir path /
+create file /testdir/fswork.c noffset 58400, nsize 0
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/mvfile
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile0
+create file /testdir/d2/mvfile0 noffset 65197, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile1
+create file /testdir/d2/mvfile1 noffset 71994, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile2
+create file /testdir/d2/mvfile2 noffset 78791, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile3
+create file /testdir/d2/mvfile3 noffset 85588, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile4
+create file /testdir/d2/mvfile4 noffset 92385, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile5
+create file /testdir/d2/mvfile5 noffset 99182, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile6
+create file /testdir/d2/mvfile6 noffset 105979, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile7
+create file /testdir/d2/mvfile7 noffset 112776, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile8
+create file /testdir/d2/mvfile8 noffset 119573, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile9
+create file /testdir/d2/mvfile9 noffset 126370, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile10
+create file /testdir/d2/mvfile10 noffset 133167, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile11
+create file /testdir/d2/mvfile11 noffset 139964, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile12
+create file /testdir/d2/mvfile12 noffset 146761, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile13
+create file /testdir/d2/mvfile13 noffset 153558, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile14
+create file /testdir/d2/mvfile14 noffset 160355, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile15
+create file /testdir/d2/mvfile15 noffset 167152, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile16
+create file /testdir/d2/mvfile16 noffset 173949, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile17
+create file /testdir/d2/mvfile17 noffset 180746, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile18
+create file /testdir/d2/mvfile18 noffset 187543, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile19
+create file /testdir/d2/mvfile19 noffset 194340, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 4096 size 2701
+
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /testdir/d2
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+reading dir path /
+create file /testdir/fswork.c noffset 58400, nsize 0
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/mvfile
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile0
+create file /testdir/d2/mvfile0 noffset 65197, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile1
+create file /testdir/d2/mvfile1 noffset 71994, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile2
+create file /testdir/d2/mvfile2 noffset 78791, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile3
+create file /testdir/d2/mvfile3 noffset 85588, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile4
+create file /testdir/d2/mvfile4 noffset 92385, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile5
+create file /testdir/d2/mvfile5 noffset 99182, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile6
+create file /testdir/d2/mvfile6 noffset 105979, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile7
+create file /testdir/d2/mvfile7 noffset 112776, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile8
+create file /testdir/d2/mvfile8 noffset 119573, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile9
+create file /testdir/d2/mvfile9 noffset 126370, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile10
+create file /testdir/d2/mvfile10 noffset 133167, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile11
+create file /testdir/d2/mvfile11 noffset 139964, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile12
+create file /testdir/d2/mvfile12 noffset 146761, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile13
+create file /testdir/d2/mvfile13 noffset 153558, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile14
+create file /testdir/d2/mvfile14 noffset 160355, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile15
+create file /testdir/d2/mvfile15 noffset 167152, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile16
+create file /testdir/d2/mvfile16 noffset 173949, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile17
+create file /testdir/d2/mvfile17 noffset 180746, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile18
+create file /testdir/d2/mvfile18 noffset 187543, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile19
+create file /testdir/d2/mvfile19 noffset 194340, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 4096 size 2701
+
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+reading dir path /
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/mvfile
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile0
+create file /testdir/d2/mvfile0 noffset 65197, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile1
+create file /testdir/d2/mvfile1 noffset 71994, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile2
+create file /testdir/d2/mvfile2 noffset 78791, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile3
+create file /testdir/d2/mvfile3 noffset 85588, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile4
+create file /testdir/d2/mvfile4 noffset 92385, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile5
+create file /testdir/d2/mvfile5 noffset 99182, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile6
+create file /testdir/d2/mvfile6 noffset 105979, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile7
+create file /testdir/d2/mvfile7 noffset 112776, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile8
+create file /testdir/d2/mvfile8 noffset 119573, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile9
+create file /testdir/d2/mvfile9 noffset 126370, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile10
+create file /testdir/d2/mvfile10 noffset 133167, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile11
+create file /testdir/d2/mvfile11 noffset 139964, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile12
+create file /testdir/d2/mvfile12 noffset 146761, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile13
+create file /testdir/d2/mvfile13 noffset 153558, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile14
+create file /testdir/d2/mvfile14 noffset 160355, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile15
+create file /testdir/d2/mvfile15 noffset 167152, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile16
+create file /testdir/d2/mvfile16 noffset 173949, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile17
+create file /testdir/d2/mvfile17 noffset 180746, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile18
+create file /testdir/d2/mvfile18 noffset 187543, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile19
+create file /testdir/d2/mvfile19 noffset 194340, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile20
+create file /testdir/d2/mvfile20 noffset 201137, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile21
+create file /testdir/d2/mvfile21 noffset 207934, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile22
+create file /testdir/d2/mvfile22 noffset 214731, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile23
+create file /testdir/d2/mvfile23 noffset 221528, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile24
+create file /testdir/d2/mvfile24 noffset 228325, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile25
+create file /testdir/d2/mvfile25 noffset 235122, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile26
+create file /testdir/d2/mvfile26 noffset 241919, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile27
+create file /testdir/d2/mvfile27 noffset 248716, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile28
+create file /testdir/d2/mvfile28 noffset 255513, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile29
+create file /testdir/d2/mvfile29 noffset 262310, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile30
+create file /testdir/d2/mvfile30 noffset 269107, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile31
+create file /testdir/d2/mvfile31 noffset 275904, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile32
+create file /testdir/d2/mvfile32 noffset 282701, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile33
+create file /testdir/d2/mvfile33 noffset 289498, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile34
+create file /testdir/d2/mvfile34 noffset 296295, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile35
+create file /testdir/d2/mvfile35 noffset 303092, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile36
+create file /testdir/d2/mvfile36 noffset 309889, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile37
+create file /testdir/d2/mvfile37 noffset 316686, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile38
+create file /testdir/d2/mvfile38 noffset 323483, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 6797, offset 4096 size 2701
+
+Before creating /testdir/d2/mvfile39
+create file /testdir/d2/mvfile39 noffset 330280, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 6797, offset 4096 size 2701
+
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/mvfile
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/d2/mvfile0
+create file /testdir/d2/mvfile0 noffset 65197, nsize 0
+reading dir path /
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+reading dir path /
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+reading dir path /
+before read name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 0 size 8192
+
+real read 6797
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/d2/mvfile1
+create file /testdir/d2/mvfile1 noffset 71994, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile2
+create file /testdir/d2/mvfile2 noffset 78791, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile3
+create file /testdir/d2/mvfile3 noffset 85588, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile4
+create file /testdir/d2/mvfile4 noffset 92385, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile5
+create file /testdir/d2/mvfile5 noffset 99182, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile6
+create file /testdir/d2/mvfile6 noffset 105979, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile7
+create file /testdir/d2/mvfile7 noffset 112776, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile8
+create file /testdir/d2/mvfile8 noffset 119573, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile9
+create file /testdir/d2/mvfile9 noffset 126370, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile10
+create file /testdir/d2/mvfile10 noffset 133167, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile11
+create file /testdir/d2/mvfile11 noffset 139964, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile12
+create file /testdir/d2/mvfile12 noffset 146761, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile13
+create file /testdir/d2/mvfile13 noffset 153558, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile14
+create file /testdir/d2/mvfile14 noffset 160355, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile15
+create file /testdir/d2/mvfile15 noffset 167152, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile16
+create file /testdir/d2/mvfile16 noffset 173949, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile17
+create file /testdir/d2/mvfile17 noffset 180746, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile18
+create file /testdir/d2/mvfile18 noffset 187543, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile19
+create file /testdir/d2/mvfile19 noffset 194340, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile20
+create file /testdir/d2/mvfile20 noffset 201137, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile20  noffset 201137 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile21
+create file /testdir/d2/mvfile21 noffset 207934, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile21  noffset 207934 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile22
+create file /testdir/d2/mvfile22 noffset 214731, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile22  noffset 214731 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile23
+create file /testdir/d2/mvfile23 noffset 221528, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile23  noffset 221528 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile24
+create file /testdir/d2/mvfile24 noffset 228325, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile24  noffset 228325 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile25
+create file /testdir/d2/mvfile25 noffset 235122, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile25  noffset 235122 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile26
+create file /testdir/d2/mvfile26 noffset 241919, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile26  noffset 241919 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile27
+create file /testdir/d2/mvfile27 noffset 248716, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile27  noffset 248716 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile28
+create file /testdir/d2/mvfile28 noffset 255513, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile28  noffset 255513 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile29
+create file /testdir/d2/mvfile29 noffset 262310, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile29  noffset 262310 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile30
+create file /testdir/d2/mvfile30 noffset 269107, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile30  noffset 269107 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile31
+create file /testdir/d2/mvfile31 noffset 275904, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile31  noffset 275904 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile32
+create file /testdir/d2/mvfile32 noffset 282701, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile32  noffset 282701 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile33
+create file /testdir/d2/mvfile33 noffset 289498, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile33  noffset 289498 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile34
+create file /testdir/d2/mvfile34 noffset 296295, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile34  noffset 296295 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile35
+create file /testdir/d2/mvfile35 noffset 303092, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile35  noffset 303092 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile36
+create file /testdir/d2/mvfile36 noffset 309889, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile36  noffset 309889 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile37
+create file /testdir/d2/mvfile37 noffset 316686, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile37  noffset 316686 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile38
+create file /testdir/d2/mvfile38 noffset 323483, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile38  noffset 323483 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile39
+create file /testdir/d2/mvfile39 noffset 330280, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile39  noffset 330280 nsize 6797, offset 0 size 8192
+
+real read 6797
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+reading dir path /
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+reading dir path /
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+reading dir path /
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+reading dir path /
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+reading dir path /
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/mvfile
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/d2/mvfile0
+reading dir path /
+create file /testdir/d2/mvfile0 noffset 65197, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 0 size 4096
+
+reading dir path /
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 0 size 8192
+
+real read 6797
+reading dir path /
+Before creating /testdir/d2/mvfile1
+create file /testdir/d2/mvfile1 noffset 71994, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile2
+create file /testdir/d2/mvfile2 noffset 78791, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile3
+create file /testdir/d2/mvfile3 noffset 85588, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile4
+create file /testdir/d2/mvfile4 noffset 92385, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile5
+create file /testdir/d2/mvfile5 noffset 99182, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile6
+create file /testdir/d2/mvfile6 noffset 105979, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile7
+create file /testdir/d2/mvfile7 noffset 112776, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile8
+create file /testdir/d2/mvfile8 noffset 119573, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile9
+create file /testdir/d2/mvfile9 noffset 126370, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile10
+create file /testdir/d2/mvfile10 noffset 133167, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile11
+create file /testdir/d2/mvfile11 noffset 139964, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile12
+create file /testdir/d2/mvfile12 noffset 146761, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile13
+create file /testdir/d2/mvfile13 noffset 153558, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile14
+create file /testdir/d2/mvfile14 noffset 160355, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile15
+create file /testdir/d2/mvfile15 noffset 167152, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile16
+create file /testdir/d2/mvfile16 noffset 173949, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile17
+create file /testdir/d2/mvfile17 noffset 180746, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile18
+create file /testdir/d2/mvfile18 noffset 187543, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile19
+create file /testdir/d2/mvfile19 noffset 194340, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile20
+create file /testdir/d2/mvfile20 noffset 201137, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile20  noffset 201137 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile21
+create file /testdir/d2/mvfile21 noffset 207934, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile21  noffset 207934 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile22
+create file /testdir/d2/mvfile22 noffset 214731, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile22  noffset 214731 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile23
+create file /testdir/d2/mvfile23 noffset 221528, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile23  noffset 221528 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile24
+create file /testdir/d2/mvfile24 noffset 228325, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile24  noffset 228325 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile25
+create file /testdir/d2/mvfile25 noffset 235122, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile25  noffset 235122 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile26
+create file /testdir/d2/mvfile26 noffset 241919, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile26  noffset 241919 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile27
+create file /testdir/d2/mvfile27 noffset 248716, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile27  noffset 248716 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile28
+create file /testdir/d2/mvfile28 noffset 255513, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile28  noffset 255513 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile29
+create file /testdir/d2/mvfile29 noffset 262310, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile29  noffset 262310 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile30
+create file /testdir/d2/mvfile30 noffset 269107, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile30  noffset 269107 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile31
+create file /testdir/d2/mvfile31 noffset 275904, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile31  noffset 275904 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile32
+create file /testdir/d2/mvfile32 noffset 282701, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile32  noffset 282701 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile33
+create file /testdir/d2/mvfile33 noffset 289498, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile33  noffset 289498 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile34
+create file /testdir/d2/mvfile34 noffset 296295, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile34  noffset 296295 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile35
+create file /testdir/d2/mvfile35 noffset 303092, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile35  noffset 303092 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile36
+create file /testdir/d2/mvfile36 noffset 309889, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile36  noffset 309889 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile37
+create file /testdir/d2/mvfile37 noffset 316686, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile37  noffset 316686 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile38
+create file /testdir/d2/mvfile38 noffset 323483, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile38  noffset 323483 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile39
+create file /testdir/d2/mvfile39 noffset 330280, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile39  noffset 330280 nsize 6797, offset 0 size 8192
+
+real read 6797
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+New fs was created
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir
+create file /testdir noffset 0, nsize 0
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/fswork.c
+create file /testdir/fswork.c noffset 58400, nsize 0
+before write name /testdir/fswork.c  noffset 58400 nsize 0, offset 0 size 4096
+
+after write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 0 size 4096
+
+before write name /testdir/fswork.c  noffset 58400 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/fswork.c  noffset 58400 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/fswork.c  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2
+create file /testdir/d2 noffset 0, nsize 0
+Renaming...
+/testdir/d2/mvfile
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+Before creating /testdir/d2/mvfile0
+reading dir path /
+create file /testdir/d2/mvfile0 noffset 65197, nsize 0
+reading dir path /
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+reading dir path /
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 0 size 4096
+
+reading dir path /
+before write name /testdir/d2/mvfile0  noffset 65197 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 4096 size 2701
+
+reading dir path /
+reading dir path /
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile0  noffset 65197 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile1
+create file /testdir/d2/mvfile1 noffset 71994, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile1  noffset 71994 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile1  noffset 71994 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile2
+create file /testdir/d2/mvfile2 noffset 78791, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile2  noffset 78791 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile2  noffset 78791 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile3
+create file /testdir/d2/mvfile3 noffset 85588, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile3  noffset 85588 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile3  noffset 85588 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile4
+create file /testdir/d2/mvfile4 noffset 92385, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile4  noffset 92385 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile4  noffset 92385 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile5
+create file /testdir/d2/mvfile5 noffset 99182, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile5  noffset 99182 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile5  noffset 99182 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile6
+create file /testdir/d2/mvfile6 noffset 105979, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile6  noffset 105979 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile6  noffset 105979 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile7
+create file /testdir/d2/mvfile7 noffset 112776, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile7  noffset 112776 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile7  noffset 112776 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile8
+create file /testdir/d2/mvfile8 noffset 119573, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile8  noffset 119573 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile8  noffset 119573 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile9
+create file /testdir/d2/mvfile9 noffset 126370, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile9  noffset 126370 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile9  noffset 126370 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile10
+create file /testdir/d2/mvfile10 noffset 133167, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile10  noffset 133167 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile10  noffset 133167 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile11
+create file /testdir/d2/mvfile11 noffset 139964, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile11  noffset 139964 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile11  noffset 139964 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile12
+create file /testdir/d2/mvfile12 noffset 146761, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile12  noffset 146761 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile12  noffset 146761 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile13
+create file /testdir/d2/mvfile13 noffset 153558, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile13  noffset 153558 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile13  noffset 153558 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile14
+create file /testdir/d2/mvfile14 noffset 160355, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile14  noffset 160355 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile14  noffset 160355 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile15
+create file /testdir/d2/mvfile15 noffset 167152, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile15  noffset 167152 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile15  noffset 167152 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile16
+create file /testdir/d2/mvfile16 noffset 173949, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile16  noffset 173949 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile16  noffset 173949 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile17
+create file /testdir/d2/mvfile17 noffset 180746, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile17  noffset 180746 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile17  noffset 180746 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile18
+create file /testdir/d2/mvfile18 noffset 187543, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile18  noffset 187543 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile18  noffset 187543 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile19
+create file /testdir/d2/mvfile19 noffset 194340, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile19  noffset 194340 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile19  noffset 194340 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile20
+create file /testdir/d2/mvfile20 noffset 201137, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile20  noffset 201137 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile20  noffset 201137 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile20  noffset 201137 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile21
+create file /testdir/d2/mvfile21 noffset 207934, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile21  noffset 207934 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile21  noffset 207934 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile21  noffset 207934 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile22
+create file /testdir/d2/mvfile22 noffset 214731, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile22  noffset 214731 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile22  noffset 214731 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile22  noffset 214731 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile23
+create file /testdir/d2/mvfile23 noffset 221528, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile23  noffset 221528 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile23  noffset 221528 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile23  noffset 221528 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile24
+create file /testdir/d2/mvfile24 noffset 228325, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile24  noffset 228325 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile24  noffset 228325 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile24  noffset 228325 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile25
+create file /testdir/d2/mvfile25 noffset 235122, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile25  noffset 235122 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile25  noffset 235122 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile25  noffset 235122 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile26
+create file /testdir/d2/mvfile26 noffset 241919, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile26  noffset 241919 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile26  noffset 241919 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile26  noffset 241919 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile27
+create file /testdir/d2/mvfile27 noffset 248716, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile27  noffset 248716 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile27  noffset 248716 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile27  noffset 248716 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile28
+create file /testdir/d2/mvfile28 noffset 255513, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile28  noffset 255513 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile28  noffset 255513 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile28  noffset 255513 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile29
+create file /testdir/d2/mvfile29 noffset 262310, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile29  noffset 262310 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile29  noffset 262310 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile29  noffset 262310 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile30
+create file /testdir/d2/mvfile30 noffset 269107, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile30  noffset 269107 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile30  noffset 269107 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile30  noffset 269107 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile31
+create file /testdir/d2/mvfile31 noffset 275904, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile31  noffset 275904 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile31  noffset 275904 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile31  noffset 275904 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile32
+create file /testdir/d2/mvfile32 noffset 282701, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile32  noffset 282701 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile32  noffset 282701 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile32  noffset 282701 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile33
+create file /testdir/d2/mvfile33 noffset 289498, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile33  noffset 289498 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile33  noffset 289498 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile33  noffset 289498 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile34
+create file /testdir/d2/mvfile34 noffset 296295, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile34  noffset 296295 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile34  noffset 296295 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile34  noffset 296295 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile35
+create file /testdir/d2/mvfile35 noffset 303092, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile35  noffset 303092 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile35  noffset 303092 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile35  noffset 303092 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile36
+create file /testdir/d2/mvfile36 noffset 309889, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile36  noffset 309889 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile36  noffset 309889 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile36  noffset 309889 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile37
+create file /testdir/d2/mvfile37 noffset 316686, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile37  noffset 316686 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile37  noffset 316686 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile37  noffset 316686 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile38
+create file /testdir/d2/mvfile38 noffset 323483, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile38  noffset 323483 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile38  noffset 323483 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile38  noffset 323483 nsize 6797, offset 0 size 8192
+
+real read 6797
+Before creating /testdir/d2/mvfile39
+create file /testdir/d2/mvfile39 noffset 330280, nsize 0
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 0, offset 0 size 4096
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 0 size 4096
+
+before write name /testdir/d2/mvfile39  noffset 330280 nsize 4096, offset 4096 size 2701
+
+after write name /testdir/d2/mvfile39  noffset 330280 nsize 6797, offset 4096 size 2701
+
+before read name /testdir/d2/mvfile  noffset 58400 nsize 6797, offset 0 size 8192
+
+real read 6797
+before read name /testdir/d2/mvfile39  noffset 330280 nsize 6797, offset 0 size 8192
+
+real read 6797
+Start work
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
+reading dir path /
